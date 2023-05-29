@@ -26,6 +26,7 @@ _opener.addheaders = [
             'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0')]
 urllib.request.install_opener(_opener)
 
+SITE_BASE_DIR = 'site'
 BASKETS = {
     'US Stocks': ('SPY', 'IWM', 'DIA'),
     'US Bonds': ('TLT', 'HYG', 'LQD'),
@@ -65,9 +66,31 @@ def publish_chart(driver):
     return img.get_attribute('src')
 
 
+_SITE_DIR = None
+def make_site_dir():
+    """Create a directory based on the date string as part of the path based on the latest Friday."""
+    global _SITE_DIR
+    if _SITE_DIR is not None:
+        return _SITE_DIR
+    today = datetime.date.today()
+    dow = today.weekday()
+    if dow == 4:  # Friday
+        date_str = today.strftime('%Y%m%d')
+    elif dow < 4:
+        days_back = - (dow + 3)
+        date_str = (today + datetime.timedelta(days=days_back)).strftime('%Y%m%d')
+    else:
+        days_back = 4 - dow
+        date_str = (today + datetime.timedelta(days=days_back)).strftime('%Y%m%d')
+    site_dir = '{}/{}'.format(SITE_BASE_DIR, date_str)
+    if not os.path.exists(site_dir):
+        os.makedirs(site_dir)
+    _SITE_DIR = site_dir
+    return site_dir
+
+
 def get_local_path(ticker):
-    today_str = datetime.date.today().strftime('%Y%m%d')
-    return 'charts/{}/{}-D-M3.png'.format(today_str, ticker)
+    return '{}/{}-D-M3.png'.format(make_site_dir(), ticker)
 
 
 def download_chart(url, local_path):
