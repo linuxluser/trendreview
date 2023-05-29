@@ -10,6 +10,9 @@ import time
 import urllib.request
 
 from selenium import webdriver
+from selenium.common.exceptions import ElementNotInteractableException
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -71,6 +74,19 @@ def download_chart(url, local_path):
     urllib.request.urlretrieve(url, local_path)
 
 
+def check_and_close_elite_modal_ad(driver):
+    """Check if a Finviz Elite modal ad pops up and if so, close it."""
+    try:
+        e = WebDriverWait(driver, 2).until(
+            EC.presence_of_element_located((By.ID, 'modal-elite-ad-close')))
+    except (TimeoutException, NoSuchElementException):
+        return
+    try:
+        e.click()
+    except ElementNotInteractableException:
+        return
+
+
 def main():
     driver = webdriver.Firefox()
     for basket in BASKETS:
@@ -78,7 +94,7 @@ def main():
             print('{}:'.format(ticker))
             print('  Basket: {}'.format(basket))
             driver.get(FINVIZ_URL_TMPL.format(ticker))
-
+            check_and_close_elite_modal_ad(driver)
             rsi = scrape_rsi_value(driver)
             print('  RSI: {}'.format(rsi))
             chart_url = publish_chart(driver)
