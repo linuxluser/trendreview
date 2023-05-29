@@ -5,7 +5,7 @@
 
 
 import datetime
-import shutil
+import os
 import time
 import urllib.request
 
@@ -27,6 +27,7 @@ _opener.addheaders = [
 urllib.request.install_opener(_opener)
 
 SITE_BASE_DIR = 'site'
+YAML_FILE_NAME = 'trends.yaml'
 BASKETS = {
     'US Stocks': ('SPY', 'IWM', 'DIA'),
     'US Bonds': ('TLT', 'HYG', 'LQD'),
@@ -110,22 +111,35 @@ def check_and_close_elite_modal_ad(driver):
         return
 
 
+def write_yaml_record(ticker, basket, rsi, chart_url, chart_local_path):
+    """Write a single ticker record and close the file to save progress."""
+    yaml_file_path = '{}/{}'.format(make_site_dir(), YAML_FILE_NAME)
+    record = f'''{ticker}:
+  Basket: {basket}
+  RSI: {rsi}
+  Chart:
+    URL: {chart_url}
+    LocalPath: {chart_local_path}
+'''
+    if not os.path.exists(yaml_file_path):
+        with open(yaml_file_path, 'w') as f:
+            f.write('---\n')
+    with open(yaml_file_path, 'a') as f:
+        f.write(record)
+    return record
+
+
 def main():
     driver = webdriver.Firefox()
     for basket in BASKETS:
         for ticker in BASKETS[basket]:
-            print('{}:'.format(ticker))
-            print('  Basket: {}'.format(basket))
             driver.get(FINVIZ_URL_TMPL.format(ticker))
             check_and_close_elite_modal_ad(driver)
             rsi = scrape_rsi_value(driver)
-            print('  RSI: {}'.format(rsi))
             chart_url = publish_chart(driver)
-            print('  Chart:')
-            print('    URL: {}'.format(chart_url))
             local_path = get_local_path(ticker)
             download_chart(chart_url, local_path)
-            print('    LocalPath: {}'.format(local_path))
+            print(write_yaml_record(ticker, basket, rsi, chart_url, local_path))
             print('# Waiting 3s before operating on next ticker ...')
             time.sleep(3)
 
