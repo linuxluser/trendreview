@@ -86,7 +86,7 @@ def make_site_dir():
 
 
 def get_local_path(ticker):
-    return '{}/{}-D-M3.png'.format(make_site_dir(), ticker)
+    return '{}-D-M3.png'.format(ticker)
 
 
 def download_chart(driver, url, local_path):
