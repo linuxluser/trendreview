@@ -19,12 +19,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-# Add User-Agent to URL opener
-_opener = urllib.request.build_opener()
-_opener.addheaders = [
-        ('User-Agent',
-            'Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0')]
-urllib.request.install_opener(_opener)
+_OPENER = None
 
 SITE_BASE_DIR = 'site'
 YAML_FILE_NAME = 'trends.yaml'
@@ -94,7 +89,18 @@ def get_local_path(ticker):
     return '{}/{}-D-M3.png'.format(make_site_dir(), ticker)
 
 
-def download_chart(url, local_path):
+def download_chart(driver, url, local_path):
+    """Downloads the chart image at url and store it in local_path.
+
+    The driver is required so we can extract the User-Agent string if needed.
+    """
+    global _OPENER
+    # Add user-agent string if it hasn't been done yet
+    if _OPENER is None:
+        user_agent = driver.execute_script('return navigator.userAgent;')
+        _OPENER = urllib.request.build_opener()
+        _OPENER.addheaders = [('User-Agent', user_agent)]
+        urllib.request.install_opener(_OPENER)
     urllib.request.urlretrieve(url, local_path)
 
 
@@ -138,7 +144,7 @@ def main():
             rsi = scrape_rsi_value(driver)
             chart_url = publish_chart(driver)
             local_path = get_local_path(ticker)
-            download_chart(chart_url, local_path)
+            download_chart(driver, chart_url, local_path)
             print(write_yaml_record(ticker, basket, rsi, chart_url, local_path))
             print('# Waiting 3s before operating on next ticker ...')
             time.sleep(3)
