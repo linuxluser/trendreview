@@ -1,3 +1,7 @@
+# TITLE
+
+---
+
 ## Precious Metals
 
 | Symbol | Chart |
@@ -17,4 +21,4 @@
 
 ### GLD
 
-<img src="https://finviz.com/publish/052823/GLDd205881332i.png" width="800" />
+![image](https://finviz.com/publish/052823/GLDd205881332i.png)
