@@ -12,3 +12,9 @@ $ python3.9 -m venv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
 ```
+
+## TODOs
+
+* Change "Trend" to "Price Action" and "Sentiment" instead.
+* Add radio buttons on generated HTML for sentiment and have then send a POST to the local server.
+* Add a cheap Flask test server that modified the YAML file when a POST is sent back.
