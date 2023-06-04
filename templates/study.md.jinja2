@@ -1,0 +1,16 @@
+# Trend Review {{ for_date }}
+
+{% for basket,symbol_data in baskets.items() %}
+---
+
+## {{ basket }}
+{% for symbol,data in symbol_data.items() %}
+### {{ symbol }}
+
+|  RSI(14) | Trend | Basket |
+|----------|-------|--------|
+|  {{ data.RSI }} | {{ data.Trend }} | {{ data.Basket }} |
+
+![image]({{ data.Chart.LocalPath }})
+{% endfor %}
+{% endfor %}
