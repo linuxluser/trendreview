@@ -9,10 +9,9 @@ import flask
 import yaml
 
 
-STUDIES_DIR = 'study'
+STUDIES_DIR = 'studies'
 APP = flask.Flask(__name__,
                   static_url_path='',
-                  static_folder='study',
                   template_folder='templates')
 
 
