@@ -1,10 +1,10 @@
 # Trend Review {{ for_date }}
 
-{% for basket,symbol_data in baskets.items() %}
+{% for basket,symbol_data in baskets|dictsort %}
 ---
 
 ## {{ basket }}
-{% for symbol,data in symbol_data.items() %}
+{% for symbol,data in symbol_data|dictsort %}
 ### {{ symbol }}
 
 |  RSI(14) | Trend | Basket |
