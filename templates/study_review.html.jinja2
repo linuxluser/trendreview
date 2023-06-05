@@ -29,10 +29,13 @@
 
 <body>
 {% for basket,symbol_data in baskets|dictsort %}
-<h2 class="bg-primary border border-primary text-white mx-auto">{{ basket }}</h2>
+<h2 class="bg-primary border border-primary text-white mx-auto px-5 py-2">{{ basket }}</h2>
     <div class="container">
-        {% for symbol,data in symbol_data|dictsort %}
+        {% for symbol,data in symbol_data|dictsort if not (incomplete_only and data.Trend) %}
         <div class="row">
+            <div class="col">
+	    <img src="/studies/{{ for_date }}/{{ data.Chart.LocalPath }}" class="img-fluid rounded mx-auto d-block" />
+            </div>
             <div class="col-3">
                 <h1><span class="badge bg-success">{{ symbol }}</span></h1>
                 <h5><span class="badge bg-primary">{{ data.Basket }}</span></h5>
@@ -60,9 +63,6 @@
 				<label class="form-check-label" for="sideways-{{ symbol }}">Sideways</label>
 			</div>
 		</form></div>
-            </div>
-            <div class="col">
-	    <img src="/studies/{{ for_date }}/{{ data.Chart.LocalPath }}" class="img-fluid rounded mx-auto d-block" />
             </div>
         </div>
         {% endfor %}

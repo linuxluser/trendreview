@@ -64,6 +64,7 @@ def update_trend(study_date, symbol):
 
 @APP.route('/studies/<study_date>')
 def study(study_date):
+    incomplete_only = bool(flask.request.args.get('incomplete_only', False))
     study_directory = os.path.join(STUDIES_DIR, study_date)
     if not os.path.exists(study_directory):
         return flask.abort(404)
@@ -77,7 +78,8 @@ def study(study_date):
     # Render template
     return flask.render_template('study_review.html.jinja2',
                                  baskets=baskets, 
-                                 for_date=study_date)
+                                 for_date=study_date,
+                                 incomplete_only=incomplete_only)
 
 
 if __name__ == '__main__':
