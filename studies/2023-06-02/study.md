@@ -9,7 +9,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.67 | sideways | Communications |
+|  58.67 | neutral | Communications |
 
 ![image](BIDU-D-M3.png)
 
@@ -17,7 +17,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  46.34 | downtrend | Communications |
+|  46.34 | bearish | Communications |
 
 ![image](CMCSA-D-M3.png)
 
@@ -25,7 +25,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  43.5 | downtrend | Communications |
+|  43.5 | bearish | Communications |
 
 ![image](DIS-D-M3.png)
 
@@ -33,7 +33,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  68.14 | uptrend | Communications |
+|  68.14 | bullish | Communications |
 
 ![image](GOOG-D-M3.png)
 
@@ -41,7 +41,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  83.85 | uptrend | Communications |
+|  83.85 | bullish | Communications |
 
 ![image](META-D-M3.png)
 
@@ -49,7 +49,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.29 | downtrend | Communications |
+|  58.29 | bearish | Communications |
 
 ![image](ROKU-D-M3.png)
 
@@ -57,7 +57,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  28.38 | downtrend | Communications |
+|  28.38 | bearish | Communications |
 
 ![image](T-D-M3.png)
 
@@ -65,7 +65,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  32.21 | downtrend | Communications |
+|  32.21 | bearish | Communications |
 
 ![image](VZ-D-M3.png)
 
@@ -78,7 +78,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  71.86 | uptrend | Consumer |
+|  71.86 | bullish | Consumer |
 
 ![image](AMZN-D-M3.png)
 
@@ -86,7 +86,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  49.48 | downtrend | Consumer |
+|  49.48 | bearish | Consumer |
 
 ![image](BABA-D-M3.png)
 
@@ -94,7 +94,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  52.16 | downtrend | Consumer |
+|  52.16 | bearish | Consumer |
 
 ![image](BBY-D-M3.png)
 
@@ -102,7 +102,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  40.07 | downtrend | Consumer |
+|  40.07 | bearish | Consumer |
 
 ![image](BYND-D-M3.png)
 
@@ -110,7 +110,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  59.26 | downtrend | Consumer |
+|  59.26 | bearish | Consumer |
 
 ![image](CHWY-D-M3.png)
 
@@ -118,7 +118,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  62.5 | uptrend | Consumer |
+|  62.5 | bullish | Consumer |
 
 ![image](COST-D-M3.png)
 
@@ -126,7 +126,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  54.97 | downtrend | Consumer |
+|  54.97 | bearish | Consumer |
 
 ![image](CZR-D-M3.png)
 
@@ -134,7 +134,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  63.41 | uptrend | Consumer |
+|  63.41 | bullish | Consumer |
 
 ![image](DKNG-D-M3.png)
 
@@ -142,7 +142,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  66.46 | uptrend | Consumer |
+|  66.46 | bullish | Consumer |
 
 ![image](EXPE-D-M3.png)
 
@@ -150,7 +150,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  57.56 | downtrend | Consumer |
+|  57.56 | bearish | Consumer |
 
 ![image](F-D-M3.png)
 
@@ -158,7 +158,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  56.75 | downtrend | Consumer |
+|  56.75 | bearish | Consumer |
 
 ![image](GM-D-M3.png)
 
@@ -166,7 +166,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  54.34 | downtrend | Consumer |
+|  54.34 | bearish | Consumer |
 
 ![image](HD-D-M3.png)
 
@@ -174,7 +174,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  50.1 | downtrend | Consumer |
+|  50.1 | bearish | Consumer |
 
 ![image](JD-D-M3.png)
 
@@ -182,7 +182,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  42.32 | downtrend | Consumer |
+|  42.32 | bearish | Consumer |
 
 ![image](KO-D-M3.png)
 
@@ -190,7 +190,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  36.89 | downtrend | Consumer |
+|  36.89 | bearish | Consumer |
 
 ![image](KR-D-M3.png)
 
@@ -198,7 +198,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  49.98 | downtrend | Consumer |
+|  49.98 | bearish | Consumer |
 
 ![image](KSS-D-M3.png)
 
@@ -206,7 +206,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  56.67 | sideways | Consumer |
+|  56.67 | neutral | Consumer |
 
 ![image](LOW-D-M3.png)
 
@@ -214,7 +214,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  51.76 | downtrend | Consumer |
+|  51.76 | bearish | Consumer |
 
 ![image](LVS-D-M3.png)
 
@@ -222,7 +222,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  56.96 | sideways | Consumer |
+|  56.96 | neutral | Consumer |
 
 ![image](MAR-D-M3.png)
 
@@ -230,7 +230,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  50.95 | downtrend | Consumer |
+|  50.95 | bearish | Consumer |
 
 ![image](MCD-D-M3.png)
 
@@ -238,7 +238,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  45.97 | downtrend | Consumer |
+|  45.97 | bearish | Consumer |
 
 ![image](MDLZ-D-M3.png)
 
@@ -246,7 +246,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  44.85 | downtrend | Consumer |
+|  44.85 | bearish | Consumer |
 
 ![image](MGM-D-M3.png)
 
@@ -254,7 +254,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  50.05 | downtrend | Consumer |
+|  50.05 | bearish | Consumer |
 
 ![image](MO-D-M3.png)
 
@@ -262,7 +262,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  69.05 | uptrend | Consumer |
+|  69.05 | bullish | Consumer |
 
 ![image](NCLH-D-M3.png)
 
@@ -270,7 +270,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  34.24 | downtrend | Consumer |
+|  34.24 | bearish | Consumer |
 
 ![image](NKE-D-M3.png)
 
@@ -278,7 +278,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  39.7 | downtrend | Consumer |
+|  39.7 | bearish | Consumer |
 
 ![image](PEP-D-M3.png)
 
@@ -286,7 +286,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  40.35 | downtrend | Consumer |
+|  40.35 | bearish | Consumer |
 
 ![image](PG-D-M3.png)
 
@@ -294,7 +294,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  76.23 | uptrend | Consumer |
+|  76.23 | bullish | Consumer |
 
 ![image](RCL-D-M3.png)
 
@@ -302,7 +302,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  38.07 | downtrend | Consumer |
+|  38.07 | bearish | Consumer |
 
 ![image](SBUX-D-M3.png)
 
@@ -310,7 +310,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  26.0 | downtrend | Consumer |
+|  26.0 | bearish | Consumer |
 
 ![image](TGT-D-M3.png)
 
@@ -318,7 +318,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  52.48 | sideways | Consumer |
+|  52.48 | neutral | Consumer |
 
 ![image](TJX-D-M3.png)
 
@@ -326,7 +326,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  76.32 | uptrend | Consumer |
+|  76.32 | bullish | Consumer |
 
 ![image](TSLA-D-M3.png)
 
@@ -334,7 +334,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  38.07 | downtrend | Consumer |
+|  38.07 | bearish | Consumer |
 
 ![image](VFC-D-M3.png)
 
@@ -342,7 +342,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  49.5 | downtrend | Consumer |
+|  49.5 | bearish | Consumer |
 
 ![image](WMT-D-M3.png)
 
@@ -350,7 +350,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  39.07 | downtrend | Consumer |
+|  39.07 | bearish | Consumer |
 
 ![image](XLP-D-M3.png)
 
@@ -358,7 +358,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  68.24 | uptrend | Consumer |
+|  68.24 | bullish | Consumer |
 
 ![image](XLY-D-M3.png)
 
@@ -366,7 +366,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  47.89 | downtrend | Consumer |
+|  47.89 | bearish | Consumer |
 
 ![image](XRT-D-M3.png)
 
@@ -379,7 +379,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  49.2 | downtrend | Energy |
+|  49.2 | bearish | Energy |
 
 ![image](APA-D-M3.png)
 
@@ -387,7 +387,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  45.05 | downtrend | Energy |
+|  45.05 | bearish | Energy |
 
 ![image](BP-D-M3.png)
 
@@ -395,7 +395,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  52.43 | downtrend | Energy |
+|  52.43 | bearish | Energy |
 
 ![image](COP-D-M3.png)
 
@@ -403,7 +403,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  48.05 | downtrend | Energy |
+|  48.05 | bearish | Energy |
 
 ![image](CVX-D-M3.png)
 
@@ -411,7 +411,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  47.99 | downtrend | Energy |
+|  47.99 | bearish | Energy |
 
 ![image](DVN-D-M3.png)
 
@@ -419,7 +419,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  56.35 | sideways | Energy |
+|  56.35 | neutral | Energy |
 
 ![image](HAL-D-M3.png)
 
@@ -427,7 +427,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  52.92 | downtrend | Energy |
+|  52.92 | bearish | Energy |
 
 ![image](KMI-D-M3.png)
 
@@ -435,7 +435,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  42.83 | downtrend | Energy |
+|  42.83 | bearish | Energy |
 
 ![image](MPC-D-M3.png)
 
@@ -443,7 +443,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  50.69 | downtrend | Energy |
+|  50.69 | bearish | Energy |
 
 ![image](MRO-D-M3.png)
 
@@ -451,7 +451,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  51.81 | downtrend | Energy |
+|  51.81 | bearish | Energy |
 
 ![image](OXY-D-M3.png)
 
@@ -459,7 +459,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.86 | sideways | Energy |
+|  58.86 | neutral | Energy |
 
 ![image](RIG-D-M3.png)
 
@@ -467,7 +467,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  53.06 | downtrend | Energy |
+|  53.06 | bearish | Energy |
 
 ![image](SLB-D-M3.png)
 
@@ -475,7 +475,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  49.8 | downtrend | Energy |
+|  49.8 | bearish | Energy |
 
 ![image](USO-D-M3.png)
 
@@ -483,7 +483,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  49.99 | downtrend | Energy |
+|  49.99 | bearish | Energy |
 
 ![image](XLE-D-M3.png)
 
@@ -491,7 +491,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  46.6 | downtrend | Energy |
+|  46.6 | bearish | Energy |
 
 ![image](XOM-D-M3.png)
 
@@ -499,7 +499,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  52.4 | downtrend | Energy |
+|  52.4 | bearish | Energy |
 
 ![image](XOP-D-M3.png)
 
@@ -512,7 +512,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  57.79 | uptrend | Finance |
+|  57.79 | bullish | Finance |
 
 ![image](AIG-D-M3.png)
 
@@ -520,7 +520,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  68.98 | uptrend | Finance |
+|  68.98 | bullish | Finance |
 
 ![image](AXP-D-M3.png)
 
@@ -528,7 +528,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  54.56 | downtrend | Finance |
+|  54.56 | bearish | Finance |
 
 ![image](BAC-D-M3.png)
 
@@ -536,7 +536,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  61.64 | downtrend | Finance |
+|  61.64 | bearish | Finance |
 
 ![image](BX-D-M3.png)
 
@@ -544,7 +544,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  52.99 | downtrend | Finance |
+|  52.99 | bearish | Finance |
 
 ![image](C-D-M3.png)
 
@@ -552,7 +552,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  73.13 | uptrend | Finance |
+|  73.13 | bullish | Finance |
 
 ![image](COF-D-M3.png)
 
@@ -560,7 +560,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  54.35 | downtrend | Finance |
+|  54.35 | bearish | Finance |
 
 ![image](FITB-D-M3.png)
 
@@ -568,7 +568,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  47.37 | downtrend | Finance |
+|  47.37 | bearish | Finance |
 
 ![image](GS-D-M3.png)
 
@@ -576,7 +576,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  59.46 | sideways | Finance |
+|  59.46 | neutral | Finance |
 
 ![image](JPM-D-M3.png)
 
@@ -584,7 +584,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.1 | downtrend | Finance |
+|  58.1 | bearish | Finance |
 
 ![image](KRE-D-M3.png)
 
@@ -592,7 +592,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  48.64 | downtrend | Finance |
+|  48.64 | bearish | Finance |
 
 ![image](MET-D-M3.png)
 
@@ -600,7 +600,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  50.9 | sideways | Finance |
+|  50.9 | neutral | Finance |
 
 ![image](MS-D-M3.png)
 
@@ -608,7 +608,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  56.66 | downtrend | Finance |
+|  56.66 | bearish | Finance |
 
 ![image](PNC-D-M3.png)
 
@@ -616,7 +616,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  46.12 | downtrend | Finance |
+|  46.12 | bearish | Finance |
 
 ![image](PYPL-D-M3.png)
 
@@ -624,7 +624,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.53 | sideways | Finance |
+|  58.53 | neutral | Finance |
 
 ![image](SCHW-D-M3.png)
 
@@ -632,7 +632,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  52.9 | sideways | Finance |
+|  52.9 | neutral | Finance |
 
 ![image](USB-D-M3.png)
 
@@ -640,7 +640,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  51.75 | downtrend | Finance |
+|  51.75 | bearish | Finance |
 
 ![image](V-D-M3.png)
 
@@ -648,7 +648,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  29.86 | downtrend | Finance |
+|  29.86 | bearish | Finance |
 
 ![image](VXX-D-M3.png)
 
@@ -656,7 +656,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  57.56 | downtrend | Finance |
+|  57.56 | bearish | Finance |
 
 ![image](WFC-D-M3.png)
 
@@ -664,7 +664,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  56.39 | downtrend | Finance |
+|  56.39 | bearish | Finance |
 
 ![image](XLF-D-M3.png)
 
@@ -677,7 +677,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  33.43 | downtrend | Health |
+|  33.43 | bearish | Health |
 
 ![image](ABBV-D-M3.png)
 
@@ -685,7 +685,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  42.32 | downtrend | Health |
+|  42.32 | bearish | Health |
 
 ![image](ABT-D-M3.png)
 
@@ -693,7 +693,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  49.95 | downtrend | Health |
+|  49.95 | bearish | Health |
 
 ![image](CVS-D-M3.png)
 
@@ -701,7 +701,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  44.49 | downtrend | Health |
+|  44.49 | bearish | Health |
 
 ![image](JNJ-D-M3.png)
 
@@ -709,7 +709,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  46.14 | downtrend | Health |
+|  46.14 | bearish | Health |
 
 ![image](MRK-D-M3.png)
 
@@ -717,7 +717,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  47.9 | sideways | Health |
+|  47.9 | neutral | Health |
 
 ![image](MRNA-D-M3.png)
 
@@ -725,7 +725,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  50.24 | downtrend | Health |
+|  50.24 | bearish | Health |
 
 ![image](PFE-D-M3.png)
 
@@ -733,7 +733,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  45.04 | downtrend | Health |
+|  45.04 | bearish | Health |
 
 ![image](WBA-D-M3.png)
 
@@ -741,7 +741,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  56.95 | sideways | Health |
+|  56.95 | neutral | Health |
 
 ![image](XBI-D-M3.png)
 
@@ -754,7 +754,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.79 | uptrend | Industrial |
+|  58.79 | bullish | Industrial |
 
 ![image](AAL-D-M3.png)
 
@@ -762,7 +762,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  64.25 | sideways | Industrial |
+|  64.25 | neutral | Industrial |
 
 ![image](BA-D-M3.png)
 
@@ -770,7 +770,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  63.85 | downtrend | Industrial |
+|  63.85 | bearish | Industrial |
 
 ![image](CAT-D-M3.png)
 
@@ -778,7 +778,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  64.93 | uptrend | Industrial |
+|  64.93 | bullish | Industrial |
 
 ![image](DAL-D-M3.png)
 
@@ -786,7 +786,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  52.41 | downtrend | Industrial |
+|  52.41 | bearish | Industrial |
 
 ![image](DE-D-M3.png)
 
@@ -794,7 +794,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  45.59 | downtrend | Industrial |
+|  45.59 | bearish | Industrial |
 
 ![image](FDX-D-M3.png)
 
@@ -802,7 +802,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  64.87 | uptrend | Industrial |
+|  64.87 | bullish | Industrial |
 
 ![image](GE-D-M3.png)
 
@@ -810,7 +810,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  51.68 | sideways | Industrial |
+|  51.68 | neutral | Industrial |
 
 ![image](LUV-D-M3.png)
 
@@ -818,7 +818,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  61.7 | uptrend | Industrial |
+|  61.7 | bullish | Industrial |
 
 ![image](UAL-D-M3.png)
 
@@ -826,7 +826,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  43.81 | sideways | Industrial |
+|  43.81 | neutral | Industrial |
 
 ![image](UPS-D-M3.png)
 
@@ -834,7 +834,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  61.06 | sideways | Industrial |
+|  61.06 | neutral | Industrial |
 
 ![image](XHB-D-M3.png)
 
@@ -847,7 +847,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  56.59 | downtrend | International |
+|  56.59 | bearish | International |
 
 ![image](EEM-D-M3.png)
 
@@ -855,7 +855,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  51.26 | downtrend | International |
+|  51.26 | bearish | International |
 
 ![image](EFA-D-M3.png)
 
@@ -863,7 +863,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  62.92 | sideways | International |
+|  62.92 | neutral | International |
 
 ![image](EWZ-D-M3.png)
 
@@ -871,7 +871,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  48.26 | downtrend | International |
+|  48.26 | bearish | International |
 
 ![image](FXI-D-M3.png)
 
@@ -884,7 +884,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  37.97 | downtrend | Materials |
+|  37.97 | bearish | Materials |
 
 ![image](CF-D-M3.png)
 
@@ -892,7 +892,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  50.2 | downtrend | Materials |
+|  50.2 | bearish | Materials |
 
 ![image](CLF-D-M3.png)
 
@@ -900,7 +900,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  48.34 | downtrend | Materials |
+|  48.34 | bearish | Materials |
 
 ![image](DOW-D-M3.png)
 
@@ -908,7 +908,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  55.73 | sideways | Materials |
+|  55.73 | neutral | Materials |
 
 ![image](FCX-D-M3.png)
 
@@ -916,7 +916,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  30.85 | downtrend | Materials |
+|  30.85 | bearish | Materials |
 
 ![image](MOS-D-M3.png)
 
@@ -924,7 +924,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  38.6 | downtrend | Materials |
+|  38.6 | bearish | Materials |
 
 ![image](NEM-D-M3.png)
 
@@ -932,7 +932,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  48.15 | downtrend | Materials |
+|  48.15 | bearish | Materials |
 
 ![image](X-D-M3.png)
 
@@ -940,7 +940,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  53.54 | downtrend | Materials |
+|  53.54 | bearish | Materials |
 
 ![image](XLB-D-M3.png)
 
@@ -953,7 +953,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  42.96 | downtrend | Precious Metals |
+|  42.96 | bearish | Precious Metals |
 
 ![image](GDX-D-M3.png)
 
@@ -961,7 +961,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  41.71 | downtrend | Precious Metals |
+|  41.71 | bearish | Precious Metals |
 
 ![image](GLD-D-M3.png)
 
@@ -969,7 +969,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  36.94 | downtrend | Precious Metals |
+|  36.94 | bearish | Precious Metals |
 
 ![image](GOLD-D-M3.png)
 
@@ -977,7 +977,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  45.41 | downtrend | Precious Metals |
+|  45.41 | bearish | Precious Metals |
 
 ![image](SLV-D-M3.png)
 
@@ -990,7 +990,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  55.77 | downtrend | Real Estate |
+|  55.77 | bearish | Real Estate |
 
 ![image](IYR-D-M3.png)
 
@@ -1003,7 +1003,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  72.63 | uptrend | Technology |
+|  72.63 | bullish | Technology |
 
 ![image](AAPL-D-M3.png)
 
@@ -1011,7 +1011,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  78.54 | uptrend | Technology |
+|  78.54 | bullish | Technology |
 
 ![image](ADBE-D-M3.png)
 
@@ -1019,7 +1019,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  66.59 | uptrend | Technology |
+|  66.59 | bullish | Technology |
 
 ![image](AMAT-D-M3.png)
 
@@ -1027,7 +1027,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  65.23 | uptrend | Technology |
+|  65.23 | bullish | Technology |
 
 ![image](AMD-D-M3.png)
 
@@ -1035,7 +1035,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  64.22 | uptrend | Technology |
+|  64.22 | bullish | Technology |
 
 ![image](ARKK-D-M3.png)
 
@@ -1043,7 +1043,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  78.41 | uptrend | Technology |
+|  78.41 | bullish | Technology |
 
 ![image](AVGO-D-M3.png)
 
@@ -1051,7 +1051,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.07 | uptrend | Technology |
+|  58.07 | bullish | Technology |
 
 ![image](CRM-D-M3.png)
 
@@ -1059,7 +1059,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  61.0 | uptrend | Technology |
+|  61.0 | bullish | Technology |
 
 ![image](CRWD-D-M3.png)
 
@@ -1067,7 +1067,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  63.03 | uptrend | Technology |
+|  63.03 | bullish | Technology |
 
 ![image](CSCO-D-M3.png)
 
@@ -1075,7 +1075,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  67.03 | uptrend | Technology |
+|  67.03 | bullish | Technology |
 
 ![image](DOCU-D-M3.png)
 
@@ -1083,7 +1083,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  54.66 | uptrend | Technology |
+|  54.66 | bullish | Technology |
 
 ![image](FSLR-D-M3.png)
 
@@ -1091,7 +1091,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  53.59 | uptrend | Technology |
+|  53.59 | bullish | Technology |
 
 ![image](HPQ-D-M3.png)
 
@@ -1099,7 +1099,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  67.81 | uptrend | Technology |
+|  67.81 | bullish | Technology |
 
 ![image](IBM-D-M3.png)
 
@@ -1107,7 +1107,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  57.2 | downtrend | Technology |
+|  57.2 | bearish | Technology |
 
 ![image](INTC-D-M3.png)
 
@@ -1115,7 +1115,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  70.2 | sideways | Technology |
+|  70.2 | neutral | Technology |
 
 ![image](MRVL-D-M3.png)
 
@@ -1123,7 +1123,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  71.82 | uptrend | Technology |
+|  71.82 | bullish | Technology |
 
 ![image](MSFT-D-M3.png)
 
@@ -1131,7 +1131,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  75.08 | uptrend | Technology |
+|  75.08 | bullish | Technology |
 
 ![image](NET-D-M3.png)
 
@@ -1139,7 +1139,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  72.56 | uptrend | Technology |
+|  72.56 | bullish | Technology |
 
 ![image](NFLX-D-M3.png)
 
@@ -1147,7 +1147,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  73.57 | uptrend | Technology |
+|  73.57 | bullish | Technology |
 
 ![image](NVDA-D-M3.png)
 
@@ -1155,7 +1155,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  71.35 | uptrend | Technology |
+|  71.35 | bullish | Technology |
 
 ![image](ORCL-D-M3.png)
 
@@ -1163,7 +1163,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  59.08 | downtrend | Technology |
+|  59.08 | bearish | Technology |
 
 ![image](QCOM-D-M3.png)
 
@@ -1171,7 +1171,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  75.92 | uptrend | Technology |
+|  75.92 | bullish | Technology |
 
 ![image](QQQ-D-M3.png)
 
@@ -1179,7 +1179,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  54.25 | downtrend | Technology |
+|  54.25 | bearish | Technology |
 
 ![image](SHOP-D-M3.png)
 
@@ -1187,7 +1187,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  70.5 | uptrend | Technology |
+|  70.5 | bullish | Technology |
 
 ![image](SMH-D-M3.png)
 
@@ -1195,7 +1195,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.64 | downtrend | Technology |
+|  58.64 | bearish | Technology |
 
 ![image](SQ-D-M3.png)
 
@@ -1203,7 +1203,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  65.54 | uptrend | Technology |
+|  65.54 | bullish | Technology |
 
 ![image](TSM-D-M3.png)
 
@@ -1211,7 +1211,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  74.38 | uptrend | Technology |
+|  74.38 | bullish | Technology |
 
 ![image](TTD-D-M3.png)
 
@@ -1219,7 +1219,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.66 | uptrend | Technology |
+|  58.66 | bullish | Technology |
 
 ![image](TXN-D-M3.png)
 
@@ -1227,7 +1227,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  66.34 | sideways | Technology |
+|  66.34 | neutral | Technology |
 
 ![image](UBER-D-M3.png)
 
@@ -1235,7 +1235,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  74.17 | uptrend | Technology |
+|  74.17 | bullish | Technology |
 
 ![image](XLK-D-M3.png)
 
@@ -1248,7 +1248,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  53.54 | downtrend | US Bonds |
+|  53.54 | bearish | US Bonds |
 
 ![image](HYG-D-M3.png)
 
@@ -1256,7 +1256,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  47.1 | downtrend | US Bonds |
+|  47.1 | bearish | US Bonds |
 
 ![image](LQD-D-M3.png)
 
@@ -1264,7 +1264,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  45.39 | downtrend | US Bonds |
+|  45.39 | bearish | US Bonds |
 
 ![image](TLT-D-M3.png)
 
@@ -1277,7 +1277,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  58.98 | sideways | US Stocks |
+|  58.98 | neutral | US Stocks |
 
 ![image](DIA-D-M3.png)
 
@@ -1285,7 +1285,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  62.28 | sideways | US Stocks |
+|  62.28 | neutral | US Stocks |
 
 ![image](IWM-D-M3.png)
 
@@ -1293,7 +1293,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  66.46 | uptrend | US Stocks |
+|  66.46 | bullish | US Stocks |
 
 ![image](SPY-D-M3.png)
 
@@ -1306,7 +1306,7 @@
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  37.88 | downtrend | Utilities |
+|  37.88 | bearish | Utilities |
 
 ![image](XLU-D-M3.png)
 
