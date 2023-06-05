@@ -1,0 +1,1086 @@
+---
+AAL:
+  Basket: Industrial
+  Chart:
+    LocalPath: AAL-D-M3.png
+    URL: https://finviz.com/publish/060323/AALd233494017i.png
+  RSI: 58.79
+  Trend: uptrend
+AAPL:
+  Basket: Technology
+  Chart:
+    LocalPath: AAPL-D-M3.png
+    URL: https://finviz.com/publish/060323/AAPLd231506622i.png
+  RSI: 72.63
+  Trend: uptrend
+ABBV:
+  Basket: Health
+  Chart:
+    LocalPath: ABBV-D-M3.png
+    URL: https://finviz.com/publish/060323/ABBVd232901654i.png
+  RSI: 33.43
+  Trend: downtrend
+ABT:
+  Basket: Health
+  Chart:
+    LocalPath: ABT-D-M3.png
+    URL: https://finviz.com/publish/060323/ABTd232936652i.png
+  RSI: 42.32
+  Trend: downtrend
+ADBE:
+  Basket: Technology
+  Chart:
+    LocalPath: ADBE-D-M3.png
+    URL: https://finviz.com/publish/060323/ADBEd231574578i.png
+  RSI: 78.54
+  Trend: uptrend
+AIG:
+  Basket: Finance
+  Chart:
+    LocalPath: AIG-D-M3.png
+    URL: https://finviz.com/publish/060323/AIGd233052404i.png
+  RSI: 57.79
+  Trend: uptrend
+AMAT:
+  Basket: Technology
+  Chart:
+    LocalPath: AMAT-D-M3.png
+    URL: https://finviz.com/publish/060323/AMATd231606618i.png
+  RSI: 66.59
+  Trend: uptrend
+AMD:
+  Basket: Technology
+  Chart:
+    LocalPath: AMD-D-M3.png
+    URL: https://finviz.com/publish/060323/AMDd231645121i.png
+  RSI: 65.23
+  Trend: uptrend
+AMZN:
+  Basket: Consumer
+  Chart:
+    LocalPath: AMZN-D-M3.png
+    URL: https://finviz.com/publish/060323/AMZNd232155801i.png
+  RSI: 71.86
+  Trend: uptrend
+APA:
+  Basket: Energy
+  Chart:
+    LocalPath: APA-D-M3.png
+    URL: https://finviz.com/publish/060323/APAd232686216i.png
+  RSI: 49.2
+  Trend: downtrend
+ARKK:
+  Basket: Technology
+  Chart:
+    LocalPath: ARKK-D-M3.png
+    URL: https://finviz.com/publish/060323/ARKKd231841851i.png
+  RSI: 64.22
+  Trend: uptrend
+AVGO:
+  Basket: Technology
+  Chart:
+    LocalPath: AVGO-D-M3.png
+    URL: https://finviz.com/publish/060323/AVGOd231682383i.png
+  RSI: 78.41
+  Trend: uptrend
+AXP:
+  Basket: Finance
+  Chart:
+    LocalPath: AXP-D-M3.png
+    URL: https://finviz.com/publish/060323/AXPd233100011i.png
+  RSI: 68.98
+  Trend: uptrend
+BA:
+  Basket: Industrial
+  Chart:
+    LocalPath: BA-D-M3.png
+    URL: https://finviz.com/publish/060323/BAd233408426i.png
+  RSI: 64.25
+  Trend: sideways
+BABA:
+  Basket: Consumer
+  Chart:
+    LocalPath: BABA-D-M3.png
+    URL: https://finviz.com/publish/060323/BABAd232443034i.png
+  RSI: 49.48
+  Trend: downtrend
+BAC:
+  Basket: Finance
+  Chart:
+    LocalPath: BAC-D-M3.png
+    URL: https://finviz.com/publish/060323/BACd233060953i.png
+  RSI: 54.56
+  Trend: downtrend
+BBY:
+  Basket: Consumer
+  Chart:
+    LocalPath: BBY-D-M3.png
+    URL: https://finviz.com/publish/060323/BBYd232490476i.png
+  RSI: 52.16
+  Trend: downtrend
+BIDU:
+  Basket: Communications
+  Chart:
+    LocalPath: BIDU-D-M3.png
+    URL: https://finviz.com/publish/060323/BIDUd232036871i.png
+  RSI: 58.67
+  Trend: sideways
+BP:
+  Basket: Energy
+  Chart:
+    LocalPath: BP-D-M3.png
+    URL: https://finviz.com/publish/060323/BPd232669678i.png
+  RSI: 45.05
+  Trend: downtrend
+BX:
+  Basket: Finance
+  Chart:
+    LocalPath: BX-D-M3.png
+    URL: https://finviz.com/publish/060323/BXd233041913i.png
+  RSI: 61.64
+  Trend: downtrend
+BYND:
+  Basket: Consumer
+  Chart:
+    LocalPath: BYND-D-M3.png
+    URL: https://finviz.com/publish/060323/BYNDd232467420i.png
+  RSI: 40.07
+  Trend: downtrend
+C:
+  Basket: Finance
+  Chart:
+    LocalPath: C-D-M3.png
+    URL: https://finviz.com/publish/060323/Cd233049897i.png
+  RSI: 52.99
+  Trend: downtrend
+CAT:
+  Basket: Industrial
+  Chart:
+    LocalPath: CAT-D-M3.png
+    URL: https://finviz.com/publish/060323/CATd233524714i.png
+  RSI: 63.85
+  Trend: downtrend
+CF:
+  Basket: Materials
+  Chart:
+    LocalPath: CF-D-M3.png
+    URL: https://finviz.com/publish/060323/CFd233316240i.png
+  RSI: 37.97
+  Trend: downtrend
+CHWY:
+  Basket: Consumer
+  Chart:
+    LocalPath: CHWY-D-M3.png
+    URL: https://finviz.com/publish/060323/CHWYd232496892i.png
+  RSI: 59.26
+  Trend: downtrend
+CLF:
+  Basket: Materials
+  Chart:
+    LocalPath: CLF-D-M3.png
+    URL: https://finviz.com/publish/060323/CLFd233336865i.png
+  RSI: 50.2
+  Trend: downtrend
+CMCSA:
+  Basket: Communications
+  Chart:
+    LocalPath: CMCSA-D-M3.png
+    URL: https://finviz.com/publish/060323/CMCSAd232042356i.png
+  RSI: 46.34
+  Trend: downtrend
+COF:
+  Basket: Finance
+  Chart:
+    LocalPath: COF-D-M3.png
+    URL: https://finviz.com/publish/060323/COFd233077661i.png
+  RSI: 73.13
+  Trend: uptrend
+COP:
+  Basket: Energy
+  Chart:
+    LocalPath: COP-D-M3.png
+    URL: https://finviz.com/publish/060323/COPd232705788i.png
+  RSI: 52.43
+  Trend: downtrend
+COST:
+  Basket: Consumer
+  Chart:
+    LocalPath: COST-D-M3.png
+    URL: https://finviz.com/publish/060323/COSTd232298070i.png
+  RSI: 62.5
+  Trend: uptrend
+CRM:
+  Basket: Technology
+  Chart:
+    LocalPath: CRM-D-M3.png
+    URL: https://finviz.com/publish/060323/CRMd231617628i.png
+  RSI: 58.07
+  Trend: uptrend
+CRWD:
+  Basket: Technology
+  Chart:
+    LocalPath: CRWD-D-M3.png
+    URL: https://finviz.com/publish/060323/CRWDd231611455i.png
+  RSI: 61.0
+  Trend: uptrend
+CSCO:
+  Basket: Technology
+  Chart:
+    LocalPath: CSCO-D-M3.png
+    URL: https://finviz.com/publish/060323/CSCOd231927196i.png
+  RSI: 63.03
+  Trend: uptrend
+CVS:
+  Basket: Health
+  Chart:
+    LocalPath: CVS-D-M3.png
+    URL: https://finviz.com/publish/060323/CVSd232967066i.png
+  RSI: 49.95
+  Trend: downtrend
+CVX:
+  Basket: Energy
+  Chart:
+    LocalPath: CVX-D-M3.png
+    URL: https://finviz.com/publish/060323/CVXd232780407i.png
+  RSI: 48.05
+  Trend: downtrend
+CZR:
+  Basket: Consumer
+  Chart:
+    LocalPath: CZR-D-M3.png
+    URL: https://finviz.com/publish/060323/CZRd232448786i.png
+  RSI: 54.97
+  Trend: downtrend
+DAL:
+  Basket: Industrial
+  Chart:
+    LocalPath: DAL-D-M3.png
+    URL: https://finviz.com/publish/060323/DALd233441576i.png
+  RSI: 64.93
+  Trend: uptrend
+DE:
+  Basket: Industrial
+  Chart:
+    LocalPath: DE-D-M3.png
+    URL: https://finviz.com/publish/060323/DEd233505953i.png
+  RSI: 52.41
+  Trend: downtrend
+DIA:
+  Basket: US Stocks
+  Chart:
+    LocalPath: DIA-D-M3.png
+    URL: https://finviz.com/publish/060323/DIAd231448239i.png
+  RSI: 58.98
+  Trend: sideways
+DIS:
+  Basket: Communications
+  Chart:
+    LocalPath: DIS-D-M3.png
+    URL: https://finviz.com/publish/060323/DISd232054110i.png
+  RSI: 43.5
+  Trend: downtrend
+DKNG:
+  Basket: Consumer
+  Chart:
+    LocalPath: DKNG-D-M3.png
+    URL: https://finviz.com/publish/060323/DKNGd232134459i.png
+  RSI: 63.41
+  Trend: uptrend
+DOCU:
+  Basket: Technology
+  Chart:
+    LocalPath: DOCU-D-M3.png
+    URL: https://finviz.com/publish/060323/DOCUd231648236i.png
+  RSI: 67.03
+  Trend: uptrend
+DOW:
+  Basket: Materials
+  Chart:
+    LocalPath: DOW-D-M3.png
+    URL: https://finviz.com/publish/060323/DOWd233348653i.png
+  RSI: 48.34
+  Trend: downtrend
+DVN:
+  Basket: Energy
+  Chart:
+    LocalPath: DVN-D-M3.png
+    URL: https://finviz.com/publish/060323/DVNd232707622i.png
+  RSI: 47.99
+  Trend: downtrend
+EEM:
+  Basket: International
+  Chart:
+    LocalPath: EEM-D-M3.png
+    URL: https://finviz.com/publish/060323/EEMd231555807i.png
+  RSI: 56.59
+  Trend: downtrend
+EFA:
+  Basket: International
+  Chart:
+    LocalPath: EFA-D-M3.png
+    URL: https://finviz.com/publish/060323/EFAd231572075i.png
+  RSI: 51.26
+  Trend: downtrend
+EWZ:
+  Basket: International
+  Chart:
+    LocalPath: EWZ-D-M3.png
+    URL: https://finviz.com/publish/060323/EWZd231509050i.png
+  RSI: 62.92
+  Trend: sideways
+EXPE:
+  Basket: Consumer
+  Chart:
+    LocalPath: EXPE-D-M3.png
+    URL: https://finviz.com/publish/060323/EXPEd232235419i.png
+  RSI: 66.46
+  Trend: uptrend
+F:
+  Basket: Consumer
+  Chart:
+    LocalPath: F-D-M3.png
+    URL: https://finviz.com/publish/060323/Fd232507321i.png
+  RSI: 57.56
+  Trend: downtrend
+FCX:
+  Basket: Materials
+  Chart:
+    LocalPath: FCX-D-M3.png
+    URL: https://finviz.com/publish/060323/FCXd233342317i.png
+  RSI: 55.73
+  Trend: sideways
+FDX:
+  Basket: Industrial
+  Chart:
+    LocalPath: FDX-D-M3.png
+    URL: https://finviz.com/publish/060323/FDXd233496779i.png
+  RSI: 45.59
+  Trend: downtrend
+FITB:
+  Basket: Finance
+  Chart:
+    LocalPath: FITB-D-M3.png
+    URL: https://finviz.com/publish/060323/FITBd233131170i.png
+  RSI: 54.35
+  Trend: downtrend
+FSLR:
+  Basket: Technology
+  Chart:
+    LocalPath: FSLR-D-M3.png
+    URL: https://finviz.com/publish/060323/FSLRd231931901i.png
+  RSI: 54.66
+  Trend: uptrend
+FXI:
+  Basket: International
+  Chart:
+    LocalPath: FXI-D-M3.png
+    URL: https://finviz.com/publish/060323/FXId231565796i.png
+  RSI: 48.26
+  Trend: downtrend
+GDX:
+  Basket: Precious Metals
+  Chart:
+    LocalPath: GDX-D-M3.png
+    URL: https://finviz.com/publish/060323/GDXd233573548i.png
+  RSI: 42.96
+  Trend: downtrend
+GE:
+  Basket: Industrial
+  Chart:
+    LocalPath: GE-D-M3.png
+    URL: https://finviz.com/publish/060323/GEd233453890i.png
+  RSI: 64.87
+  Trend: uptrend
+GLD:
+  Basket: Precious Metals
+  Chart:
+    LocalPath: GLD-D-M3.png
+    URL: https://finviz.com/publish/060323/GLDd233569327i.png
+  RSI: 41.71
+  Trend: downtrend
+GM:
+  Basket: Consumer
+  Chart:
+    LocalPath: GM-D-M3.png
+    URL: https://finviz.com/publish/060323/GMd232533428i.png
+  RSI: 56.75
+  Trend: downtrend
+GOLD:
+  Basket: Precious Metals
+  Chart:
+    LocalPath: GOLD-D-M3.png
+    URL: https://finviz.com/publish/060323/GOLDd233573872i.png
+  RSI: 36.94
+  Trend: downtrend
+GOOG:
+  Basket: Communications
+  Chart:
+    LocalPath: GOOG-D-M3.png
+    URL: https://finviz.com/publish/060323/GOOGd232073917i.png
+  RSI: 68.14
+  Trend: uptrend
+GS:
+  Basket: Finance
+  Chart:
+    LocalPath: GS-D-M3.png
+    URL: https://finviz.com/publish/060323/GSd233096275i.png
+  RSI: 47.37
+  Trend: downtrend
+HAL:
+  Basket: Energy
+  Chart:
+    LocalPath: HAL-D-M3.png
+    URL: https://finviz.com/publish/060323/HALd232753960i.png
+  RSI: 56.35
+  Trend: sideways
+HD:
+  Basket: Consumer
+  Chart:
+    LocalPath: HD-D-M3.png
+    URL: https://finviz.com/publish/060323/HDd232393607i.png
+  RSI: 54.34
+  Trend: downtrend
+HPQ:
+  Basket: Technology
+  Chart:
+    LocalPath: HPQ-D-M3.png
+    URL: https://finviz.com/publish/060323/HPQd231876568i.png
+  RSI: 53.59
+  Trend: uptrend
+HYG:
+  Basket: US Bonds
+  Chart:
+    LocalPath: HYG-D-M3.png
+    URL: https://finviz.com/publish/060323/HYGd231424346i.png
+  RSI: 53.54
+  Trend: downtrend
+IBM:
+  Basket: Technology
+  Chart:
+    LocalPath: IBM-D-M3.png
+    URL: https://finviz.com/publish/060323/IBMd231911781i.png
+  RSI: 67.81
+  Trend: uptrend
+INTC:
+  Basket: Technology
+  Chart:
+    LocalPath: INTC-D-M3.png
+    URL: https://finviz.com/publish/060323/INTCd231863186i.png
+  RSI: 57.2
+  Trend: downtrend
+IWM:
+  Basket: US Stocks
+  Chart:
+    LocalPath: IWM-D-M3.png
+    URL: https://finviz.com/publish/060323/IWMd231417882i.png
+  RSI: 62.28
+  Trend: sideways
+IYR:
+  Basket: Real Estate
+  Chart:
+    LocalPath: IYR-D-M3.png
+    URL: https://finviz.com/publish/060323/IYRd233668115i.png
+  RSI: 55.77
+  Trend: downtrend
+JD:
+  Basket: Consumer
+  Chart:
+    LocalPath: JD-D-M3.png
+    URL: https://finviz.com/publish/060323/JDd232571809i.png
+  RSI: 50.1
+  Trend: downtrend
+JNJ:
+  Basket: Health
+  Chart:
+    LocalPath: JNJ-D-M3.png
+    URL: https://finviz.com/publish/060323/JNJd232958562i.png
+  RSI: 44.49
+  Trend: downtrend
+JPM:
+  Basket: Finance
+  Chart:
+    LocalPath: JPM-D-M3.png
+    URL: https://finviz.com/publish/060323/JPMd233167294i.png
+  RSI: 59.46
+  Trend: sideways
+KMI:
+  Basket: Energy
+  Chart:
+    LocalPath: KMI-D-M3.png
+    URL: https://finviz.com/publish/060323/KMId232750145i.png
+  RSI: 52.92
+  Trend: downtrend
+KO:
+  Basket: Consumer
+  Chart:
+    LocalPath: KO-D-M3.png
+    URL: https://finviz.com/publish/060323/KOd232136690i.png
+  RSI: 42.32
+  Trend: downtrend
+KR:
+  Basket: Consumer
+  Chart:
+    LocalPath: KR-D-M3.png
+    URL: https://finviz.com/publish/060323/KRd232370743i.png
+  RSI: 36.89
+  Trend: downtrend
+KRE:
+  Basket: Finance
+  Chart:
+    LocalPath: KRE-D-M3.png
+    URL: https://finviz.com/publish/060323/KREd233109476i.png
+  RSI: 58.1
+  Trend: downtrend
+KSS:
+  Basket: Consumer
+  Chart:
+    LocalPath: KSS-D-M3.png
+    URL: https://finviz.com/publish/060323/KSSd232527510i.png
+  RSI: 49.98
+  Trend: downtrend
+LOW:
+  Basket: Consumer
+  Chart:
+    LocalPath: LOW-D-M3.png
+    URL: https://finviz.com/publish/060323/LOWd232564503i.png
+  RSI: 56.67
+  Trend: sideways
+LQD:
+  Basket: US Bonds
+  Chart:
+    LocalPath: LQD-D-M3.png
+    URL: https://finviz.com/publish/060323/LQDd231576617i.png
+  RSI: 47.1
+  Trend: downtrend
+LUV:
+  Basket: Industrial
+  Chart:
+    LocalPath: LUV-D-M3.png
+    URL: https://finviz.com/publish/060323/LUVd233545672i.png
+  RSI: 51.68
+  Trend: sideways
+LVS:
+  Basket: Consumer
+  Chart:
+    LocalPath: LVS-D-M3.png
+    URL: https://finviz.com/publish/060323/LVSd232167214i.png
+  RSI: 51.76
+  Trend: downtrend
+MAR:
+  Basket: Consumer
+  Chart:
+    LocalPath: MAR-D-M3.png
+    URL: https://finviz.com/publish/060323/MARd232115320i.png
+  RSI: 56.96
+  Trend: sideways
+MCD:
+  Basket: Consumer
+  Chart:
+    LocalPath: MCD-D-M3.png
+    URL: https://finviz.com/publish/060323/MCDd232178192i.png
+  RSI: 50.95
+  Trend: downtrend
+MDLZ:
+  Basket: Consumer
+  Chart:
+    LocalPath: MDLZ-D-M3.png
+    URL: https://finviz.com/publish/060323/MDLZd232297310i.png
+  RSI: 45.97
+  Trend: downtrend
+MET:
+  Basket: Finance
+  Chart:
+    LocalPath: MET-D-M3.png
+    URL: https://finviz.com/publish/060323/METd233268659i.png
+  RSI: 48.64
+  Trend: downtrend
+META:
+  Basket: Communications
+  Chart:
+    LocalPath: META-D-M3.png
+    URL: https://finviz.com/publish/060323/METAd232087631i.png
+  RSI: 83.85
+  Trend: uptrend
+MGM:
+  Basket: Consumer
+  Chart:
+    LocalPath: MGM-D-M3.png
+    URL: https://finviz.com/publish/060323/MGMd232376334i.png
+  RSI: 44.85
+  Trend: downtrend
+MO:
+  Basket: Consumer
+  Chart:
+    LocalPath: MO-D-M3.png
+    URL: https://finviz.com/publish/060323/MOd232561719i.png
+  RSI: 50.05
+  Trend: downtrend
+MOS:
+  Basket: Materials
+  Chart:
+    LocalPath: MOS-D-M3.png
+    URL: https://finviz.com/publish/060323/MOSd233365944i.png
+  RSI: 30.85
+  Trend: downtrend
+MPC:
+  Basket: Energy
+  Chart:
+    LocalPath: MPC-D-M3.png
+    URL: https://finviz.com/publish/060323/MPCd232769800i.png
+  RSI: 42.83
+  Trend: downtrend
+MRK:
+  Basket: Health
+  Chart:
+    LocalPath: MRK-D-M3.png
+    URL: https://finviz.com/publish/060323/MRKd232845352i.png
+  RSI: 46.14
+  Trend: downtrend
+MRNA:
+  Basket: Health
+  Chart:
+    LocalPath: MRNA-D-M3.png
+    URL: https://finviz.com/publish/060323/MRNAd232948453i.png
+  RSI: 47.9
+  Trend: sideways
+MRO:
+  Basket: Energy
+  Chart:
+    LocalPath: MRO-D-M3.png
+    URL: https://finviz.com/publish/060323/MROd232755931i.png
+  RSI: 50.69
+  Trend: downtrend
+MRVL:
+  Basket: Technology
+  Chart:
+    LocalPath: MRVL-D-M3.png
+    URL: https://finviz.com/publish/060323/MRVLd231682878i.png
+  RSI: 70.2
+  Trend: sideways
+MS:
+  Basket: Finance
+  Chart:
+    LocalPath: MS-D-M3.png
+    URL: https://finviz.com/publish/060323/MSd233218142i.png
+  RSI: 50.9
+  Trend: sideways
+MSFT:
+  Basket: Technology
+  Chart:
+    LocalPath: MSFT-D-M3.png
+    URL: https://finviz.com/publish/060323/MSFTd231663221i.png
+  RSI: 71.82
+  Trend: uptrend
+NCLH:
+  Basket: Consumer
+  Chart:
+    LocalPath: NCLH-D-M3.png
+    URL: https://finviz.com/publish/060323/NCLHd232328462i.png
+  RSI: 69.05
+  Trend: uptrend
+NEM:
+  Basket: Materials
+  Chart:
+    LocalPath: NEM-D-M3.png
+    URL: https://finviz.com/publish/060323/NEMd233316527i.png
+  RSI: 38.6
+  Trend: downtrend
+NET:
+  Basket: Technology
+  Chart:
+    LocalPath: NET-D-M3.png
+    URL: https://finviz.com/publish/060323/NETd231787323i.png
+  RSI: 75.08
+  Trend: uptrend
+NFLX:
+  Basket: Technology
+  Chart:
+    LocalPath: NFLX-D-M3.png
+    URL: https://finviz.com/publish/060323/NFLXd231743396i.png
+  RSI: 72.56
+  Trend: uptrend
+NKE:
+  Basket: Consumer
+  Chart:
+    LocalPath: NKE-D-M3.png
+    URL: https://finviz.com/publish/060323/NKEd232548920i.png
+  RSI: 34.24
+  Trend: downtrend
+NVDA:
+  Basket: Technology
+  Chart:
+    LocalPath: NVDA-D-M3.png
+    URL: https://finviz.com/publish/060323/NVDAd231778341i.png
+  RSI: 73.57
+  Trend: uptrend
+ORCL:
+  Basket: Technology
+  Chart:
+    LocalPath: ORCL-D-M3.png
+    URL: https://finviz.com/publish/060323/ORCLd231704561i.png
+  RSI: 71.35
+  Trend: uptrend
+OXY:
+  Basket: Energy
+  Chart:
+    LocalPath: OXY-D-M3.png
+    URL: https://finviz.com/publish/060323/OXYd232873076i.png
+  RSI: 51.81
+  Trend: downtrend
+PEP:
+  Basket: Consumer
+  Chart:
+    LocalPath: PEP-D-M3.png
+    URL: https://finviz.com/publish/060323/PEPd232299842i.png
+  RSI: 39.7
+  Trend: downtrend
+PFE:
+  Basket: Health
+  Chart:
+    LocalPath: PFE-D-M3.png
+    URL: https://finviz.com/publish/060323/PFEd232916976i.png
+  RSI: 50.24
+  Trend: downtrend
+PG:
+  Basket: Consumer
+  Chart:
+    LocalPath: PG-D-M3.png
+    URL: https://finviz.com/publish/060323/PGd232359207i.png
+  RSI: 40.35
+  Trend: downtrend
+PNC:
+  Basket: Finance
+  Chart:
+    LocalPath: PNC-D-M3.png
+    URL: https://finviz.com/publish/060323/PNCd233255322i.png
+  RSI: 56.66
+  Trend: downtrend
+PYPL:
+  Basket: Finance
+  Chart:
+    LocalPath: PYPL-D-M3.png
+    URL: https://finviz.com/publish/060323/PYPLd233153742i.png
+  RSI: 46.12
+  Trend: downtrend
+QCOM:
+  Basket: Technology
+  Chart:
+    LocalPath: QCOM-D-M3.png
+    URL: https://finviz.com/publish/060323/QCOMd231970681i.png
+  RSI: 59.08
+  Trend: downtrend
+QQQ:
+  Basket: Technology
+  Chart:
+    LocalPath: QQQ-D-M3.png
+    URL: https://finviz.com/publish/060323/QQQd231795476i.png
+  RSI: 75.92
+  Trend: uptrend
+RCL:
+  Basket: Consumer
+  Chart:
+    LocalPath: RCL-D-M3.png
+    URL: https://finviz.com/publish/060323/RCLd232286220i.png
+  RSI: 76.23
+  Trend: uptrend
+RIG:
+  Basket: Energy
+  Chart:
+    LocalPath: RIG-D-M3.png
+    URL: https://finviz.com/publish/060323/RIGd232896033i.png
+  RSI: 58.86
+  Trend: sideways
+ROKU:
+  Basket: Communications
+  Chart:
+    LocalPath: ROKU-D-M3.png
+    URL: https://finviz.com/publish/060323/ROKUd232075776i.png
+  RSI: 58.29
+  Trend: downtrend
+SBUX:
+  Basket: Consumer
+  Chart:
+    LocalPath: SBUX-D-M3.png
+    URL: https://finviz.com/publish/060323/SBUXd232330238i.png
+  RSI: 38.07
+  Trend: downtrend
+SCHW:
+  Basket: Finance
+  Chart:
+    LocalPath: SCHW-D-M3.png
+    URL: https://finviz.com/publish/060323/SCHWd233221306i.png
+  RSI: 58.53
+  Trend: sideways
+SHOP:
+  Basket: Technology
+  Chart:
+    LocalPath: SHOP-D-M3.png
+    URL: https://finviz.com/publish/060323/SHOPd231794644i.png
+  RSI: 54.25
+  Trend: downtrend
+SLB:
+  Basket: Energy
+  Chart:
+    LocalPath: SLB-D-M3.png
+    URL: https://finviz.com/publish/060323/SLBd232889932i.png
+  RSI: 53.06
+  Trend: downtrend
+SLV:
+  Basket: Precious Metals
+  Chart:
+    LocalPath: SLV-D-M3.png
+    URL: https://finviz.com/publish/060323/SLVd233665815i.png
+  RSI: 45.41
+  Trend: downtrend
+SMH:
+  Basket: Technology
+  Chart:
+    LocalPath: SMH-D-M3.png
+    URL: https://finviz.com/publish/060323/SMHd231746597i.png
+  RSI: 70.5
+  Trend: uptrend
+SPY:
+  Basket: US Stocks
+  Chart:
+    LocalPath: SPY-D-M3.png
+    URL: https://finviz.com/publish/060323/SPYd231485189i.png
+  RSI: 66.46
+  Trend: uptrend
+SQ:
+  Basket: Technology
+  Chart:
+    LocalPath: SQ-D-M3.png
+    URL: https://finviz.com/publish/060323/SQd231912365i.png
+  RSI: 58.64
+  Trend: downtrend
+T:
+  Basket: Communications
+  Chart:
+    LocalPath: T-D-M3.png
+    URL: https://finviz.com/publish/060323/Td232085099i.png
+  RSI: 28.38
+  Trend: downtrend
+TGT:
+  Basket: Consumer
+  Chart:
+    LocalPath: TGT-D-M3.png
+    URL: https://finviz.com/publish/060323/TGTd232602281i.png
+  RSI: 26.0
+  Trend: downtrend
+TJX:
+  Basket: Consumer
+  Chart:
+    LocalPath: TJX-D-M3.png
+    URL: https://finviz.com/publish/060323/TJXd232231163i.png
+  RSI: 52.48
+  Trend: sideways
+TLT:
+  Basket: US Bonds
+  Chart:
+    LocalPath: TLT-D-M3.png
+    URL: https://finviz.com/publish/060323/TLTd231439450i.png
+  RSI: 45.39
+  Trend: downtrend
+TSLA:
+  Basket: Consumer
+  Chart:
+    LocalPath: TSLA-D-M3.png
+    URL: https://finviz.com/publish/060323/TSLAd232695168i.png
+  RSI: 76.32
+  Trend: uptrend
+TSM:
+  Basket: Technology
+  Chart:
+    LocalPath: TSM-D-M3.png
+    URL: https://finviz.com/publish/060323/TSMd231857296i.png
+  RSI: 65.54
+  Trend: uptrend
+TTD:
+  Basket: Technology
+  Chart:
+    LocalPath: TTD-D-M3.png
+    URL: https://finviz.com/publish/060323/TTDd231807170i.png
+  RSI: 74.38
+  Trend: uptrend
+TXN:
+  Basket: Technology
+  Chart:
+    LocalPath: TXN-D-M3.png
+    URL: https://finviz.com/publish/060323/TXNd231950844i.png
+  RSI: 58.66
+  Trend: uptrend
+UAL:
+  Basket: Industrial
+  Chart:
+    LocalPath: UAL-D-M3.png
+    URL: https://finviz.com/publish/060323/UALd233460928i.png
+  RSI: 61.7
+  Trend: uptrend
+UBER:
+  Basket: Technology
+  Chart:
+    LocalPath: UBER-D-M3.png
+    URL: https://finviz.com/publish/060323/UBERd231834488i.png
+  RSI: 66.34
+  Trend: sideways
+UPS:
+  Basket: Industrial
+  Chart:
+    LocalPath: UPS-D-M3.png
+    URL: https://finviz.com/publish/060323/UPSd233537251i.png
+  RSI: 43.81
+  Trend: sideways
+USB:
+  Basket: Finance
+  Chart:
+    LocalPath: USB-D-M3.png
+    URL: https://finviz.com/publish/060323/USBd233267434i.png
+  RSI: 52.9
+  Trend: sideways
+USO:
+  Basket: Energy
+  Chart:
+    LocalPath: USO-D-M3.png
+    URL: https://finviz.com/publish/060323/USOd232671092i.png
+  RSI: 49.8
+  Trend: downtrend
+V:
+  Basket: Finance
+  Chart:
+    LocalPath: V-D-M3.png
+    URL: https://finviz.com/publish/060323/Vd233187271i.png
+  RSI: 51.75
+  Trend: downtrend
+VFC:
+  Basket: Consumer
+  Chart:
+    LocalPath: VFC-D-M3.png
+    URL: https://finviz.com/publish/060323/VFCd232682751i.png
+  RSI: 38.07
+  Trend: downtrend
+VXX:
+  Basket: Finance
+  Chart:
+    LocalPath: VXX-D-M3.png
+    URL: https://finviz.com/publish/060323/VXXd233273273i.png
+  RSI: 29.86
+  Trend: downtrend
+VZ:
+  Basket: Communications
+  Chart:
+    LocalPath: VZ-D-M3.png
+    URL: https://finviz.com/publish/060323/VZd232131772i.png
+  RSI: 32.21
+  Trend: downtrend
+WBA:
+  Basket: Health
+  Chart:
+    LocalPath: WBA-D-M3.png
+    URL: https://finviz.com/publish/060323/WBAd232996814i.png
+  RSI: 45.04
+  Trend: downtrend
+WFC:
+  Basket: Finance
+  Chart:
+    LocalPath: WFC-D-M3.png
+    URL: https://finviz.com/publish/060323/WFCd233299781i.png
+  RSI: 57.56
+  Trend: downtrend
+WMT:
+  Basket: Consumer
+  Chart:
+    LocalPath: WMT-D-M3.png
+    URL: https://finviz.com/publish/060323/WMTd232306624i.png
+  RSI: 49.5
+  Trend: downtrend
+X:
+  Basket: Materials
+  Chart:
+    LocalPath: X-D-M3.png
+    URL: https://finviz.com/publish/060323/Xd233309901i.png
+  RSI: 48.15
+  Trend: downtrend
+XBI:
+  Basket: Health
+  Chart:
+    LocalPath: XBI-D-M3.png
+    URL: https://finviz.com/publish/060323/XBId232816196i.png
+  RSI: 56.95
+  Trend: sideways
+XHB:
+  Basket: Industrial
+  Chart:
+    LocalPath: XHB-D-M3.png
+    URL: https://finviz.com/publish/060323/XHBd233420563i.png
+  RSI: 61.06
+  Trend: sideways
+XLB:
+  Basket: Materials
+  Chart:
+    LocalPath: XLB-D-M3.png
+    URL: https://finviz.com/publish/060323/XLBd233438588i.png
+  RSI: 53.54
+  Trend: downtrend
+XLE:
+  Basket: Energy
+  Chart:
+    LocalPath: XLE-D-M3.png
+    URL: https://finviz.com/publish/060323/XLEd232833098i.png
+  RSI: 49.99
+  Trend: downtrend
+XLF:
+  Basket: Finance
+  Chart:
+    LocalPath: XLF-D-M3.png
+    URL: https://finviz.com/publish/060323/XLFd233120843i.png
+  RSI: 56.39
+  Trend: downtrend
+XLK:
+  Basket: Technology
+  Chart:
+    LocalPath: XLK-D-M3.png
+    URL: https://finviz.com/publish/060323/XLKd231871434i.png
+  RSI: 74.17
+  Trend: uptrend
+XLP:
+  Basket: Consumer
+  Chart:
+    LocalPath: XLP-D-M3.png
+    URL: https://finviz.com/publish/060323/XLPd232444975i.png
+  RSI: 39.07
+  Trend: downtrend
+XLU:
+  Basket: Utilities
+  Chart:
+    LocalPath: XLU-D-M3.png
+    URL: https://finviz.com/publish/060323/XLUd233080222i.png
+  RSI: 37.88
+  Trend: downtrend
+XLY:
+  Basket: Consumer
+  Chart:
+    LocalPath: XLY-D-M3.png
+    URL: https://finviz.com/publish/060323/XLYd232254627i.png
+  RSI: 68.24
+  Trend: uptrend
+XOM:
+  Basket: Energy
+  Chart:
+    LocalPath: XOM-D-M3.png
+    URL: https://finviz.com/publish/060323/XOMd232827643i.png
+  RSI: 46.6
+  Trend: downtrend
+XOP:
+  Basket: Energy
+  Chart:
+    LocalPath: XOP-D-M3.png
+    URL: https://finviz.com/publish/060323/XOPd232849403i.png
+  RSI: 52.4
+  Trend: downtrend
+XRT:
+  Basket: Consumer
+  Chart:
+    LocalPath: XRT-D-M3.png
+    URL: https://finviz.com/publish/060323/XRTd232614055i.png
+  RSI: 47.89
+  Trend: downtrend
