@@ -15,7 +15,9 @@ $ pip install -r requirements.txt
 
 ## TODOs
 
-* Change "Trend" to "Price Action" and "Sentiment" instead.
+* ~~Add a cheap Flask test server that modified the YAML file when a POST is sent back.~~
+* ~~Add radio buttons on generated HTML for sentiment and have then send a POST to the local server.~~
+* ~~Change "Trend" to "Direction", meaning "Directional Assumption".~~
+* Change data structure so that all symbols get located under "Symbols" key.
+* Add "Price Action" data point.
 * Scape the full company name from Finviz and store in YAML file.
-* Add radio buttons on generated HTML for sentiment and have then send a POST to the local server.
-* Add a cheap Flask test server that modified the YAML file when a POST is sent back.
