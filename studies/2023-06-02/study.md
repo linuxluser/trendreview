@@ -7,7 +7,7 @@
 
 ### BIDU
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.67 | sideways | Communications |
 
@@ -15,7 +15,7 @@
 
 ### CMCSA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  46.34 | downtrend | Communications |
 
@@ -23,7 +23,7 @@
 
 ### DIS
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  43.5 | downtrend | Communications |
 
@@ -31,7 +31,7 @@
 
 ### GOOG
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  68.14 | uptrend | Communications |
 
@@ -39,7 +39,7 @@
 
 ### META
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  83.85 | uptrend | Communications |
 
@@ -47,7 +47,7 @@
 
 ### ROKU
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.29 | downtrend | Communications |
 
@@ -55,7 +55,7 @@
 
 ### T
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  28.38 | downtrend | Communications |
 
@@ -63,7 +63,7 @@
 
 ### VZ
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  32.21 | downtrend | Communications |
 
@@ -76,7 +76,7 @@
 
 ### AMZN
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  71.86 | uptrend | Consumer |
 
@@ -84,7 +84,7 @@
 
 ### BABA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  49.48 | downtrend | Consumer |
 
@@ -92,7 +92,7 @@
 
 ### BBY
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  52.16 | downtrend | Consumer |
 
@@ -100,7 +100,7 @@
 
 ### BYND
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  40.07 | downtrend | Consumer |
 
@@ -108,7 +108,7 @@
 
 ### CHWY
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  59.26 | downtrend | Consumer |
 
@@ -116,7 +116,7 @@
 
 ### COST
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  62.5 | uptrend | Consumer |
 
@@ -124,7 +124,7 @@
 
 ### CZR
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  54.97 | downtrend | Consumer |
 
@@ -132,7 +132,7 @@
 
 ### DKNG
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  63.41 | uptrend | Consumer |
 
@@ -140,7 +140,7 @@
 
 ### EXPE
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  66.46 | uptrend | Consumer |
 
@@ -148,7 +148,7 @@
 
 ### F
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  57.56 | downtrend | Consumer |
 
@@ -156,7 +156,7 @@
 
 ### GM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  56.75 | downtrend | Consumer |
 
@@ -164,7 +164,7 @@
 
 ### HD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  54.34 | downtrend | Consumer |
 
@@ -172,7 +172,7 @@
 
 ### JD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  50.1 | downtrend | Consumer |
 
@@ -180,7 +180,7 @@
 
 ### KO
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  42.32 | downtrend | Consumer |
 
@@ -188,7 +188,7 @@
 
 ### KR
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  36.89 | downtrend | Consumer |
 
@@ -196,7 +196,7 @@
 
 ### KSS
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  49.98 | downtrend | Consumer |
 
@@ -204,7 +204,7 @@
 
 ### LOW
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  56.67 | sideways | Consumer |
 
@@ -212,7 +212,7 @@
 
 ### LVS
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  51.76 | downtrend | Consumer |
 
@@ -220,7 +220,7 @@
 
 ### MAR
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  56.96 | sideways | Consumer |
 
@@ -228,7 +228,7 @@
 
 ### MCD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  50.95 | downtrend | Consumer |
 
@@ -236,7 +236,7 @@
 
 ### MDLZ
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  45.97 | downtrend | Consumer |
 
@@ -244,7 +244,7 @@
 
 ### MGM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  44.85 | downtrend | Consumer |
 
@@ -252,7 +252,7 @@
 
 ### MO
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  50.05 | downtrend | Consumer |
 
@@ -260,7 +260,7 @@
 
 ### NCLH
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  69.05 | uptrend | Consumer |
 
@@ -268,7 +268,7 @@
 
 ### NKE
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  34.24 | downtrend | Consumer |
 
@@ -276,7 +276,7 @@
 
 ### PEP
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  39.7 | downtrend | Consumer |
 
@@ -284,7 +284,7 @@
 
 ### PG
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  40.35 | downtrend | Consumer |
 
@@ -292,7 +292,7 @@
 
 ### RCL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  76.23 | uptrend | Consumer |
 
@@ -300,7 +300,7 @@
 
 ### SBUX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  38.07 | downtrend | Consumer |
 
@@ -308,7 +308,7 @@
 
 ### TGT
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  26.0 | downtrend | Consumer |
 
@@ -316,7 +316,7 @@
 
 ### TJX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  52.48 | sideways | Consumer |
 
@@ -324,7 +324,7 @@
 
 ### TSLA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  76.32 | uptrend | Consumer |
 
@@ -332,7 +332,7 @@
 
 ### VFC
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  38.07 | downtrend | Consumer |
 
@@ -340,7 +340,7 @@
 
 ### WMT
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  49.5 | downtrend | Consumer |
 
@@ -348,7 +348,7 @@
 
 ### XLP
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  39.07 | downtrend | Consumer |
 
@@ -356,7 +356,7 @@
 
 ### XLY
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  68.24 | uptrend | Consumer |
 
@@ -364,7 +364,7 @@
 
 ### XRT
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  47.89 | downtrend | Consumer |
 
@@ -377,7 +377,7 @@
 
 ### APA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  49.2 | downtrend | Energy |
 
@@ -385,7 +385,7 @@
 
 ### BP
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  45.05 | downtrend | Energy |
 
@@ -393,7 +393,7 @@
 
 ### COP
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  52.43 | downtrend | Energy |
 
@@ -401,7 +401,7 @@
 
 ### CVX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  48.05 | downtrend | Energy |
 
@@ -409,7 +409,7 @@
 
 ### DVN
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  47.99 | downtrend | Energy |
 
@@ -417,7 +417,7 @@
 
 ### HAL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  56.35 | sideways | Energy |
 
@@ -425,7 +425,7 @@
 
 ### KMI
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  52.92 | downtrend | Energy |
 
@@ -433,7 +433,7 @@
 
 ### MPC
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  42.83 | downtrend | Energy |
 
@@ -441,7 +441,7 @@
 
 ### MRO
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  50.69 | downtrend | Energy |
 
@@ -449,7 +449,7 @@
 
 ### OXY
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  51.81 | downtrend | Energy |
 
@@ -457,7 +457,7 @@
 
 ### RIG
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.86 | sideways | Energy |
 
@@ -465,7 +465,7 @@
 
 ### SLB
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  53.06 | downtrend | Energy |
 
@@ -473,7 +473,7 @@
 
 ### USO
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  49.8 | downtrend | Energy |
 
@@ -481,7 +481,7 @@
 
 ### XLE
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  49.99 | downtrend | Energy |
 
@@ -489,7 +489,7 @@
 
 ### XOM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  46.6 | downtrend | Energy |
 
@@ -497,7 +497,7 @@
 
 ### XOP
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  52.4 | downtrend | Energy |
 
@@ -510,7 +510,7 @@
 
 ### AIG
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  57.79 | uptrend | Finance |
 
@@ -518,7 +518,7 @@
 
 ### AXP
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  68.98 | uptrend | Finance |
 
@@ -526,7 +526,7 @@
 
 ### BAC
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  54.56 | downtrend | Finance |
 
@@ -534,7 +534,7 @@
 
 ### BX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  61.64 | downtrend | Finance |
 
@@ -542,7 +542,7 @@
 
 ### C
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  52.99 | downtrend | Finance |
 
@@ -550,7 +550,7 @@
 
 ### COF
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  73.13 | uptrend | Finance |
 
@@ -558,7 +558,7 @@
 
 ### FITB
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  54.35 | downtrend | Finance |
 
@@ -566,7 +566,7 @@
 
 ### GS
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  47.37 | downtrend | Finance |
 
@@ -574,7 +574,7 @@
 
 ### JPM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  59.46 | sideways | Finance |
 
@@ -582,7 +582,7 @@
 
 ### KRE
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.1 | downtrend | Finance |
 
@@ -590,7 +590,7 @@
 
 ### MET
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  48.64 | downtrend | Finance |
 
@@ -598,7 +598,7 @@
 
 ### MS
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  50.9 | sideways | Finance |
 
@@ -606,7 +606,7 @@
 
 ### PNC
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  56.66 | downtrend | Finance |
 
@@ -614,7 +614,7 @@
 
 ### PYPL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  46.12 | downtrend | Finance |
 
@@ -622,7 +622,7 @@
 
 ### SCHW
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.53 | sideways | Finance |
 
@@ -630,7 +630,7 @@
 
 ### USB
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  52.9 | sideways | Finance |
 
@@ -638,7 +638,7 @@
 
 ### V
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  51.75 | downtrend | Finance |
 
@@ -646,7 +646,7 @@
 
 ### VXX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  29.86 | downtrend | Finance |
 
@@ -654,7 +654,7 @@
 
 ### WFC
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  57.56 | downtrend | Finance |
 
@@ -662,7 +662,7 @@
 
 ### XLF
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  56.39 | downtrend | Finance |
 
@@ -675,7 +675,7 @@
 
 ### ABBV
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  33.43 | downtrend | Health |
 
@@ -683,7 +683,7 @@
 
 ### ABT
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  42.32 | downtrend | Health |
 
@@ -691,7 +691,7 @@
 
 ### CVS
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  49.95 | downtrend | Health |
 
@@ -699,7 +699,7 @@
 
 ### JNJ
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  44.49 | downtrend | Health |
 
@@ -707,7 +707,7 @@
 
 ### MRK
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  46.14 | downtrend | Health |
 
@@ -715,7 +715,7 @@
 
 ### MRNA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  47.9 | sideways | Health |
 
@@ -723,7 +723,7 @@
 
 ### PFE
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  50.24 | downtrend | Health |
 
@@ -731,7 +731,7 @@
 
 ### WBA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  45.04 | downtrend | Health |
 
@@ -739,7 +739,7 @@
 
 ### XBI
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  56.95 | sideways | Health |
 
@@ -752,7 +752,7 @@
 
 ### AAL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.79 | uptrend | Industrial |
 
@@ -760,7 +760,7 @@
 
 ### BA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  64.25 | sideways | Industrial |
 
@@ -768,7 +768,7 @@
 
 ### CAT
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  63.85 | downtrend | Industrial |
 
@@ -776,7 +776,7 @@
 
 ### DAL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  64.93 | uptrend | Industrial |
 
@@ -784,7 +784,7 @@
 
 ### DE
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  52.41 | downtrend | Industrial |
 
@@ -792,7 +792,7 @@
 
 ### FDX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  45.59 | downtrend | Industrial |
 
@@ -800,7 +800,7 @@
 
 ### GE
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  64.87 | uptrend | Industrial |
 
@@ -808,7 +808,7 @@
 
 ### LUV
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  51.68 | sideways | Industrial |
 
@@ -816,7 +816,7 @@
 
 ### UAL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  61.7 | uptrend | Industrial |
 
@@ -824,7 +824,7 @@
 
 ### UPS
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  43.81 | sideways | Industrial |
 
@@ -832,7 +832,7 @@
 
 ### XHB
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  61.06 | sideways | Industrial |
 
@@ -845,7 +845,7 @@
 
 ### EEM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  56.59 | downtrend | International |
 
@@ -853,7 +853,7 @@
 
 ### EFA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  51.26 | downtrend | International |
 
@@ -861,7 +861,7 @@
 
 ### EWZ
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  62.92 | sideways | International |
 
@@ -869,7 +869,7 @@
 
 ### FXI
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  48.26 | downtrend | International |
 
@@ -882,7 +882,7 @@
 
 ### CF
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  37.97 | downtrend | Materials |
 
@@ -890,7 +890,7 @@
 
 ### CLF
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  50.2 | downtrend | Materials |
 
@@ -898,7 +898,7 @@
 
 ### DOW
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  48.34 | downtrend | Materials |
 
@@ -906,7 +906,7 @@
 
 ### FCX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  55.73 | sideways | Materials |
 
@@ -914,7 +914,7 @@
 
 ### MOS
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  30.85 | downtrend | Materials |
 
@@ -922,7 +922,7 @@
 
 ### NEM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  38.6 | downtrend | Materials |
 
@@ -930,7 +930,7 @@
 
 ### X
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  48.15 | downtrend | Materials |
 
@@ -938,7 +938,7 @@
 
 ### XLB
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  53.54 | downtrend | Materials |
 
@@ -951,7 +951,7 @@
 
 ### GDX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  42.96 | downtrend | Precious Metals |
 
@@ -959,7 +959,7 @@
 
 ### GLD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  41.71 | downtrend | Precious Metals |
 
@@ -967,7 +967,7 @@
 
 ### GOLD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  36.94 | downtrend | Precious Metals |
 
@@ -975,7 +975,7 @@
 
 ### SLV
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  45.41 | downtrend | Precious Metals |
 
@@ -988,7 +988,7 @@
 
 ### IYR
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  55.77 | downtrend | Real Estate |
 
@@ -1001,7 +1001,7 @@
 
 ### AAPL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  72.63 | uptrend | Technology |
 
@@ -1009,7 +1009,7 @@
 
 ### ADBE
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  78.54 | uptrend | Technology |
 
@@ -1017,7 +1017,7 @@
 
 ### AMAT
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  66.59 | uptrend | Technology |
 
@@ -1025,7 +1025,7 @@
 
 ### AMD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  65.23 | uptrend | Technology |
 
@@ -1033,7 +1033,7 @@
 
 ### ARKK
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  64.22 | uptrend | Technology |
 
@@ -1041,7 +1041,7 @@
 
 ### AVGO
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  78.41 | uptrend | Technology |
 
@@ -1049,7 +1049,7 @@
 
 ### CRM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.07 | uptrend | Technology |
 
@@ -1057,7 +1057,7 @@
 
 ### CRWD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  61.0 | uptrend | Technology |
 
@@ -1065,7 +1065,7 @@
 
 ### CSCO
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  63.03 | uptrend | Technology |
 
@@ -1073,7 +1073,7 @@
 
 ### DOCU
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  67.03 | uptrend | Technology |
 
@@ -1081,7 +1081,7 @@
 
 ### FSLR
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  54.66 | uptrend | Technology |
 
@@ -1089,7 +1089,7 @@
 
 ### HPQ
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  53.59 | uptrend | Technology |
 
@@ -1097,7 +1097,7 @@
 
 ### IBM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  67.81 | uptrend | Technology |
 
@@ -1105,7 +1105,7 @@
 
 ### INTC
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  57.2 | downtrend | Technology |
 
@@ -1113,7 +1113,7 @@
 
 ### MRVL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  70.2 | sideways | Technology |
 
@@ -1121,7 +1121,7 @@
 
 ### MSFT
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  71.82 | uptrend | Technology |
 
@@ -1129,7 +1129,7 @@
 
 ### NET
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  75.08 | uptrend | Technology |
 
@@ -1137,7 +1137,7 @@
 
 ### NFLX
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  72.56 | uptrend | Technology |
 
@@ -1145,7 +1145,7 @@
 
 ### NVDA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  73.57 | uptrend | Technology |
 
@@ -1153,7 +1153,7 @@
 
 ### ORCL
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  71.35 | uptrend | Technology |
 
@@ -1161,7 +1161,7 @@
 
 ### QCOM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  59.08 | downtrend | Technology |
 
@@ -1169,7 +1169,7 @@
 
 ### QQQ
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  75.92 | uptrend | Technology |
 
@@ -1177,7 +1177,7 @@
 
 ### SHOP
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  54.25 | downtrend | Technology |
 
@@ -1185,7 +1185,7 @@
 
 ### SMH
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  70.5 | uptrend | Technology |
 
@@ -1193,7 +1193,7 @@
 
 ### SQ
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.64 | downtrend | Technology |
 
@@ -1201,7 +1201,7 @@
 
 ### TSM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  65.54 | uptrend | Technology |
 
@@ -1209,7 +1209,7 @@
 
 ### TTD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  74.38 | uptrend | Technology |
 
@@ -1217,7 +1217,7 @@
 
 ### TXN
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.66 | uptrend | Technology |
 
@@ -1225,7 +1225,7 @@
 
 ### UBER
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  66.34 | sideways | Technology |
 
@@ -1233,7 +1233,7 @@
 
 ### XLK
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  74.17 | uptrend | Technology |
 
@@ -1246,7 +1246,7 @@
 
 ### HYG
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  53.54 | downtrend | US Bonds |
 
@@ -1254,7 +1254,7 @@
 
 ### LQD
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  47.1 | downtrend | US Bonds |
 
@@ -1262,7 +1262,7 @@
 
 ### TLT
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  45.39 | downtrend | US Bonds |
 
@@ -1275,7 +1275,7 @@
 
 ### DIA
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  58.98 | sideways | US Stocks |
 
@@ -1283,7 +1283,7 @@
 
 ### IWM
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  62.28 | sideways | US Stocks |
 
@@ -1291,7 +1291,7 @@
 
 ### SPY
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  66.46 | uptrend | US Stocks |
 
@@ -1304,7 +1304,7 @@
 
 ### XLU
 
-|  RSI(14) | Trend | Basket |
+|  RSI(14) | Direction | Basket |
 |----------|-------|--------|
 |  37.88 | downtrend | Utilities |
 
