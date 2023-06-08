@@ -5,6 +5,20 @@
 
 ## Communications
 
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  BIDU  |  neutral  | 58.67 |
+| CMCSA  |  bearish  | 46.34 |
+|  DIS   |  bearish  | 43.50 |
+|  GOOG  |  bullish  | 68.14 |
+|  META  |  bullish  | 83.85 |
+|  ROKU  |  bearish  | 58.29 |
+|   T    |  bearish  | 28.38 |
+|   VZ   |  bearish  | 32.21 |
+
+
 ### BIDU
 
 |  RSI(14) | Direction | Basket |
@@ -73,6 +87,49 @@
 ---
 
 ## Consumer
+
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  AMZN  |  bullish  | 71.86 |
+|  BABA  |  bearish  | 49.48 |
+|  BBY   |  bearish  | 52.16 |
+|  BYND  |  bearish  | 40.07 |
+|  CHWY  |  bearish  | 59.26 |
+|  COST  |  bullish  | 62.50 |
+|  CZR   |  bearish  | 54.97 |
+|  DKNG  |  bullish  | 63.41 |
+|  EXPE  |  bullish  | 66.46 |
+|   F    |  bearish  | 57.56 |
+|   GM   |  bearish  | 56.75 |
+|   HD   |  bearish  | 54.34 |
+|   JD   |  bearish  | 50.10 |
+|   KO   |  bearish  | 42.32 |
+|   KR   |  bearish  | 36.89 |
+|  KSS   |  bearish  | 49.98 |
+|  LOW   |  neutral  | 56.67 |
+|  LVS   |  bearish  | 51.76 |
+|  MAR   |  neutral  | 56.96 |
+|  MCD   |  bearish  | 50.95 |
+|  MDLZ  |  bearish  | 45.97 |
+|  MGM   |  bearish  | 44.85 |
+|   MO   |  bearish  | 50.05 |
+|  NCLH  |  bullish  | 69.05 |
+|  NKE   |  bearish  | 34.24 |
+|  PEP   |  bearish  | 39.70 |
+|   PG   |  bearish  | 40.35 |
+|  RCL   |  bullish  | 76.23 |
+|  SBUX  |  bearish  | 38.07 |
+|  TGT   |  bearish  | 26.00 |
+|  TJX   |  neutral  | 52.48 |
+|  TSLA  |  bullish  | 76.32 |
+|  VFC   |  bearish  | 38.07 |
+|  WMT   |  bearish  | 49.50 |
+|  XLP   |  bearish  | 39.07 |
+|  XLY   |  bullish  | 68.24 |
+|  XRT   |  bearish  | 47.89 |
+
 
 ### AMZN
 
@@ -375,6 +432,28 @@
 
 ## Energy
 
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  APA   |  bearish  | 49.20 |
+|   BP   |  bearish  | 45.05 |
+|  COP   |  bearish  | 52.43 |
+|  CVX   |  bearish  | 48.05 |
+|  DVN   |  bearish  | 47.99 |
+|  HAL   |  neutral  | 56.35 |
+|  KMI   |  bearish  | 52.92 |
+|  MPC   |  bearish  | 42.83 |
+|  MRO   |  bearish  | 50.69 |
+|  OXY   |  bearish  | 51.81 |
+|  RIG   |  neutral  | 58.86 |
+|  SLB   |  bearish  | 53.06 |
+|  USO   |  bearish  | 49.80 |
+|  XLE   |  bearish  | 49.99 |
+|  XOM   |  bearish  | 46.60 |
+|  XOP   |  bearish  | 52.40 |
+
+
 ### APA
 
 |  RSI(14) | Direction | Basket |
@@ -507,6 +586,32 @@
 ---
 
 ## Finance
+
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  AIG   |  bullish  | 57.79 |
+|  AXP   |  bullish  | 68.98 |
+|  BAC   |  bearish  | 54.56 |
+|   BX   |  bearish  | 61.64 |
+|   C    |  bearish  | 52.99 |
+|  COF   |  bullish  | 73.13 |
+|  FITB  |  bearish  | 54.35 |
+|   GS   |  bearish  | 47.37 |
+|  JPM   |  neutral  | 59.46 |
+|  KRE   |  bearish  | 58.10 |
+|  MET   |  bearish  | 48.64 |
+|   MS   |  neutral  | 50.90 |
+|  PNC   |  bearish  | 56.66 |
+|  PYPL  |  bearish  | 46.12 |
+|  SCHW  |  neutral  | 58.53 |
+|  USB   |  neutral  | 52.90 |
+|   V    |  bearish  | 51.75 |
+|  VXX   |  bearish  | 29.86 |
+|  WFC   |  bearish  | 57.56 |
+|  XLF   |  bearish  | 56.39 |
+
 
 ### AIG
 
@@ -673,6 +778,21 @@
 
 ## Health
 
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  ABBV  |  bearish  | 33.43 |
+|  ABT   |  bearish  | 42.32 |
+|  CVS   |  bearish  | 49.95 |
+|  JNJ   |  bearish  | 44.49 |
+|  MRK   |  bearish  | 46.14 |
+|  MRNA  |  neutral  | 47.90 |
+|  PFE   |  bearish  | 50.24 |
+|  WBA   |  bearish  | 45.04 |
+|  XBI   |  neutral  | 56.95 |
+
+
 ### ABBV
 
 |  RSI(14) | Direction | Basket |
@@ -749,6 +869,23 @@
 ---
 
 ## Industrial
+
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  AAL   |  bullish  | 58.79 |
+|   BA   |  neutral  | 64.25 |
+|  CAT   |  bearish  | 63.85 |
+|  DAL   |  bullish  | 64.93 |
+|   DE   |  bearish  | 52.41 |
+|  FDX   |  bearish  | 45.59 |
+|   GE   |  bullish  | 64.87 |
+|  LUV   |  neutral  | 51.68 |
+|  UAL   |  bullish  | 61.70 |
+|  UPS   |  neutral  | 43.81 |
+|  XHB   |  neutral  | 61.06 |
+
 
 ### AAL
 
@@ -843,6 +980,16 @@
 
 ## International
 
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  EEM   |  bearish  | 56.59 |
+|  EFA   |  bearish  | 51.26 |
+|  EWZ   |  neutral  | 62.92 |
+|  FXI   |  bearish  | 48.26 |
+
+
 ### EEM
 
 |  RSI(14) | Direction | Basket |
@@ -879,6 +1026,20 @@
 ---
 
 ## Materials
+
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|   CF   |  bearish  | 37.97 |
+|  CLF   |  bearish  | 50.20 |
+|  DOW   |  bearish  | 48.34 |
+|  FCX   |  neutral  | 55.73 |
+|  MOS   |  bearish  | 30.85 |
+|  NEM   |  bearish  | 38.60 |
+|   X    |  bearish  | 48.15 |
+|  XLB   |  bearish  | 53.54 |
+
 
 ### CF
 
@@ -949,6 +1110,16 @@
 
 ## Precious Metals
 
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  GDX   |  bearish  | 42.96 |
+|  GLD   |  bearish  | 41.71 |
+|  GOLD  |  bearish  | 36.94 |
+|  SLV   |  bearish  | 45.41 |
+
+
 ### GDX
 
 |  RSI(14) | Direction | Basket |
@@ -986,6 +1157,13 @@
 
 ## Real Estate
 
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  IYR   |  bearish  | 55.77 |
+
+
 ### IYR
 
 |  RSI(14) | Direction | Basket |
@@ -998,6 +1176,42 @@
 ---
 
 ## Technology
+
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  AAPL  |  bullish  | 72.63 |
+|  ADBE  |  bullish  | 78.54 |
+|  AMAT  |  bullish  | 66.59 |
+|  AMD   |  bullish  | 65.23 |
+|  ARKK  |  bullish  | 64.22 |
+|  AVGO  |  bullish  | 78.41 |
+|  CRM   |  bullish  | 58.07 |
+|  CRWD  |  bullish  | 61.00 |
+|  CSCO  |  bullish  | 63.03 |
+|  DOCU  |  bullish  | 67.03 |
+|  FSLR  |  bullish  | 54.66 |
+|  HPQ   |  bullish  | 53.59 |
+|  IBM   |  bullish  | 67.81 |
+|  INTC  |  bearish  | 57.20 |
+|  MRVL  |  neutral  | 70.20 |
+|  MSFT  |  bullish  | 71.82 |
+|  NET   |  bullish  | 75.08 |
+|  NFLX  |  bullish  | 72.56 |
+|  NVDA  |  bullish  | 73.57 |
+|  ORCL  |  bullish  | 71.35 |
+|  QCOM  |  bearish  | 59.08 |
+|  QQQ   |  bullish  | 75.92 |
+|  SHOP  |  bearish  | 54.25 |
+|  SMH   |  bullish  | 70.50 |
+|   SQ   |  bearish  | 58.64 |
+|  TSM   |  bullish  | 65.54 |
+|  TTD   |  bullish  | 74.38 |
+|  TXN   |  bullish  | 58.66 |
+|  UBER  |  neutral  | 66.34 |
+|  XLK   |  bullish  | 74.17 |
+
 
 ### AAPL
 
@@ -1244,6 +1458,15 @@
 
 ## US Bonds
 
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  HYG   |  bearish  | 53.54 |
+|  LQD   |  bearish  | 47.10 |
+|  TLT   |  bearish  | 45.39 |
+
+
 ### HYG
 
 |  RSI(14) | Direction | Basket |
@@ -1273,6 +1496,15 @@
 
 ## US Stocks
 
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  DIA   |  neutral  | 58.98 |
+|  IWM   |  neutral  | 62.28 |
+|  SPY   |  bullish  | 66.46 |
+
+
 ### DIA
 
 |  RSI(14) | Direction | Basket |
@@ -1301,6 +1533,13 @@
 ---
 
 ## Utilities
+
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|
+|  XLU   |  bearish  | 37.88 |
+
 
 ### XLU
 
