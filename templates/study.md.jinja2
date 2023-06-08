@@ -4,6 +4,13 @@
 ---
 
 ## {{ basket }}
+
+### Data Table
+
+| Symbol | Direction |  RSI  |
+|--------|-----------|-------|{% for symbol,data in symbol_data|dictsort %}
+| {{ symbol|center(6) }} | {{ data.Direction|center(9) }} | {{ '%2.2f'|format(data.RSI) }} |{% endfor %}
+
 {% for symbol,data in symbol_data|dictsort %}
 ### {{ symbol }}
 
