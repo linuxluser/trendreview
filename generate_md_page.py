@@ -11,6 +11,20 @@ import jinja2
 import yaml
 
 
+STUDY_DATA_FILE = None
+STUDY_MARKDOWN_FILE = None
+
+
+def set_global_values():
+    """Read config.yaml and load in global values of this script from that."""
+    global STUDY_DATA_FILE
+    global STUDY_MARKDOWN_FILE
+    with open('config.yaml') as f:
+        config = yaml.load(f, Loader=yaml.CSafeLoader)
+    STUDY_DATA_FILE = config['Study Data File']
+    STUDY_MARKDOWN_FILE = config['Study Markdown File']
+
+
 def get_date_string_from_study_directory(study_directory):
     path = pathlib.Path(study_directory)
     year = month = day = None
@@ -35,7 +49,8 @@ def get_date_string_from_study_directory(study_directory):
 
 
 def main(args):
-    yaml_file = os.path.join(args.study_directory, 'study.yaml')
+    set_global_values()
+    yaml_file = os.path.join(args.study_directory, STUDY_DATA_FILE)
     with open(yaml_file, 'r') as f:
         symbols = yaml.load(f, Loader=yaml.CSafeLoader)
 
@@ -46,7 +61,7 @@ def main(args):
     for_date = get_date_string_from_study_directory(args.study_directory)
     md_template = open('templates/study.md.jinja2').read()
     template = jinja2.Environment(loader=jinja2.BaseLoader).from_string(md_template)
-    md_file = os.path.join(args.study_directory, 'study.md')
+    md_file = os.path.join(args.study_directory, STUDY_MARKDOWN_FILE)
     with open(md_file, 'w') as f:
         f.write(template.render(baskets=baskets, for_date=for_date))
     print(f'File written: {md_file}')

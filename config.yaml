@@ -1,0 +1,175 @@
+---
+# Top-level configuration values usable by all scripts.
+Studies Base Directory: studies
+Study Data File: study.yaml
+Study Markdown File: study.md
+Baskets:
+  US Stocks:
+  - SPY
+  - IWM
+  - DIA
+  US Bonds:
+  - TLT
+  - HYG
+  - LQD
+  International:
+  - EEM
+  - EFA
+  - EWZ
+  - FXI
+  Technology:
+  - AAPL
+  - ADBE
+  - AMAT
+  - AMD
+  - AVGO
+  - CRM
+  - CRWD
+  - DOCU
+  - MRVL
+  - MSFT
+  - NET
+  - NFLX
+  - NVDA
+  - ORCL
+  - QQQ
+  - SHOP
+  - SMH
+  - TSM
+  - TTD
+  - UBER
+  - XLK
+  - HPQ
+  - INTC
+  - ARKK
+  - CSCO
+  - FSLR
+  - IBM
+  - QCOM
+  - SQ
+  - TXN
+  Communications:
+  - CMCSA
+  - GOOG
+  - META
+  - DIS
+  - BIDU
+  - ROKU
+  - T
+  - VZ
+  Consumer:
+  - AMZN
+  - DKNG
+  - KO
+  - LVS
+  - MAR
+  - MCD
+  - MDLZ
+  - PEP
+  - RCL
+  - TJX
+  - XLY
+  - COST
+  - EXPE
+  - HD
+  - KR
+  - MGM
+  - NCLH
+  - PG
+  - SBUX
+  - WMT
+  - XLP
+  - BABA
+  - BBY
+  - BYND
+  - CHWY
+  - CZR
+  - F
+  - GM
+  - JD
+  - KSS
+  - LOW
+  - MO
+  - NKE
+  - TGT
+  - TSLA
+  - VFC
+  - XRT
+  Energy:
+  - USO
+  - APA
+  - BP
+  - COP
+  - CVX
+  - DVN
+  - HAL
+  - KMI
+  - MPC
+  - MRO
+  - OXY
+  - RIG
+  - SLB
+  - XLE
+  - XOM
+  - XOP
+  Health:
+  - MRK
+  - XBI
+  - ABT
+  - WBA
+  - ABBV
+  - CVS
+  - JNJ
+  - MRNA
+  - PFE
+  Utilities:
+  - XLU
+  Finance:
+  - AIG
+  - BAC
+  - BX
+  - C
+  - COF
+  - GS
+  - JPM
+  - PYPL
+  - V
+  - XLF
+  - AXP
+  - FITB
+  - KRE
+  - MET
+  - MS
+  - PNC
+  - SCHW
+  - USB
+  - VXX
+  - WFC
+  Materials:
+  - CF
+  - CLF
+  - DOW
+  - FCX
+  - MOS
+  - NEM
+  - X
+  - XLB
+  Industrial:
+  - AAL
+  - GE
+  - UAL
+  - XHB
+  - BA
+  - DAL
+  - FDX
+  - CAT
+  - DE
+  - LUV
+  - UPS
+  Precious Metals:
+  - GDX
+  - GLD
+  - GOLD
+  - SLV
+  Real Estate:
+  - IYR

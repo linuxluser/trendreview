@@ -10,8 +10,19 @@ import flask
 import yaml
 
 
-STUDIES_DIR = 'studies'
+STUDIES_DIR = None
+STUDY_DATA_FILE = None
 APP = flask.Flask(__name__, static_url_path='', template_folder='templates')
+
+
+def set_global_values():
+    """Read config.yaml and load in global values of this script from that."""
+    global STUDIES_DIR
+    global STUDY_DATA_FILE
+    with open('config.yaml') as f:
+        config = yaml.load(f, Loader=yaml.CSafeLoader)
+    STUDIES_DIR = config['Studies Base Directory']
+    STUDY_DATA_FILE = config['Study Data File']
 
 
 @APP.route('/')
@@ -49,7 +60,7 @@ def update_direction(study_date, symbol):
         return
     if direction not in ('bullish', 'bearish', 'neutral'):
         return
-    study_yaml_file = os.path.join(STUDIES_DIR, study_date, 'study.yaml')
+    study_yaml_file = os.path.join(STUDIES_DIR, study_date, STUDY_DATA_FILE)
     lock = filelock.FileLock(study_yaml_file + '.lock')
     with lock:
         with open(study_yaml_file, 'r') as f:
@@ -68,7 +79,7 @@ def study(study_date):
     study_directory = os.path.join(STUDIES_DIR, study_date)
     if not os.path.exists(study_directory):
         return flask.abort(404)
-    yaml_file = os.path.join(study_directory, 'study.yaml')
+    yaml_file = os.path.join(study_directory, STUDY_DATA_FILE)
     with open(yaml_file, 'r') as f:
         symbols = yaml.load(f, Loader=yaml.CSafeLoader)
     # Transform data from by-symbol to by-basket
@@ -83,4 +94,5 @@ def study(study_date):
 
 
 if __name__ == '__main__':
+    set_global_values()
     APP.run(port=8080, debug=True)

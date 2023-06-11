@@ -22,25 +22,23 @@ from selenium.webdriver.support import expected_conditions as EC
 
 _OPENER = None
 
-STUDIES_BASE_DIR = 'studies'
-YAML_FILE_NAME = 'study.yaml'
-BASKETS = {
-    'US Stocks': ('SPY', 'IWM', 'DIA'),
-    'US Bonds': ('TLT', 'HYG', 'LQD'),
-    'International': ('EEM', 'EFA', 'EWZ', 'FXI'),
-    'Technology': ('AAPL', 'ADBE', 'AMAT', 'AMD', 'AVGO', 'CRM', 'CRWD', 'DOCU', 'MRVL', 'MSFT', 'NET', 'NFLX', 'NVDA', 'ORCL', 'QQQ', 'SHOP', 'SMH', 'TSM', 'TTD', 'UBER', 'XLK', 'HPQ', 'INTC', 'ARKK', 'CSCO', 'FSLR', 'IBM', 'QCOM', 'SQ', 'TXN'),
-    'Communications': ('CMCSA', 'GOOG', 'META', 'DIS', 'BIDU', 'ROKU', 'T', 'VZ'),
-    'Consumer': ('AMZN', 'DKNG', 'KO', 'LVS', 'MAR', 'MCD', 'MDLZ', 'PEP', 'RCL', 'TJX', 'XLY', 'COST', 'EXPE', 'HD', 'KR', 'MGM', 'NCLH', 'PG', 'SBUX', 'WMT', 'XLP', 'BABA', 'BBY', 'BYND', 'CHWY', 'CZR', 'F', 'GM', 'JD', 'KSS', 'LOW', 'MO', 'NKE', 'TGT', 'TSLA', 'VFC', 'XRT'),
-    'Energy': ('USO', 'APA', 'BP', 'COP', 'CVX', 'DVN', 'HAL', 'KMI', 'MPC', 'MRO', 'OXY', 'RIG', 'SLB', 'XLE', 'XOM', 'XOP'),
-    'Health': ('MRK', 'XBI', 'ABT', 'WBA', 'ABBV', 'CVS', 'JNJ', 'MRNA', 'PFE'),
-    'Utilities': ('XLU',),
-    'Finance': ('AIG', 'BAC', 'BX', 'C', 'COF', 'GS', 'JPM', 'PYPL', 'V', 'XLF', 'AXP', 'FITB', 'KRE', 'MET', 'MS', 'PNC', 'SCHW', 'USB', 'VXX', 'WFC'),
-    'Materials': ('CF', 'CLF', 'DOW', 'FCX', 'MOS', 'NEM', 'X', 'XLB'),
-    'Industrial': ('AAL', 'GE', 'UAL', 'XHB', 'BA', 'DAL', 'FDX', 'CAT', 'DE', 'LUV', 'UPS'),
-    'Precious Metals': ('GDX', 'GLD', 'GOLD', 'SLV'),
-    'Real Estate': ('IYR',),
-}
+STUDIES_BASE_DIR = None
+YAML_FILE_NAME = None
+BASKETS = None
 FINVIZ_URL_TMPL = 'https://finviz.com/quote.ashx?t={}&ty=c&ta=1&p=d&r=m3'
+
+
+def set_global_values():
+    """Read config.yaml and load in global values of this script from that."""
+    global STUDIES_BASE_DIR
+    global YAML_FILE_NAME
+    global BASKETS
+    with open('config.yaml') as f:
+        config = yaml.load(f, Loader=yaml.CSafeLoader)
+    STUDIES_BASE_DIR = config['Studies Base Directory']
+    YAML_FILE_NAME = config['Study Data File']
+    BASKETS = config['Baskets']
+    
 
 
 def scrape_rsi_value(driver):
@@ -145,6 +143,7 @@ def read_study_file_records():
 
 
 def main():
+    set_global_values()
     driver = webdriver.Firefox()
     existing_records = read_study_file_records()
     for basket in BASKETS:
