@@ -8,6 +8,7 @@ import datetime
 import os
 import time
 import urllib.request
+import yaml
 
 from selenium import webdriver
 from selenium.common.exceptions import ElementNotInteractableException
@@ -135,10 +136,22 @@ def write_yaml_record(ticker, basket, rsi, chart_url, chart_local_path):
     return record
 
 
+def read_study_file_records():
+    yaml_file_path = '{}/{}'.format(make_study_dir(), YAML_FILE_NAME)
+    if not os.path.exists(yaml_file_path):
+        return {}
+    with open(yaml_file_path) as f:
+        return yaml.load(f, Loader=yaml.CSafeLoader)
+
+
 def main():
     driver = webdriver.Firefox()
+    existing_records = read_study_file_records()
     for basket in BASKETS:
         for ticker in BASKETS[basket]:
+            if ticker in existing_records:
+                print(f'# Skipping {ticker} because it already has a record.')
+                continue
             driver.get(FINVIZ_URL_TMPL.format(ticker))
             check_and_close_elite_modal_ad(driver)
             rsi = scrape_rsi_value(driver)
