@@ -21,7 +21,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 _OPENER = None
 
-STUDY_BASE_DIR = 'study'
+STUDIES_BASE_DIR = 'studies'
 YAML_FILE_NAME = 'study.yaml'
 BASKETS = {
     'US Stocks': ('SPY', 'IWM', 'DIA'),
@@ -77,7 +77,7 @@ def make_study_dir():
         else:
             days_back = 4 - dow
             date_str = (today + datetime.timedelta(days=days_back)).strftime('%Y-%m-%d')
-        study_dir = '{}/{}'.format(STUDY_BASE_DIR, date_str)
+        study_dir = '{}/{}'.format(STUDIES_BASE_DIR, date_str)
         if not os.path.exists(study_dir):
             os.makedirs(study_dir)
         _STUDY_DIR = study_dir
