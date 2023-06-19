@@ -25,7 +25,8 @@ _OPENER = None
 STUDIES_BASE_DIR = None
 YAML_FILE_NAME = None
 BASKETS = None
-FINVIZ_URL_TMPL = 'https://finviz.com/quote.ashx?t={}&ty=c&ta=1&p=d&r=m3'
+FINVIZ_URL_TMPL = 'https://finviz.com/quote.ashx?t={}&ty=c&ta=1&p=d&r=m6'
+CHART_FILENAME_TMPL = '{}-D-M6.png'
 
 
 def set_global_values():
@@ -38,7 +39,6 @@ def set_global_values():
     STUDIES_BASE_DIR = config['Studies Base Directory']
     YAML_FILE_NAME = config['Study Data File']
     BASKETS = config['Baskets']
-    
 
 
 def scrape_rsi_value(driver):
@@ -79,12 +79,16 @@ def make_study_dir():
         study_dir = '{}/{}'.format(STUDIES_BASE_DIR, date_str)
         if not os.path.exists(study_dir):
             os.makedirs(study_dir)
+            print(f'# Created new study directory: {study_dir}')
+        else:
+            print(f'# Using existing study directory: {study_dir}')
         _STUDY_DIR = study_dir
     return _STUDY_DIR
 
 
 def get_local_path(ticker):
-    return '{}/{}-D-M3.png'.format(make_study_dir(), ticker)
+    """Build LocalPath value of image."""
+    return make_study_dir() + '/' + CHART_FILENAME_TMPL.format(ticker)
 
 
 def download_chart(driver, url, local_path):
