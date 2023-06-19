@@ -28,6 +28,20 @@
 </head>
 
 <body>
+
+<!-- Whether to show only incomplete symbols or not -->
+<div class="container my-5 mx-2">
+    <div class="form-check">
+        {% if incomplete_only %}
+        <input type="checkbox" class="form-check-input" id="incomplete-only" onchange="window.location = window.location.origin + window.location.pathname;" checked>
+        {% else %}
+        <input type="checkbox" class="form-check-input" id="incomplete-only" onchange="window.location = window.location.origin + window.location.pathname + '?incomplete_only=1';">
+        {% endif %}
+        <label class="form-check-label" for="incomplete-only">Show only incomplete symbols.</label>
+    </div>
+</div>
+
+
 {% for basket,symbol_data in baskets|dictsort %}
 <h2 class="bg-primary border border-primary text-white mx-auto px-5 py-2">{{ basket }}</h2>
     <div class="container">
