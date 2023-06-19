@@ -15,7 +15,7 @@
 
         //Send the proper header information along with the request
         http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	http.setRequestHeader("Content-length", params.length);
+        http.setRequestHeader("Content-length", params.length);
 
         http.onreadystatechange = function() {
             if (http.readyState == 4 && http.status == 200) {
@@ -34,7 +34,7 @@
         {% for symbol,data in symbol_data|dictsort if not (incomplete_only and data.Direction) %}
         <div class="row">
             <div class="col">
-	    <img src="/studies/{{ for_date }}/{{ data.Chart.LocalPath }}" class="img-fluid rounded mx-auto d-block" />
+        <img src="/studies/{{ for_date }}/{{ data.Chart.LocalPath }}" class="img-fluid rounded mx-auto d-block" />
             </div>
             <div class="col-3">
                 <h1><span class="badge bg-success">{{ symbol }}</span></h1>
@@ -49,14 +49,14 @@
                         <td>{{ data.RSI }}</td>
                     </tr></tbody>
                 </table>
-		<div class="btn-group" role="group"><form>
-			<input class="btn-check" type="radio" name="direction" id="bullish-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'bullish');" {% if data.Direction == 'bullish' %}checked{% endif %}>
-			<label class="btn btn-outline-info" for="bullish-{{ symbol }}">Bullish</label>
-			<input class="btn-check" type="radio" name="direction" id="bearish-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'bearish');" {% if data.Direction == 'bearish' %}checked{% endif %}>
-			<label class="btn btn-outline-info" for="bearish-{{ symbol }}">Bearish</label>
-			<input class="btn-check" type="radio" name="direction" id="neutral-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'neutral');" {% if data.Direction == 'neutral' %}checked{% endif %}>
-			<label class="btn btn-outline-info" for="neutral-{{ symbol }}">Neutral</label>
-		</form></div>
+                <div class="btn-group" role="group"><form>
+                    <input class="btn-check" type="radio" name="direction" id="bullish-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'bullish');" {% if data.Direction == 'bullish' %}checked{% endif %}>
+                    <label class="btn btn-outline-info" for="bullish-{{ symbol }}">Bullish</label>
+                    <input class="btn-check" type="radio" name="direction" id="bearish-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'bearish');" {% if data.Direction == 'bearish' %}checked{% endif %}>
+                    <label class="btn btn-outline-info" for="bearish-{{ symbol }}">Bearish</label>
+                    <input class="btn-check" type="radio" name="direction" id="neutral-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'neutral');" {% if data.Direction == 'neutral' %}checked{% endif %}>
+                    <label class="btn btn-outline-info" for="neutral-{{ symbol }}">Neutral</label>
+                </form></div>
             </div>
         </div>
         {% endfor %}
