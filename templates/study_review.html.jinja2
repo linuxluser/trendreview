@@ -49,19 +49,13 @@
                         <td>{{ data.RSI }}</td>
                     </tr></tbody>
                 </table>
-		<div class="container py-2 bg-info bg-gradient"><form>
-			<div class="form-check">
-				<input class="form-check-input" type="radio" name="bullish" id="bullish-{{ symbol }}" onchange="submit_direction_for_symbol('{{ symbol }}', 'bullish');" {% if data.Direction == 'bullish' %}checked{% endif %}>
-				<label class="form-check-label" for="bullish-{{ symbol }}">Bullish</label>
-			</div>
-			<div class="form-check">
-				<input class="form-check-input" type="radio" name="bearish" id="bearish-{{ symbol }}" onchange="submit_direction_for_symbol('{{ symbol }}', 'bearish');" {% if data.Direction == 'bearish' %}checked{% endif %}>
-				<label class="form-check-label" for="bearish-{{ symbol }}">Bearish</label>
-			</div>
-			<div class="form-check">
-				<input class="form-check-input" type="radio" name="neutral" id="neutral-{{ symbol }}" onchange="submit_direction_for_symbol('{{ symbol }}', 'neutral');" {% if data.Direction == 'neutral' %}checked{% endif %}>
-				<label class="form-check-label" for="neutral-{{ symbol }}">Neutral</label>
-			</div>
+		<div class="btn-group" role="group"><form>
+			<input class="btn-check" type="radio" name="direction" id="bullish-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'bullish');" {% if data.Direction == 'bullish' %}checked{% endif %}>
+			<label class="btn btn-outline-info" for="bullish-{{ symbol }}">Bullish</label>
+			<input class="btn-check" type="radio" name="direction" id="bearish-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'bearish');" {% if data.Direction == 'bearish' %}checked{% endif %}>
+			<label class="btn btn-outline-info" for="bearish-{{ symbol }}">Bearish</label>
+			<input class="btn-check" type="radio" name="direction" id="neutral-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'neutral');" {% if data.Direction == 'neutral' %}checked{% endif %}>
+			<label class="btn btn-outline-info" for="neutral-{{ symbol }}">Neutral</label>
 		</form></div>
             </div>
         </div>
