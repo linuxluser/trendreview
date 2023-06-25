@@ -71,6 +71,9 @@
                     <input class="btn-check" type="radio" name="direction" id="neutral-{{ symbol }}" autocomplete="off" onchange="submit_direction_for_symbol('{{ symbol }}', 'neutral');" {% if data.Direction == 'neutral' %}checked{% endif %}>
                     <label class="btn btn-outline-info" for="neutral-{{ symbol }}">Neutral</label>
                 </form></div>
+		{% if previous_baskets[basket][symbol].Direction %}
+		<h6 class="my-4">(Previous Direction: <span class="badge bg-info">{{ previous_baskets[basket][symbol].Direction }}</span>)</h6>
+		{% endif %}
             </div>
         </div>
         {% endfor %}

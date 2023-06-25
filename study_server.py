@@ -25,6 +25,31 @@ def set_global_values():
     STUDY_DATA_FILE = config['Study Data File']
 
 
+def load_study_data(study_date):
+    if study_date is None:
+        return {}
+    study_directory = os.path.join(STUDIES_DIR, study_date)
+    if not os.path.exists(study_directory):
+        flask.abort(404)
+    yaml_file = os.path.join(study_directory, STUDY_DATA_FILE)
+    with open(yaml_file, 'r') as f:
+        symbols = yaml.load(f, Loader=yaml.CSafeLoader)
+    # Transform data from by-symbol to by-basket
+    baskets = {d['Basket']:{} for d in symbols.values()}
+    for symbol, data in symbols.items():
+        baskets[data['Basket']][symbol] = data
+    return baskets
+
+
+def find_previous_study_date(this_study_date):
+    study_dates = [d for d in os.listdir(STUDIES_DIR) if os.path.isdir(os.path.join(STUDIES_DIR, d))]
+    study_dates.sort()
+    try:
+        return study_dates[study_dates.index(this_study_date) - 1]
+    except IndexError:
+        return None
+
+
 @APP.route('/')
 def index():
     return flask.redirect('/studies', code=302)
@@ -76,19 +101,12 @@ def update_direction(study_date, symbol):
 @APP.route('/studies/<study_date>')
 def study(study_date):
     incomplete_only = bool(flask.request.args.get('incomplete_only', False))
-    study_directory = os.path.join(STUDIES_DIR, study_date)
-    if not os.path.exists(study_directory):
-        return flask.abort(404)
-    yaml_file = os.path.join(study_directory, STUDY_DATA_FILE)
-    with open(yaml_file, 'r') as f:
-        symbols = yaml.load(f, Loader=yaml.CSafeLoader)
-    # Transform data from by-symbol to by-basket
-    baskets = {d['Basket']:{} for d in symbols.values()}
-    for symbol, data in symbols.items():
-        baskets[data['Basket']][symbol] = data
+    baskets = load_study_data(study_date)
+    previous_baskets = load_study_data(find_previous_study_date(study_date))
     # Render template
     return flask.render_template('study_review.html.jinja2',
                                  baskets=baskets, 
+                                 previous_baskets=previous_baskets,
                                  for_date=study_date,
                                  incomplete_only=incomplete_only)
 
