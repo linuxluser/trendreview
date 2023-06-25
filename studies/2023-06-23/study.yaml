@@ -1,0 +1,1086 @@
+---
+AAL:
+  Basket: Industrial
+  Chart:
+    LocalPath: AAL-D-M6.png
+    URL: https://finviz.com/publish/062423/AALd135167194i.png
+  Direction: bullish
+  RSI: 66.34
+AAPL:
+  Basket: Technology
+  Chart:
+    LocalPath: AAPL-D-M6.png
+    URL: https://finviz.com/publish/062423/AAPLd132929408i.png
+  Direction: bullish
+  RSI: 69.97
+ABBV:
+  Basket: Health
+  Chart:
+    LocalPath: ABBV-D-M6.png
+    URL: https://finviz.com/publish/062423/ABBVd134621591i.png
+  Direction: neutral
+  RSI: 38.84
+ABT:
+  Basket: Health
+  Chart:
+    LocalPath: ABT-D-M6.png
+    URL: https://finviz.com/publish/062423/ABTd134504307i.png
+  Direction: bearish
+  RSI: 61.58
+ADBE:
+  Basket: Technology
+  Chart:
+    LocalPath: ADBE-D-M6.png
+    URL: https://finviz.com/publish/062423/ADBEd133014050i.png
+  Direction: bullish
+  RSI: 72.23
+AIG:
+  Basket: Finance
+  Chart:
+    LocalPath: AIG-D-M6.png
+    URL: https://finviz.com/publish/062423/AIGd134719338i.png
+  Direction: bullish
+  RSI: 50.05
+AMAT:
+  Basket: Technology
+  Chart:
+    LocalPath: AMAT-D-M6.png
+    URL: https://finviz.com/publish/062423/AMATd133048691i.png
+  Direction: bullish
+  RSI: 56.15
+AMD:
+  Basket: Technology
+  Chart:
+    LocalPath: AMD-D-M6.png
+    URL: https://finviz.com/publish/062423/AMDd133088457i.png
+  Direction: bullish
+  RSI: 44.57
+AMZN:
+  Basket: Consumer
+  Chart:
+    LocalPath: AMZN-D-M6.png
+    URL: https://finviz.com/publish/062423/AMZNd133669040i.png
+  Direction: bullish
+  RSI: 66.2
+APA:
+  Basket: Energy
+  Chart:
+    LocalPath: APA-D-M6.png
+    URL: https://finviz.com/publish/062423/APAd134395194i.png
+  Direction: neutral
+  RSI: 43.35
+ARKK:
+  Basket: Technology
+  Chart:
+    LocalPath: ARKK-D-M6.png
+    URL: https://finviz.com/publish/062423/ARKKd133300732i.png
+  Direction: bullish
+  RSI: 52.89
+AVGO:
+  Basket: Technology
+  Chart:
+    LocalPath: AVGO-D-M6.png
+    URL: https://finviz.com/publish/062423/AVGOd133034898i.png
+  Direction: bullish
+  RSI: 58.29
+AXP:
+  Basket: Finance
+  Chart:
+    LocalPath: AXP-D-M6.png
+    URL: https://finviz.com/publish/062423/AXPd134876380i.png
+  Direction: neutral
+  RSI: 55.31
+BA:
+  Basket: Industrial
+  Chart:
+    LocalPath: BA-D-M6.png
+    URL: https://finviz.com/publish/062423/BAd135204345i.png
+  Direction: bullish
+  RSI: 43.11
+BABA:
+  Basket: Consumer
+  Chart:
+    LocalPath: BABA-D-M6.png
+    URL: https://finviz.com/publish/062423/BABAd134095687i.png
+  Direction: neutral
+  RSI: 46.58
+BAC:
+  Basket: Finance
+  Chart:
+    LocalPath: BAC-D-M6.png
+    URL: https://finviz.com/publish/062423/BACd134777274i.png
+  Direction: neutral
+  RSI: 39.27
+BBY:
+  Basket: Consumer
+  Chart:
+    LocalPath: BBY-D-M6.png
+    URL: https://finviz.com/publish/062423/BBYd134086092i.png
+  Direction: bullish
+  RSI: 65.12
+BIDU:
+  Basket: Communications
+  Chart:
+    LocalPath: BIDU-D-M6.png
+    URL: https://finviz.com/publish/062423/BIDUd133508975i.png
+  Direction: bullish
+  RSI: 55.08
+BP:
+  Basket: Energy
+  Chart:
+    LocalPath: BP-D-M6.png
+    URL: https://finviz.com/publish/062423/BPd134306094i.png
+  Direction: neutral
+  RSI: 41.51
+BX:
+  Basket: Finance
+  Chart:
+    LocalPath: BX-D-M6.png
+    URL: https://finviz.com/publish/062423/BXd134768553i.png
+  Direction: bullish
+  RSI: 50.08
+BYND:
+  Basket: Consumer
+  Chart:
+    LocalPath: BYND-D-M6.png
+    URL: https://finviz.com/publish/062423/BYNDd134007670i.png
+  Direction: neutral
+  RSI: 55.66
+C:
+  Basket: Finance
+  Chart:
+    LocalPath: C-D-M6.png
+    URL: https://finviz.com/publish/062423/Cd134798246i.png
+  Direction: neutral
+  RSI: 42.54
+CAT:
+  Basket: Industrial
+  Chart:
+    LocalPath: CAT-D-M6.png
+    URL: https://finviz.com/publish/062423/CATd135260961i.png
+  Direction: bearish
+  RSI: 54.98
+CF:
+  Basket: Materials
+  Chart:
+    LocalPath: CF-D-M6.png
+    URL: https://finviz.com/publish/062423/CFd135018408i.png
+  Direction: bearish
+  RSI: 56.15
+CHWY:
+  Basket: Consumer
+  Chart:
+    LocalPath: CHWY-D-M6.png
+    URL: https://finviz.com/publish/062423/CHWYd134111166i.png
+  Direction: neutral
+  RSI: 60.66
+CLF:
+  Basket: Materials
+  Chart:
+    LocalPath: CLF-D-M6.png
+    URL: https://finviz.com/publish/062423/CLFd135038091i.png
+  Direction: bearish
+  RSI: 50.64
+CMCSA:
+  Basket: Communications
+  Chart:
+    LocalPath: CMCSA-D-M6.png
+    URL: https://finviz.com/publish/062423/CMCSAd133541802i.png
+  Direction: neutral
+  RSI: 48.59
+COF:
+  Basket: Finance
+  Chart:
+    LocalPath: COF-D-M6.png
+    URL: https://finviz.com/publish/062423/COFd134788277i.png
+  Direction: bullish
+  RSI: 51.79
+COP:
+  Basket: Energy
+  Chart:
+    LocalPath: COP-D-M6.png
+    URL: https://finviz.com/publish/062423/COPd134333625i.png
+  Direction: neutral
+  RSI: 44.25
+COST:
+  Basket: Consumer
+  Chart:
+    LocalPath: COST-D-M6.png
+    URL: https://finviz.com/publish/062423/COSTd133862254i.png
+  Direction: neutral
+  RSI: 61.38
+CRM:
+  Basket: Technology
+  Chart:
+    LocalPath: CRM-D-M6.png
+    URL: https://finviz.com/publish/062423/CRMd133076248i.png
+  Direction: bullish
+  RSI: 50.34
+CRWD:
+  Basket: Technology
+  Chart:
+    LocalPath: CRWD-D-M6.png
+    URL: https://finviz.com/publish/062423/CRWDd133066150i.png
+  Direction: bullish
+  RSI: 45.48
+CSCO:
+  Basket: Technology
+  Chart:
+    LocalPath: CSCO-D-M6.png
+    URL: https://finviz.com/publish/062423/CSCOd133359572i.png
+  Direction: bullish
+  RSI: 52.92
+CVS:
+  Basket: Health
+  Chart:
+    LocalPath: CVS-D-M6.png
+    URL: https://finviz.com/publish/062423/CVSd134637141i.png
+  Direction: bearish
+  RSI: 49.06
+CVX:
+  Basket: Energy
+  Chart:
+    LocalPath: CVX-D-M6.png
+    URL: https://finviz.com/publish/062423/CVXd134377770i.png
+  Direction: neutral
+  RSI: 38.6
+CZR:
+  Basket: Consumer
+  Chart:
+    LocalPath: CZR-D-M6.png
+    URL: https://finviz.com/publish/062423/CZRd134147068i.png
+  Direction: neutral
+  RSI: 45.21
+DAL:
+  Basket: Industrial
+  Chart:
+    LocalPath: DAL-D-M6.png
+    URL: https://finviz.com/publish/062423/DALd135222415i.png
+  Direction: bullish
+  RSI: 80.96
+DE:
+  Basket: Industrial
+  Chart:
+    LocalPath: DE-D-M6.png
+    URL: https://finviz.com/publish/062423/DEd135240245i.png
+  Direction: bearish
+  RSI: 61.83
+DIA:
+  Basket: US Stocks
+  Chart:
+    LocalPath: DIA-D-M6.png
+    URL: https://finviz.com/publish/062423/DIAd132862686i.png
+  Direction: bullish
+  RSI: 49.36
+DIS:
+  Basket: Communications
+  Chart:
+    LocalPath: DIS-D-M6.png
+    URL: https://finviz.com/publish/062423/DISd133516026i.png
+  Direction: bearish
+  RSI: 36.23
+DKNG:
+  Basket: Consumer
+  Chart:
+    LocalPath: DKNG-D-M6.png
+    URL: https://finviz.com/publish/062423/DKNGd133697642i.png
+  Direction: bullish
+  RSI: 54.36
+DOCU:
+  Basket: Technology
+  Chart:
+    LocalPath: DOCU-D-M6.png
+    URL: https://finviz.com/publish/062423/DOCUd133196286i.png
+  Direction: neutral
+  RSI: 35.37
+DOW:
+  Basket: Materials
+  Chart:
+    LocalPath: DOW-D-M6.png
+    URL: https://finviz.com/publish/062423/DOWd135096870i.png
+  Direction: neutral
+  RSI: 45.04
+DVN:
+  Basket: Energy
+  Chart:
+    LocalPath: DVN-D-M6.png
+    URL: https://finviz.com/publish/062423/DVNd134388584i.png
+  Direction: neutral
+  RSI: 42.55
+EEM:
+  Basket: International
+  Chart:
+    LocalPath: EEM-D-M6.png
+    URL: https://finviz.com/publish/062423/EEMd132921203i.png
+  Direction: bullish
+  RSI: 44.84
+EFA:
+  Basket: International
+  Chart:
+    LocalPath: EFA-D-M6.png
+    URL: https://finviz.com/publish/062423/EFAd132979204i.png
+  Direction: bearish
+  RSI: 41.09
+EWZ:
+  Basket: International
+  Chart:
+    LocalPath: EWZ-D-M6.png
+    URL: https://finviz.com/publish/062423/EWZd132957134i.png
+  Direction: bullish
+  RSI: 66.01
+EXPE:
+  Basket: Consumer
+  Chart:
+    LocalPath: EXPE-D-M6.png
+    URL: https://finviz.com/publish/062423/EXPEd133905394i.png
+  Direction: bearish
+  RSI: 52.93
+F:
+  Basket: Consumer
+  Chart:
+    LocalPath: F-D-M6.png
+    URL: https://finviz.com/publish/062423/Fd134172242i.png
+  Direction: bullish
+  RSI: 64.44
+FCX:
+  Basket: Materials
+  Chart:
+    LocalPath: FCX-D-M6.png
+    URL: https://finviz.com/publish/062423/FCXd135051485i.png
+  Direction: neutral
+  RSI: 52.81
+FDX:
+  Basket: Industrial
+  Chart:
+    LocalPath: FDX-D-M6.png
+    URL: https://finviz.com/publish/062423/FDXd135256841i.png
+  Direction: neutral
+  RSI: 56.63
+FITB:
+  Basket: Finance
+  Chart:
+    LocalPath: FITB-D-M6.png
+    URL: https://finviz.com/publish/062423/FITBd134883488i.png
+  Direction: neutral
+  RSI: 46.87
+FSLR:
+  Basket: Technology
+  Chart:
+    LocalPath: FSLR-D-M6.png
+    URL: https://finviz.com/publish/062423/FSLRd133468911i.png
+  Direction: bearish
+  RSI: 37.85
+FXI:
+  Basket: International
+  Chart:
+    LocalPath: FXI-D-M6.png
+    URL: https://finviz.com/publish/062423/FXId132993229i.png
+  Direction: bearish
+  RSI: 41.65
+GDX:
+  Basket: Precious Metals
+  Chart:
+    LocalPath: GDX-D-M6.png
+    URL: https://finviz.com/publish/062423/GDXd135314609i.png
+  Direction: bearish
+  RSI: 34.98
+GE:
+  Basket: Industrial
+  Chart:
+    LocalPath: GE-D-M6.png
+    URL: https://finviz.com/publish/062423/GEd135165050i.png
+  Direction: bullish
+  RSI: 49.85
+GLD:
+  Basket: Precious Metals
+  Chart:
+    LocalPath: GLD-D-M6.png
+    URL: https://finviz.com/publish/062423/GLDd135317979i.png
+  Direction: bearish
+  RSI: 37.8
+GM:
+  Basket: Consumer
+  Chart:
+    LocalPath: GM-D-M6.png
+    URL: https://finviz.com/publish/062423/GMd134104884i.png
+  Direction: bearish
+  RSI: 54.87
+GOLD:
+  Basket: Precious Metals
+  Chart:
+    LocalPath: GOLD-D-M6.png
+    URL: https://finviz.com/publish/062423/GOLDd135361098i.png
+  Direction: bearish
+  RSI: 36.86
+GOOG:
+  Basket: Communications
+  Chart:
+    LocalPath: GOOG-D-M6.png
+    URL: https://finviz.com/publish/062423/GOOGd133589436i.png
+  Direction: neutral
+  RSI: 53.3
+GS:
+  Basket: Finance
+  Chart:
+    LocalPath: GS-D-M6.png
+    URL: https://finviz.com/publish/062423/GSd134829164i.png
+  Direction: bearish
+  RSI: 36.3
+HAL:
+  Basket: Energy
+  Chart:
+    LocalPath: HAL-D-M6.png
+    URL: https://finviz.com/publish/062423/HALd134493903i.png
+  Direction: neutral
+  RSI: 47.04
+HD:
+  Basket: Consumer
+  Chart:
+    LocalPath: HD-D-M6.png
+    URL: https://finviz.com/publish/062423/HDd133993427i.png
+  Direction: neutral
+  RSI: 55.8
+HPQ:
+  Basket: Technology
+  Chart:
+    LocalPath: HPQ-D-M6.png
+    URL: https://finviz.com/publish/062423/HPQd133308314i.png
+  Direction: bullish
+  RSI: 44.85
+HYG:
+  Basket: US Bonds
+  Chart:
+    LocalPath: HYG-D-M6.png
+    URL: https://finviz.com/publish/062423/HYGd132818856i.png
+  Direction: neutral
+  RSI: 44.1
+IBM:
+  Basket: Technology
+  Chart:
+    LocalPath: IBM-D-M6.png
+    URL: https://finviz.com/publish/062423/IBMd133490722i.png
+  Direction: bullish
+  RSI: 42.39
+INTC:
+  Basket: Technology
+  Chart:
+    LocalPath: INTC-D-M6.png
+    URL: https://finviz.com/publish/062423/INTCd133340011i.png
+  Direction: bullish
+  RSI: 53.67
+IWM:
+  Basket: US Stocks
+  Chart:
+    LocalPath: IWM-D-M6.png
+    URL: https://finviz.com/publish/062423/IWMd132859488i.png
+  Direction: neutral
+  RSI: 47.77
+IYR:
+  Basket: Real Estate
+  Chart:
+    LocalPath: IYR-D-M6.png
+    URL: https://finviz.com/publish/062423/IYRd135392582i.png
+  Direction: neutral
+  RSI: 40.34
+JD:
+  Basket: Consumer
+  Chart:
+    LocalPath: JD-D-M6.png
+    URL: https://finviz.com/publish/062423/JDd134105272i.png
+  Direction: bearish
+  RSI: 42.92
+JNJ:
+  Basket: Health
+  Chart:
+    LocalPath: JNJ-D-M6.png
+    URL: https://finviz.com/publish/062423/JNJd134630153i.png
+  Direction: bearish
+  RSI: 71.57
+JPM:
+  Basket: Finance
+  Chart:
+    LocalPath: JPM-D-M6.png
+    URL: https://finviz.com/publish/062423/JPMd134826820i.png
+  Direction: bearish
+  RSI: 47.31
+KMI:
+  Basket: Energy
+  Chart:
+    LocalPath: KMI-D-M6.png
+    URL: https://finviz.com/publish/062423/KMId134456712i.png
+  Direction: neutral
+  RSI: 38.73
+KO:
+  Basket: Consumer
+  Chart:
+    LocalPath: KO-D-M6.png
+    URL: https://finviz.com/publish/062423/KOd133746856i.png
+  Direction: bearish
+  RSI: 48.58
+KR:
+  Basket: Consumer
+  Chart:
+    LocalPath: KR-D-M6.png
+    URL: https://finviz.com/publish/062423/KRd133979013i.png
+  Direction: bearish
+  RSI: 44.5
+KRE:
+  Basket: Finance
+  Chart:
+    LocalPath: KRE-D-M6.png
+    URL: https://finviz.com/publish/062423/KREd134924728i.png
+  Direction: bearish
+  RSI: 41.69
+KSS:
+  Basket: Consumer
+  Chart:
+    LocalPath: KSS-D-M6.png
+    URL: https://finviz.com/publish/062423/KSSd134107738i.png
+  Direction: neutral
+  RSI: 48.68
+LOW:
+  Basket: Consumer
+  Chart:
+    LocalPath: LOW-D-M6.png
+    URL: https://finviz.com/publish/062423/LOWd134121821i.png
+  Direction: bullish
+  RSI: 57.43
+LQD:
+  Basket: US Bonds
+  Chart:
+    LocalPath: LQD-D-M6.png
+    URL: https://finviz.com/publish/062423/LQDd132826500i.png
+  Direction: neutral
+  RSI: 52.18
+LUV:
+  Basket: Industrial
+  Chart:
+    LocalPath: LUV-D-M6.png
+    URL: https://finviz.com/publish/062423/LUVd135290202i.png
+  Direction: bullish
+  RSI: 69.57
+LVS:
+  Basket: Consumer
+  Chart:
+    LocalPath: LVS-D-M6.png
+    URL: https://finviz.com/publish/062423/LVSd133783575i.png
+  Direction: neutral
+  RSI: 43.68
+MAR:
+  Basket: Consumer
+  Chart:
+    LocalPath: MAR-D-M6.png
+    URL: https://finviz.com/publish/062423/MARd133720971i.png
+  Direction: neutral
+  RSI: 42.84
+MCD:
+  Basket: Consumer
+  Chart:
+    LocalPath: MCD-D-M6.png
+    URL: https://finviz.com/publish/062423/MCDd133783961i.png
+  Direction: neutral
+  RSI: 49.97
+MDLZ:
+  Basket: Consumer
+  Chart:
+    LocalPath: MDLZ-D-M6.png
+    URL: https://finviz.com/publish/062423/MDLZd133855834i.png
+  Direction: bullish
+  RSI: 44.2
+MET:
+  Basket: Finance
+  Chart:
+    LocalPath: MET-D-M6.png
+    URL: https://finviz.com/publish/062423/METd134938512i.png
+  Direction: bearish
+  RSI: 47.33
+META:
+  Basket: Communications
+  Chart:
+    LocalPath: META-D-M6.png
+    URL: https://finviz.com/publish/062423/METAd133521333i.png
+  Direction: bullish
+  RSI: 78.38
+MGM:
+  Basket: Consumer
+  Chart:
+    LocalPath: MGM-D-M6.png
+    URL: https://finviz.com/publish/062423/MGMd133916951i.png
+  Direction: bearish
+  RSI: 44.92
+MO:
+  Basket: Consumer
+  Chart:
+    LocalPath: MO-D-M6.png
+    URL: https://finviz.com/publish/062423/MOd134227446i.png
+  Direction: bearish
+  RSI: 36.73
+MOS:
+  Basket: Materials
+  Chart:
+    LocalPath: MOS-D-M6.png
+    URL: https://finviz.com/publish/062423/MOSd135033680i.png
+  Direction: bearish
+  RSI: 42.35
+MPC:
+  Basket: Energy
+  Chart:
+    LocalPath: MPC-D-M6.png
+    URL: https://finviz.com/publish/062423/MPCd134480122i.png
+  Direction: neutral
+  RSI: 48.82
+MRK:
+  Basket: Health
+  Chart:
+    LocalPath: MRK-D-M6.png
+    URL: https://finviz.com/publish/062423/MRKd134561201i.png
+  Direction: bearish
+  RSI: 59.91
+MRNA:
+  Basket: Health
+  Chart:
+    LocalPath: MRNA-D-M6.png
+    URL: https://finviz.com/publish/062423/MRNAd134619588i.png
+  Direction: bearish
+  RSI: 35.91
+MRO:
+  Basket: Energy
+  Chart:
+    LocalPath: MRO-D-M6.png
+    URL: https://finviz.com/publish/062423/MROd134420262i.png
+  Direction: neutral
+  RSI: 39.83
+MRVL:
+  Basket: Technology
+  Chart:
+    LocalPath: MRVL-D-M6.png
+    URL: https://finviz.com/publish/062423/MRVLd133150429i.png
+  Direction: neutral
+  RSI: 54.79
+MS:
+  Basket: Finance
+  Chart:
+    LocalPath: MS-D-M6.png
+    URL: https://finviz.com/publish/062423/MSd134931804i.png
+  Direction: bearish
+  RSI: 42.27
+MSFT:
+  Basket: Technology
+  Chart:
+    LocalPath: MSFT-D-M6.png
+    URL: https://finviz.com/publish/062423/MSFTd133166458i.png
+  Direction: bullish
+  RSI: 56.03
+NCLH:
+  Basket: Consumer
+  Chart:
+    LocalPath: NCLH-D-M6.png
+    URL: https://finviz.com/publish/062423/NCLHd133985993i.png
+  Direction: bullish
+  RSI: 75.79
+NEM:
+  Basket: Materials
+  Chart:
+    LocalPath: NEM-D-M6.png
+    URL: https://finviz.com/publish/062423/NEMd135113700i.png
+  Direction: bearish
+  RSI: 40.54
+NET:
+  Basket: Technology
+  Chart:
+    LocalPath: NET-D-M6.png
+    URL: https://finviz.com/publish/062423/NETd133139264i.png
+  Direction: bullish
+  RSI: 49.98
+NFLX:
+  Basket: Technology
+  Chart:
+    LocalPath: NFLX-D-M6.png
+    URL: https://finviz.com/publish/062423/NFLXd133132920i.png
+  Direction: bullish
+  RSI: 63.76
+NKE:
+  Basket: Consumer
+  Chart:
+    LocalPath: NKE-D-M6.png
+    URL: https://finviz.com/publish/062423/NKEd134223279i.png
+  Direction: bearish
+  RSI: 45.76
+NVDA:
+  Basket: Technology
+  Chart:
+    LocalPath: NVDA-D-M6.png
+    URL: https://finviz.com/publish/062423/NVDAd133227990i.png
+  Direction: bullish
+  RSI: 67.25
+ORCL:
+  Basket: Technology
+  Chart:
+    LocalPath: ORCL-D-M6.png
+    URL: https://finviz.com/publish/062423/ORCLd133221830i.png
+  Direction: bullish
+  RSI: 64.63
+OXY:
+  Basket: Energy
+  Chart:
+    LocalPath: OXY-D-M6.png
+    URL: https://finviz.com/publish/062423/OXYd134448234i.png
+  Direction: neutral
+  RSI: 31.84
+PEP:
+  Basket: Consumer
+  Chart:
+    LocalPath: PEP-D-M6.png
+    URL: https://finviz.com/publish/062423/PEPd133845629i.png
+  Direction: neutral
+  RSI: 52.8
+PFE:
+  Basket: Health
+  Chart:
+    LocalPath: PFE-D-M6.png
+    URL: https://finviz.com/publish/062423/PFEd134736008i.png
+  Direction: bearish
+  RSI: 45.13
+PG:
+  Basket: Consumer
+  Chart:
+    LocalPath: PG-D-M6.png
+    URL: https://finviz.com/publish/062423/PGd133948949i.png
+  Direction: bullish
+  RSI: 50.71
+PNC:
+  Basket: Finance
+  Chart:
+    LocalPath: PNC-D-M6.png
+    URL: https://finviz.com/publish/062423/PNCd134963808i.png
+  Direction: neutral
+  RSI: 47.43
+PYPL:
+  Basket: Finance
+  Chart:
+    LocalPath: PYPL-D-M6.png
+    URL: https://finviz.com/publish/062423/PYPLd134898152i.png
+  Direction: bearish
+  RSI: 54.52
+QCOM:
+  Basket: Technology
+  Chart:
+    LocalPath: QCOM-D-M6.png
+    URL: https://finviz.com/publish/062423/QCOMd133432480i.png
+  Direction: neutral
+  RSI: 45.41
+QQQ:
+  Basket: Technology
+  Chart:
+    LocalPath: QQQ-D-M6.png
+    URL: https://finviz.com/publish/062423/QQQd133265414i.png
+  Direction: bullish
+  RSI: 62.51
+RCL:
+  Basket: Consumer
+  Chart:
+    LocalPath: RCL-D-M6.png
+    URL: https://finviz.com/publish/062423/RCLd133846164i.png
+  Direction: bullish
+  RSI: 80.85
+RIG:
+  Basket: Energy
+  Chart:
+    LocalPath: RIG-D-M6.png
+    URL: https://finviz.com/publish/062423/RIGd134438810i.png
+  Direction: neutral
+  RSI: 46.17
+ROKU:
+  Basket: Communications
+  Chart:
+    LocalPath: ROKU-D-M6.png
+    URL: https://finviz.com/publish/062423/ROKUd133699285i.png
+  Direction: bullish
+  RSI: 46.97
+SBUX:
+  Basket: Consumer
+  Chart:
+    LocalPath: SBUX-D-M6.png
+    URL: https://finviz.com/publish/062423/SBUXd134038931i.png
+  Direction: bullish
+  RSI: 40.05
+SCHW:
+  Basket: Finance
+  Chart:
+    LocalPath: SCHW-D-M6.png
+    URL: https://finviz.com/publish/062423/SCHWd134906354i.png
+  Direction: neutral
+  RSI: 47.81
+SHOP:
+  Basket: Technology
+  Chart:
+    LocalPath: SHOP-D-M6.png
+    URL: https://finviz.com/publish/062423/SHOPd133252428i.png
+  Direction: bullish
+  RSI: 57.71
+SLB:
+  Basket: Energy
+  Chart:
+    LocalPath: SLB-D-M6.png
+    URL: https://finviz.com/publish/062423/SLBd134518297i.png
+  Direction: neutral
+  RSI: 48.53
+SLV:
+  Basket: Precious Metals
+  Chart:
+    LocalPath: SLV-D-M6.png
+    URL: https://finviz.com/publish/062423/SLVd135396873i.png
+  Direction: bearish
+  RSI: 34.79
+SMH:
+  Basket: Technology
+  Chart:
+    LocalPath: SMH-D-M6.png
+    URL: https://finviz.com/publish/062423/SMHd133229733i.png
+  Direction: bullish
+  RSI: 56.32
+SPY:
+  Basket: US Stocks
+  Chart:
+    LocalPath: SPY-D-M6.png
+    URL: https://finviz.com/publish/062423/SPYd132857986i.png
+  Direction: bullish
+  RSI: 58.06
+SQ:
+  Basket: Technology
+  Chart:
+    LocalPath: SQ-D-M6.png
+    URL: https://finviz.com/publish/062423/SQd133400865i.png
+  Direction: neutral
+  RSI: 47.99
+T:
+  Basket: Communications
+  Chart:
+    LocalPath: T-D-M6.png
+    URL: https://finviz.com/publish/062423/Td133633756i.png
+  Direction: bearish
+  RSI: 36.35
+TGT:
+  Basket: Consumer
+  Chart:
+    LocalPath: TGT-D-M6.png
+    URL: https://finviz.com/publish/062423/TGTd134285821i.png
+  Direction: bearish
+  RSI: 39.37
+TJX:
+  Basket: Consumer
+  Chart:
+    LocalPath: TJX-D-M6.png
+    URL: https://finviz.com/publish/062423/TJXd133893838i.png
+  Direction: bullish
+  RSI: 64.21
+TLT:
+  Basket: US Bonds
+  Chart:
+    LocalPath: TLT-D-M6.png
+    URL: https://finviz.com/publish/062423/TLTd132823211i.png
+  Direction: neutral
+  RSI: 53.45
+TSLA:
+  Basket: Consumer
+  Chart:
+    LocalPath: TSLA-D-M6.png
+    URL: https://finviz.com/publish/062423/TSLAd134274461i.png
+  Direction: bullish
+  RSI: 67.6
+TSM:
+  Basket: Technology
+  Chart:
+    LocalPath: TSM-D-M6.png
+    URL: https://finviz.com/publish/062423/TSMd133204424i.png
+  Direction: bullish
+  RSI: 56.46
+TTD:
+  Basket: Technology
+  Chart:
+    LocalPath: TTD-D-M6.png
+    URL: https://finviz.com/publish/062423/TTDd133330169i.png
+  Direction: bullish
+  RSI: 65.0
+TXN:
+  Basket: Technology
+  Chart:
+    LocalPath: TXN-D-M6.png
+    URL: https://finviz.com/publish/062423/TXNd133412365i.png
+  Direction: neutral
+  RSI: 42.13
+UAL:
+  Basket: Industrial
+  Chart:
+    LocalPath: UAL-D-M6.png
+    URL: https://finviz.com/publish/062423/UALd135140650i.png
+  Direction: bullish
+  RSI: 67.87
+UBER:
+  Basket: Technology
+  Chart:
+    LocalPath: UBER-D-M6.png
+    URL: https://finviz.com/publish/062423/UBERd133304896i.png
+  Direction: bullish
+  RSI: 67.7
+UPS:
+  Basket: Industrial
+  Chart:
+    LocalPath: UPS-D-M6.png
+    URL: https://finviz.com/publish/062423/UPSd135211293i.png
+  Direction: neutral
+  RSI: 42.36
+USB:
+  Basket: Finance
+  Chart:
+    LocalPath: USB-D-M6.png
+    URL: https://finviz.com/publish/062423/USBd134982508i.png
+  Direction: neutral
+  RSI: 47.91
+USO:
+  Basket: Energy
+  Chart:
+    LocalPath: USO-D-M6.png
+    URL: https://finviz.com/publish/062423/USOd134314874i.png
+  Direction: neutral
+  RSI: 46.2
+V:
+  Basket: Finance
+  Chart:
+    LocalPath: V-D-M6.png
+    URL: https://finviz.com/publish/062423/Vd134857270i.png
+  Direction: neutral
+  RSI: 55.2
+VFC:
+  Basket: Consumer
+  Chart:
+    LocalPath: VFC-D-M6.png
+    URL: https://finviz.com/publish/062423/VFCd134260335i.png
+  Direction: bearish
+  RSI: 39.3
+VXX:
+  Basket: Finance
+  Chart:
+    LocalPath: VXX-D-M6.png
+    URL: https://finviz.com/publish/062423/VXXd134943974i.png
+  Direction: bearish
+  RSI: 26.47
+VZ:
+  Basket: Communications
+  Chart:
+    LocalPath: VZ-D-M6.png
+    URL: https://finviz.com/publish/062423/VZd133695420i.png
+  Direction: bearish
+  RSI: 44.44
+WBA:
+  Basket: Health
+  Chart:
+    LocalPath: WBA-D-M6.png
+    URL: https://finviz.com/publish/062423/WBAd134696158i.png
+  Direction: bearish
+  RSI: 46.44
+WFC:
+  Basket: Finance
+  Chart:
+    LocalPath: WFC-D-M6.png
+    URL: https://finviz.com/publish/062423/WFCd135089083i.png
+  Direction: neutral
+  RSI: 46.18
+WMT:
+  Basket: Consumer
+  Chart:
+    LocalPath: WMT-D-M6.png
+    URL: https://finviz.com/publish/062423/WMTd134026322i.png
+  Direction: bullish
+  RSI: 61.91
+X:
+  Basket: Materials
+  Chart:
+    LocalPath: X-D-M6.png
+    URL: https://finviz.com/publish/062423/Xd135173758i.png
+  Direction: neutral
+  RSI: 56.02
+XBI:
+  Basket: Health
+  Chart:
+    LocalPath: XBI-D-M6.png
+    URL: https://finviz.com/publish/062423/XBId134553252i.png
+  Direction: neutral
+  RSI: 44.76
+XHB:
+  Basket: Industrial
+  Chart:
+    LocalPath: XHB-D-M6.png
+    URL: https://finviz.com/publish/062423/XHBd135198466i.png
+  Direction: bullish
+  RSI: 65.62
+XLB:
+  Basket: Materials
+  Chart:
+    LocalPath: XLB-D-M6.png
+    URL: https://finviz.com/publish/062423/XLBd135193303i.png
+  Direction: neutral
+  RSI: 51.57
+XLE:
+  Basket: Energy
+  Chart:
+    LocalPath: XLE-D-M6.png
+    URL: https://finviz.com/publish/062423/XLEd134549948i.png
+  Direction: neutral
+  RSI: 39.75
+XLF:
+  Basket: Finance
+  Chart:
+    LocalPath: XLF-D-M6.png
+    URL: https://finviz.com/publish/062423/XLFd134819612i.png
+  Direction: neutral
+  RSI: 48.11
+XLK:
+  Basket: Technology
+  Chart:
+    LocalPath: XLK-D-M6.png
+    URL: https://finviz.com/publish/062423/XLKd133312174i.png
+  Direction: bullish
+  RSI: 58.36
+XLP:
+  Basket: Consumer
+  Chart:
+    LocalPath: XLP-D-M6.png
+    URL: https://finviz.com/publish/062423/XLPd134034150i.png
+  Direction: neutral
+  RSI: 47.03
+XLU:
+  Basket: Utilities
+  Chart:
+    LocalPath: XLU-D-M6.png
+    URL: https://finviz.com/publish/062423/XLUd134753249i.png
+  Direction: bearish
+  RSI: 40.08
+XLY:
+  Basket: Consumer
+  Chart:
+    LocalPath: XLY-D-M6.png
+    URL: https://finviz.com/publish/062423/XLYd133889525i.png
+  Direction: bullish
+  RSI: 66.49
+XOM:
+  Basket: Energy
+  Chart:
+    LocalPath: XOM-D-M6.png
+    URL: https://finviz.com/publish/062423/XOMd134502174i.png
+  Direction: neutral
+  RSI: 38.86
+XOP:
+  Basket: Energy
+  Chart:
+    LocalPath: XOP-D-M6.png
+    URL: https://finviz.com/publish/062423/XOPd134571972i.png
+  Direction: neutral
+  RSI: 44.89
+XRT:
+  Basket: Consumer
+  Chart:
+    LocalPath: XRT-D-M6.png
+    URL: https://finviz.com/publish/062423/XRTd134228775i.png
+  Direction: bearish
+  RSI: 52.35
