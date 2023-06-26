@@ -1,4 +1,4 @@
-# Trend Review {{ for_date }}
+# Trend Review {{ study_date }}
 
 {% for basket,symbol_data in baskets|dictsort %}
 ---
@@ -7,16 +7,28 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|{% for symbol,data in symbol_data|dictsort %}
-| [{{ symbol|center(6) }}](#{{ symbol|lower }}) | {{ data.Direction|center(9) }} | {{ '%2.2f'|format(data.RSI) }} |{% endfor %}
+| Symbol | Direction |  RSI  | {% for d in past_baskets|reverse %}{{ d|datestr2monthday}} Direction | {{ d|datestr2monthday }} RSI |{% endfor %}
+|----|----|----|{% for d in past_baskets|reverse %}----|----|{% endfor %}
+{%- for symbol,data in symbol_data|dictsort %}
+{%- set prev_direction = previous_basket[basket][symbol].Direction %}
+{%- set direction_changed = prev_direction != data.Direction %}
+{%- set prev_rsi = previous_basket[basket][symbol].RSI %}
+{%- set rsi_changed = (prev_rsi < 50 and data.RSI > 50) or (prev_rsi > 50 and data.RSI < 50) %}
+| [{{ symbol }}](#{{ symbol|lower }}) |
+{%- if direction_changed %}**{% endif %}{{ data.Direction }}{% if direction_changed %}**{% endif %} |
+{%- if rsi_changed %}**{% endif %}{{ '%2.2f'|format(data.RSI) }}{% if rsi_changed %}**{% endif %} |
+{%- for past_date in past_baskets|reverse %}
+{{- past_baskets[past_date][basket][symbol].Direction }} |
+{{- '%2.2f'|format(past_baskets[past_date][basket][symbol].RSI) }} |
+{%- endfor %}
+{%- endfor %}
 
 {% for symbol,data in symbol_data|dictsort %}
 ### {{ symbol }}
 
 |  RSI(14) | Direction | Basket |
 |----------|-------|--------|
-|  {{ data.RSI }} | {{ data.Direction }} | {{ data.Basket }} |
+|  {{ '%2.2f'|format(data.RSI) }} | {{ data.Direction }} | {{ data.Basket }} |
 
 ![image]({{ data.Chart.URL }})
 {% endfor %}
