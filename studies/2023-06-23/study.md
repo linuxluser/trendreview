@@ -7,16 +7,16 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  BIDU  |  bullish  | 55.08 |
-| CMCSA  |  neutral  | 48.59 |
-|  DIS   |  bearish  | 36.23 |
-|  GOOG  |  neutral  | 53.30 |
-|  META  |  bullish  | 78.38 |
-|  ROKU  |  bullish  | 46.97 |
-|   T    |  bearish  | 36.35 |
-|   VZ   |  bearish  | 44.44 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [BIDU](#bidu) |<mark>bullish</mark> |55.08 |
+| [CMCSA](#cmcsa) |neutral |48.59 |
+| [DIS](#dis) |bearish |36.23 |
+| [GOOG](#goog) |neutral |53.30 |
+| [META](#meta) |bullish |78.38 |
+| [ROKU](#roku) |bullish |46.97 |
+| [T](#t) |bearish |36.35 |
+| [VZ](#vz) |bearish |44.44 |
 
 
 ### BIDU
@@ -90,45 +90,45 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  AMZN  |  bullish  | 66.20 |
-|  BABA  |  neutral  | 46.58 |
-|  BBY   |  bullish  | 65.12 |
-|  BYND  |  neutral  | 55.66 |
-|  CHWY  |  neutral  | 60.66 |
-|  COST  |  neutral  | 61.38 |
-|  CZR   |  neutral  | 45.21 |
-|  DKNG  |  bullish  | 54.36 |
-|  EXPE  |  bearish  | 52.93 |
-|   F    |  bullish  | 64.44 |
-|   GM   |  bearish  | 54.87 |
-|   HD   |  neutral  | 55.80 |
-|   JD   |  bearish  | 42.92 |
-|   KO   |  bearish  | 48.58 |
-|   KR   |  bearish  | 44.50 |
-|  KSS   |  neutral  | 48.68 |
-|  LOW   |  bullish  | 57.43 |
-|  LVS   |  neutral  | 43.68 |
-|  MAR   |  neutral  | 42.84 |
-|  MCD   |  neutral  | 49.97 |
-|  MDLZ  |  bullish  | 44.20 |
-|  MGM   |  bearish  | 44.92 |
-|   MO   |  bearish  | 36.73 |
-|  NCLH  |  bullish  | 75.79 |
-|  NKE   |  bearish  | 45.76 |
-|  PEP   |  neutral  | 52.80 |
-|   PG   |  bullish  | 50.71 |
-|  RCL   |  bullish  | 80.85 |
-|  SBUX  |  bullish  | 40.05 |
-|  TGT   |  bearish  | 39.37 |
-|  TJX   |  bullish  | 64.21 |
-|  TSLA  |  bullish  | 67.60 |
-|  VFC   |  bearish  | 39.30 |
-|  WMT   |  bullish  | 61.91 |
-|  XLP   |  neutral  | 47.03 |
-|  XLY   |  bullish  | 66.49 |
-|  XRT   |  bearish  | 52.35 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [AMZN](#amzn) |bullish |66.20 |
+| [BABA](#baba) |neutral |46.58 |
+| [BBY](#bby) |bullish |65.12 |
+| [BYND](#bynd) |<mark>neutral</mark> |55.66 |
+| [CHWY](#chwy) |<mark>neutral</mark> |60.66 |
+| [COST](#cost) |neutral |61.38 |
+| [CZR](#czr) |neutral |45.21 |
+| [DKNG](#dkng) |bullish |54.36 |
+| [EXPE](#expe) |bearish |52.93 |
+| [F](#f) |bullish |64.44 |
+| [GM](#gm) |bearish |54.87 |
+| [HD](#hd) |neutral |55.80 |
+| [JD](#jd) |bearish |42.92 |
+| [KO](#ko) |<mark>bearish</mark> |48.58 |
+| [KR](#kr) |bearish |44.50 |
+| [KSS](#kss) |neutral |48.68 |
+| [LOW](#low) |bullish |57.43 |
+| [LVS](#lvs) |<mark>neutral</mark> |43.68 |
+| [MAR](#mar) |<mark>neutral</mark> |42.84 |
+| [MCD](#mcd) |<mark>neutral</mark> |49.97 |
+| [MDLZ](#mdlz) |bullish |44.20 |
+| [MGM](#mgm) |bearish |44.92 |
+| [MO](#mo) |bearish |36.73 |
+| [NCLH](#nclh) |bullish |75.79 |
+| [NKE](#nke) |<mark>bearish</mark> |45.76 |
+| [PEP](#pep) |neutral |52.80 |
+| [PG](#pg) |bullish |50.71 |
+| [RCL](#rcl) |bullish |80.85 |
+| [SBUX](#sbux) |bullish |40.05 |
+| [TGT](#tgt) |bearish |39.37 |
+| [TJX](#tjx) |<mark>bullish</mark> |64.21 |
+| [TSLA](#tsla) |bullish |67.60 |
+| [VFC](#vfc) |bearish |39.30 |
+| [WMT](#wmt) |bullish |61.91 |
+| [XLP](#xlp) |<mark>neutral</mark> |47.03 |
+| [XLY](#xly) |bullish |66.49 |
+| [XRT](#xrt) |bearish |52.35 |
 
 
 ### AMZN
@@ -434,24 +434,24 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  APA   |  neutral  | 43.35 |
-|   BP   |  neutral  | 41.51 |
-|  COP   |  neutral  | 44.25 |
-|  CVX   |  neutral  | 38.60 |
-|  DVN   |  neutral  | 42.55 |
-|  HAL   |  neutral  | 47.04 |
-|  KMI   |  neutral  | 38.73 |
-|  MPC   |  neutral  | 48.82 |
-|  MRO   |  neutral  | 39.83 |
-|  OXY   |  neutral  | 31.84 |
-|  RIG   |  neutral  | 46.17 |
-|  SLB   |  neutral  | 48.53 |
-|  USO   |  neutral  | 46.20 |
-|  XLE   |  neutral  | 39.75 |
-|  XOM   |  neutral  | 38.86 |
-|  XOP   |  neutral  | 44.89 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [APA](#apa) |neutral |43.35 |
+| [BP](#bp) |neutral |41.51 |
+| [COP](#cop) |neutral |44.25 |
+| [CVX](#cvx) |neutral |38.60 |
+| [DVN](#dvn) |<mark>neutral</mark> |42.55 |
+| [HAL](#hal) |neutral |47.04 |
+| [KMI](#kmi) |<mark>neutral</mark> |38.73 |
+| [MPC](#mpc) |neutral |48.82 |
+| [MRO](#mro) |neutral |39.83 |
+| [OXY](#oxy) |<mark>neutral</mark> |31.84 |
+| [RIG](#rig) |neutral |46.17 |
+| [SLB](#slb) |<mark>neutral</mark> |48.53 |
+| [USO](#uso) |neutral |46.20 |
+| [XLE](#xle) |<mark>neutral</mark> |39.75 |
+| [XOM](#xom) |neutral |38.86 |
+| [XOP](#xop) |neutral |44.89 |
 
 
 ### APA
@@ -589,28 +589,28 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  AIG   |  bullish  | 50.05 |
-|  AXP   |  neutral  | 55.31 |
-|  BAC   |  neutral  | 39.27 |
-|   BX   |  bullish  | 50.08 |
-|   C    |  neutral  | 42.54 |
-|  COF   |  bullish  | 51.79 |
-|  FITB  |  neutral  | 46.87 |
-|   GS   |  bearish  | 36.30 |
-|  JPM   |  bearish  | 47.31 |
-|  KRE   |  bearish  | 41.69 |
-|  MET   |  bearish  | 47.33 |
-|   MS   |  bearish  | 42.27 |
-|  PNC   |  neutral  | 47.43 |
-|  PYPL  |  bearish  | 54.52 |
-|  SCHW  |  neutral  | 47.81 |
-|  USB   |  neutral  | 47.91 |
-|   V    |  neutral  | 55.20 |
-|  VXX   |  bearish  | 26.47 |
-|  WFC   |  neutral  | 46.18 |
-|  XLF   |  neutral  | 48.11 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [AIG](#aig) |bullish |50.05 |
+| [AXP](#axp) |neutral |55.31 |
+| [BAC](#bac) |neutral |39.27 |
+| [BX](#bx) |bullish |50.08 |
+| [C](#c) |<mark>neutral</mark> |42.54 |
+| [COF](#cof) |bullish |51.79 |
+| [FITB](#fitb) |neutral |46.87 |
+| [GS](#gs) |bearish |36.30 |
+| [JPM](#jpm) |bearish |47.31 |
+| [KRE](#kre) |<mark>bearish</mark> |41.69 |
+| [MET](#met) |bearish |47.33 |
+| [MS](#ms) |bearish |42.27 |
+| [PNC](#pnc) |neutral |47.43 |
+| [PYPL](#pypl) |bearish |54.52 |
+| [SCHW](#schw) |neutral |47.81 |
+| [USB](#usb) |neutral |47.91 |
+| [V](#v) |neutral |55.20 |
+| [VXX](#vxx) |bearish |26.47 |
+| [WFC](#wfc) |neutral |46.18 |
+| [XLF](#xlf) |<mark>neutral</mark> |48.11 |
 
 
 ### AIG
@@ -780,17 +780,17 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  ABBV  |  neutral  | 38.84 |
-|  ABT   |  bearish  | 61.58 |
-|  CVS   |  bearish  | 49.06 |
-|  JNJ   |  bearish  | 71.57 |
-|  MRK   |  bearish  | 59.91 |
-|  MRNA  |  bearish  | 35.91 |
-|  PFE   |  bearish  | 45.13 |
-|  WBA   |  bearish  | 46.44 |
-|  XBI   |  neutral  | 44.76 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [ABBV](#abbv) |<mark>neutral</mark> |38.84 |
+| [ABT](#abt) |bearish |61.58 |
+| [CVS](#cvs) |bearish |49.06 |
+| [JNJ](#jnj) |bearish |71.57 |
+| [MRK](#mrk) |bearish |59.91 |
+| [MRNA](#mrna) |bearish |35.91 |
+| [PFE](#pfe) |bearish |45.13 |
+| [WBA](#wba) |bearish |46.44 |
+| [XBI](#xbi) |neutral |44.76 |
 
 
 ### ABBV
@@ -872,19 +872,19 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  AAL   |  bullish  | 66.34 |
-|   BA   |  bullish  | 43.11 |
-|  CAT   |  bearish  | 54.98 |
-|  DAL   |  bullish  | 80.96 |
-|   DE   |  bearish  | 61.83 |
-|  FDX   |  neutral  | 56.63 |
-|   GE   |  bullish  | 49.85 |
-|  LUV   |  bullish  | 69.57 |
-|  UAL   |  bullish  | 67.87 |
-|  UPS   |  neutral  | 42.36 |
-|  XHB   |  bullish  | 65.62 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [AAL](#aal) |bullish |66.34 |
+| [BA](#ba) |bullish |43.11 |
+| [CAT](#cat) |<mark>bearish</mark> |54.98 |
+| [DAL](#dal) |bullish |80.96 |
+| [DE](#de) |bearish |61.83 |
+| [FDX](#fdx) |neutral |56.63 |
+| [GE](#ge) |bullish |49.85 |
+| [LUV](#luv) |bullish |69.57 |
+| [UAL](#ual) |bullish |67.87 |
+| [UPS](#ups) |neutral |42.36 |
+| [XHB](#xhb) |bullish |65.62 |
 
 
 ### AAL
@@ -982,12 +982,12 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  EEM   |  bullish  | 44.84 |
-|  EFA   |  bearish  | 41.09 |
-|  EWZ   |  bullish  | 66.01 |
-|  FXI   |  bearish  | 41.65 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [EEM](#eem) |bullish |44.84 |
+| [EFA](#efa) |bearish |41.09 |
+| [EWZ](#ewz) |bullish |66.01 |
+| [FXI](#fxi) |bearish |41.65 |
 
 
 ### EEM
@@ -1029,16 +1029,16 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|   CF   |  bearish  | 56.15 |
-|  CLF   |  bearish  | 50.64 |
-|  DOW   |  neutral  | 45.04 |
-|  FCX   |  neutral  | 52.81 |
-|  MOS   |  bearish  | 42.35 |
-|  NEM   |  bearish  | 40.54 |
-|   X    |  neutral  | 56.02 |
-|  XLB   |  neutral  | 51.57 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [CF](#cf) |bearish |56.15 |
+| [CLF](#clf) |bearish |50.64 |
+| [DOW](#dow) |<mark>neutral</mark> |45.04 |
+| [FCX](#fcx) |<mark>neutral</mark> |52.81 |
+| [MOS](#mos) |bearish |42.35 |
+| [NEM](#nem) |bearish |40.54 |
+| [X](#x) |<mark>neutral</mark> |56.02 |
+| [XLB](#xlb) |<mark>neutral</mark> |51.57 |
 
 
 ### CF
@@ -1112,12 +1112,12 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  GDX   |  bearish  | 34.98 |
-|  GLD   |  bearish  | 37.80 |
-|  GOLD  |  bearish  | 36.86 |
-|  SLV   |  bearish  | 34.79 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [GDX](#gdx) |<mark>bearish</mark> |34.98 |
+| [GLD](#gld) |<mark>bearish</mark> |37.80 |
+| [GOLD](#gold) |bearish |36.86 |
+| [SLV](#slv) |bearish |34.79 |
 
 
 ### GDX
@@ -1159,9 +1159,9 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  IYR   |  neutral  | 40.34 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [IYR](#iyr) |neutral |40.34 |
 
 
 ### IYR
@@ -1179,38 +1179,38 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  AAPL  |  bullish  | 69.97 |
-|  ADBE  |  bullish  | 72.23 |
-|  AMAT  |  bullish  | 56.15 |
-|  AMD   |  bullish  | 44.57 |
-|  ARKK  |  bullish  | 52.89 |
-|  AVGO  |  bullish  | 58.29 |
-|  CRM   |  bullish  | 50.34 |
-|  CRWD  |  bullish  | 45.48 |
-|  CSCO  |  bullish  | 52.92 |
-|  DOCU  |  neutral  | 35.37 |
-|  FSLR  |  bearish  | 37.85 |
-|  HPQ   |  bullish  | 44.85 |
-|  IBM   |  bullish  | 42.39 |
-|  INTC  |  bullish  | 53.67 |
-|  MRVL  |  neutral  | 54.79 |
-|  MSFT  |  bullish  | 56.03 |
-|  NET   |  bullish  | 49.98 |
-|  NFLX  |  bullish  | 63.76 |
-|  NVDA  |  bullish  | 67.25 |
-|  ORCL  |  bullish  | 64.63 |
-|  QCOM  |  neutral  | 45.41 |
-|  QQQ   |  bullish  | 62.51 |
-|  SHOP  |  bullish  | 57.71 |
-|  SMH   |  bullish  | 56.32 |
-|   SQ   |  neutral  | 47.99 |
-|  TSM   |  bullish  | 56.46 |
-|  TTD   |  bullish  | 65.00 |
-|  TXN   |  neutral  | 42.13 |
-|  UBER  |  bullish  | 67.70 |
-|  XLK   |  bullish  | 58.36 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [AAPL](#aapl) |bullish |69.97 |
+| [ADBE](#adbe) |bullish |72.23 |
+| [AMAT](#amat) |bullish |56.15 |
+| [AMD](#amd) |bullish |44.57 |
+| [ARKK](#arkk) |bullish |52.89 |
+| [AVGO](#avgo) |bullish |58.29 |
+| [CRM](#crm) |bullish |50.34 |
+| [CRWD](#crwd) |bullish |45.48 |
+| [CSCO](#csco) |<mark>bullish</mark> |52.92 |
+| [DOCU](#docu) |<mark>neutral</mark> |35.37 |
+| [FSLR](#fslr) |bearish |37.85 |
+| [HPQ](#hpq) |<mark>bullish</mark> |44.85 |
+| [IBM](#ibm) |bullish |42.39 |
+| [INTC](#intc) |bullish |53.67 |
+| [MRVL](#mrvl) |<mark>neutral</mark> |54.79 |
+| [MSFT](#msft) |bullish |56.03 |
+| [NET](#net) |<mark>bullish</mark> |49.98 |
+| [NFLX](#nflx) |bullish |63.76 |
+| [NVDA](#nvda) |bullish |67.25 |
+| [ORCL](#orcl) |bullish |64.63 |
+| [QCOM](#qcom) |<mark>neutral</mark> |45.41 |
+| [QQQ](#qqq) |bullish |62.51 |
+| [SHOP](#shop) |bullish |57.71 |
+| [SMH](#smh) |bullish |56.32 |
+| [SQ](#sq) |neutral |47.99 |
+| [TSM](#tsm) |bullish |56.46 |
+| [TTD](#ttd) |bullish |65.00 |
+| [TXN](#txn) |<mark>neutral</mark> |42.13 |
+| [UBER](#uber) |bullish |67.70 |
+| [XLK](#xlk) |bullish |58.36 |
 
 
 ### AAPL
@@ -1460,11 +1460,11 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  HYG   |  neutral  | 44.10 |
-|  LQD   |  neutral  | 52.18 |
-|  TLT   |  neutral  | 53.45 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [HYG](#hyg) |<mark>neutral</mark> |44.10 |
+| [LQD](#lqd) |<mark>neutral</mark> |52.18 |
+| [TLT](#tlt) |<mark>neutral</mark> |53.45 |
 
 
 ### HYG
@@ -1498,11 +1498,11 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  DIA   |  bullish  | 49.36 |
-|  IWM   |  neutral  | 47.77 |
-|  SPY   |  bullish  | 58.06 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [DIA](#dia) |bullish |49.36 |
+| [IWM](#iwm) |neutral |47.77 |
+| [SPY](#spy) |bullish |58.06 |
 
 
 ### DIA
@@ -1536,9 +1536,9 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  |
-|--------|-----------|-------|
-|  XLU   |  bearish  | 40.08 |
+| Symbol | Direction |  RSI  | Jun 16 Direction | Jun 16 RSI |Jun 09 Direction | Jun 09 RSI |Jun 02 Direction | Jun 02 RSI |
+|----|----|----|----|----|----|----|----|----|
+| [XLU](#xlu) |bearish |40.08 |
 
 
 ### XLU
