@@ -11,11 +11,11 @@
 |----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | [BIDU](#bidu) |bullish |50.45 |1 |bullish |55.08 |— |neutral |63.76 |— |
 | [CMCSA](#cmcsa) |neutral |**60.45** |15 |neutral |48.59 |— |neutral |60.47 |— |
-| [DIS](#dis) |**neutral** |42.35 |0 |bearish |36.23 |— |bearish |45.01 |— |
+| [DIS](#dis) 🔴|**neutral** |42.35 |0 |bearish |36.23 |— |bearish |45.01 |— |
 | [GOOG](#goog) |neutral |**49.22** |29 |neutral |53.30 |— |neutral |57.49 |— |
 | [META](#meta) |bullish |65.17 |48 |bullish |78.38 |— |bullish |77.62 |— |
 | [ROKU](#roku) |bullish |**50.35** |20 |bullish |46.97 |— |bullish |67.67 |— |
-| [T](#t) |**neutral** |48.84 |**90** |bearish |36.35 |— |bearish |46.45 |— |
+| [T](#t) 🔴|**neutral** |48.84 |**90** |bearish |36.35 |— |bearish |46.45 |— |
 | [VZ](#vz) |bearish |**62.42** |**53** |bearish |44.44 |— |bearish |55.39 |— |
 
 
@@ -97,12 +97,12 @@
 | [BBY](#bby) |bullish |66.12 |0 |bullish |65.12 |— |bullish |68.94 |— |
 | [BYND](#bynd) |neutral |55.62 |35 |neutral |55.66 |— |bullish |55.61 |— |
 | [CHWY](#chwy) |neutral |59.76 |0 |neutral |60.66 |— |bullish |63.42 |— |
-| [COST](#cost) |**bullish** |70.17 |0 |neutral |61.38 |— |neutral |61.97 |— |
-| [CZR](#czr) |**bullish** |**62.86** |2 |neutral |45.21 |— |neutral |59.46 |— |
+| [COST](#cost) 🔴|**bullish** |70.17 |0 |neutral |61.38 |— |neutral |61.97 |— |
+| [CZR](#czr) 🔴|**bullish** |**62.86** |2 |neutral |45.21 |— |neutral |59.46 |— |
 | [DKNG](#dkng) |bullish |63.16 |2 |bullish |54.36 |— |bullish |51.82 |— |
 | [EXPE](#expe) |bearish |60.37 |3 |bearish |52.93 |— |bearish |57.00 |— |
 | [F](#f) |bullish |75.87 |15 |bullish |64.44 |— |bullish |76.16 |— |
-| [GM](#gm) |**neutral** |67.46 |10 |bearish |54.87 |— |bearish |69.68 |— |
+| [GM](#gm) 🔴|**neutral** |67.46 |10 |bearish |54.87 |— |bearish |69.68 |— |
 | [HD](#hd) |neutral |61.81 |0 |neutral |55.80 |— |neutral |55.76 |— |
 | [JD](#jd) |bearish |41.19 |0 |bearish |42.92 |— |bearish |63.60 |— |
 | [KO](#ko) |bearish |40.08 |14 |bearish |48.58 |— |neutral |54.22 |— |
@@ -110,25 +110,25 @@
 | [KSS](#kss) |neutral |**58.36** |3 |neutral |48.68 |— |neutral |59.62 |— |
 | [LOW](#low) |bullish |68.25 |0 |bullish |57.43 |— |bullish |60.63 |— |
 | [LVS](#lvs) |neutral |48.33 |22 |neutral |43.68 |— |bullish |49.27 |— |
-| [MAR](#mar) |**bullish** |**62.28** |0 |neutral |42.84 |— |bullish |50.83 |— |
+| [MAR](#mar) 🔴|**bullish** |**62.28** |0 |neutral |42.84 |— |bullish |50.83 |— |
 | [MCD](#mcd) |neutral |**65.54** |17 |neutral |49.97 |— |bearish |60.68 |— |
-| [MDLZ](#mdlz) |**neutral** |45.27 |14 |bullish |44.20 |— |bullish |46.75 |— |
-| [MGM](#mgm) |**neutral** |**59.92** |2 |bearish |44.92 |— |bearish |53.10 |— |
+| [MDLZ](#mdlz) 🔴|**neutral** |45.27 |14 |bullish |44.20 |— |bullish |46.75 |— |
+| [MGM](#mgm) 🔴|**neutral** |**59.92** |2 |bearish |44.92 |— |bearish |53.10 |— |
 | [MO](#mo) |bearish |**56.34** |0 |bearish |36.73 |— |bearish |39.53 |— |
 | [NCLH](#nclh) |bullish |77.41 |4 |bullish |75.79 |— |bullish |76.65 |— |
-| [NKE](#nke) |**neutral** |47.03 |0 |bearish |45.76 |— |bullish |54.66 |— |
+| [NKE](#nke) 🔴|**neutral** |47.03 |0 |bearish |45.76 |— |bullish |54.66 |— |
 | [PEP](#pep) |neutral |50.38 |10 |neutral |52.80 |— |neutral |53.59 |— |
 | [PG](#pg) |bullish |60.42 |14 |bullish |50.71 |— |bullish |55.29 |— |
 | [RCL](#rcl) |bullish |79.65 |6 |bullish |80.85 |— |bullish |77.90 |— |
 | [SBUX](#sbux) |bullish |43.91 |4 |bullish |40.05 |— |bullish |52.41 |— |
-| [TGT](#tgt) |**neutral** |40.97 |1 |bearish |39.37 |— |bearish |41.58 |— |
+| [TGT](#tgt) 🔴|**neutral** |40.97 |1 |bearish |39.37 |— |bearish |41.58 |— |
 | [TJX](#tjx) |bullish |72.18 |0 |bullish |64.21 |— |bearish |62.74 |— |
 | [TSLA](#tsla) |bullish |65.36 |42 |bullish |67.60 |— |bullish |85.94 |— |
 | [VFC](#vfc) |bearish |48.53 |**69** |bearish |39.30 |— |bearish |50.02 |— |
 | [WMT](#wmt) |bullish |64.02 |0 |bullish |61.91 |— |bullish |64.75 |— |
 | [XLP](#xlp) |neutral |**51.46** |0 |neutral |47.03 |— |bullish |55.22 |— |
 | [XLY](#xly) |bullish |70.51 |8 |bullish |66.49 |— |bullish |77.58 |— |
-| [XRT](#xrt) |**neutral** |60.86 |3 |bearish |52.35 |— |bearish |56.40 |— |
+| [XRT](#xrt) 🔴|**neutral** |60.86 |3 |bearish |52.35 |— |bearish |56.40 |— |
 
 
 ### AMZN
@@ -445,8 +445,8 @@
 | [KMI](#kmi) |neutral |**59.81** |2 |neutral |38.73 |— |bullish |55.72 |— |
 | [MPC](#mpc) |neutral |**61.34** |0 |neutral |48.82 |— |neutral |52.80 |— |
 | [MRO](#mro) |neutral |**51.03** |0 |neutral |39.83 |— |neutral |51.93 |— |
-| [OXY](#oxy) |**bearish** |**53.21** |0 |neutral |31.84 |— |bullish |42.05 |— |
-| [RIG](#rig) |**bullish** |**65.11** |3 |neutral |46.17 |— |neutral |52.12 |— |
+| [OXY](#oxy) 🔴|**bearish** |**53.21** |0 |neutral |31.84 |— |bullish |42.05 |— |
+| [RIG](#rig) 🔴|**bullish** |**65.11** |3 |neutral |46.17 |— |neutral |52.12 |— |
 | [SLB](#slb) |neutral |**60.49** |2 |neutral |48.53 |— |bearish |55.04 |— |
 | [USO](#uso) |neutral |**51.03** |4 |neutral |46.20 |— |neutral |52.48 |— |
 | [XLE](#xle) |neutral |**55.89** |0 |neutral |39.75 |— |bearish |52.18 |— |
@@ -596,20 +596,20 @@
 | [BAC](#bac) |neutral |**51.77** |23 |neutral |39.27 |— |neutral |55.39 |— |
 | [BX](#bx) |bullish |63.32 |1 |bullish |50.08 |— |bullish |60.70 |— |
 | [C](#c) |neutral |43.10 |15 |neutral |42.54 |— |bearish |59.35 |— |
-| [COF](#cof) |**neutral** |58.28 |17 |bullish |51.79 |— |bullish |60.98 |— |
+| [COF](#cof) 🔴|**neutral** |58.28 |17 |bullish |51.79 |— |bullish |60.98 |— |
 | [FITB](#fitb) |neutral |**51.77** |**54** |neutral |46.87 |— |neutral |54.26 |— |
 | [GS](#gs) |bearish |46.83 |20 |bearish |36.30 |— |bearish |57.38 |— |
-| [JPM](#jpm) |**bullish** |**66.08** |6 |bearish |47.31 |— |bearish |64.70 |— |
-| [KRE](#kre) |**neutral** |47.68 |**73** |bearish |41.69 |— |neutral |54.97 |— |
-| [MET](#met) |**bullish** |**60.16** |14 |bearish |47.33 |— |bearish |56.29 |— |
-| [MS](#ms) |**neutral** |**50.54** |15 |bearish |42.27 |— |bearish |59.54 |— |
+| [JPM](#jpm) 🔴|**bullish** |**66.08** |6 |bearish |47.31 |— |bearish |64.70 |— |
+| [KRE](#kre) 🔴|**neutral** |47.68 |**73** |bearish |41.69 |— |neutral |54.97 |— |
+| [MET](#met) 🔴|**bullish** |**60.16** |14 |bearish |47.33 |— |bearish |56.29 |— |
+| [MS](#ms) 🔴|**neutral** |**50.54** |15 |bearish |42.27 |— |bearish |59.54 |— |
 | [PNC](#pnc) |neutral |**54.48** |35 |neutral |47.43 |— |neutral |59.87 |— |
-| [PYPL](#pypl) |**neutral** |53.86 |0 |bearish |54.52 |— |bearish |56.13 |— |
+| [PYPL](#pypl) 🔴|**neutral** |53.86 |0 |bearish |54.52 |— |bearish |56.13 |— |
 | [SCHW](#schw) |neutral |**62.50** |**55** |neutral |47.81 |— |neutral |53.92 |— |
 | [USB](#usb) |neutral |**55.36** |**75** |neutral |47.91 |— |neutral |58.69 |— |
-| [V](#v) |**bullish** |65.87 |13 |neutral |55.20 |— |neutral |54.21 |— |
+| [V](#v) 🔴|**bullish** |65.87 |13 |neutral |55.20 |— |neutral |54.21 |— |
 | [VXX](#vxx) |bearish |25.47 |10 |bearish |26.47 |— |bearish |26.61 |— |
-| [WFC](#wfc) |**bullish** |**60.48** |26 |neutral |46.18 |— |neutral |57.84 |— |
+| [WFC](#wfc) 🔴|**bullish** |**60.48** |26 |neutral |46.18 |— |neutral |57.84 |— |
 | [XLF](#xlf) |neutral |**62.65** |0 |neutral |48.11 |— |bullish |63.29 |— |
 
 
@@ -782,11 +782,11 @@
 
 | Symbol | Direction |  RSI  | IV% |Jun 23 Direction | Jun 23 RSI | Jun 23 IV% |Jun 16 Direction | Jun 16 RSI | Jun 16 IV% |
 |----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| [ABBV](#abbv) |**bearish** |40.47 |35 |neutral |38.84 |— |bearish |44.51 |— |
+| [ABBV](#abbv) 🔴|**bearish** |40.47 |35 |neutral |38.84 |— |bearish |44.51 |— |
 | [ABT](#abt) |bearish |63.51 |14 |bearish |61.58 |— |bearish |56.63 |— |
 | [CVS](#cvs) |bearish |48.14 |14 |bearish |49.06 |— |bearish |42.28 |— |
-| [JNJ](#jnj) |**neutral** |65.98 |9 |bearish |71.57 |— |bearish |69.96 |— |
-| [MRK](#mrk) |**neutral** |60.55 |0 |bearish |59.91 |— |bearish |40.93 |— |
+| [JNJ](#jnj) 🔴|**neutral** |65.98 |9 |bearish |71.57 |— |bearish |69.96 |— |
+| [MRK](#mrk) 🔴|**neutral** |60.55 |0 |bearish |59.91 |— |bearish |40.93 |— |
 | [MRNA](#mrna) |bearish |42.46 |0 |bearish |35.91 |— |bearish |49.17 |— |
 | [PFE](#pfe) |bearish |38.27 |2 |bearish |45.13 |— |bearish |59.50 |— |
 | [WBA](#wba) |bearish |32.63 |17 |bearish |46.44 |— |bearish |58.70 |— |
@@ -879,7 +879,7 @@
 | [CAT](#cat) |bearish |65.38 |0 |bearish |54.98 |— |bullish |69.41 |— |
 | [DAL](#dal) |bullish |86.73 |17 |bullish |80.96 |— |bullish |84.32 |— |
 | [DE](#de) |bearish |59.33 |2 |bearish |61.83 |— |bearish |69.87 |— |
-| [FDX](#fdx) |**bullish** |67.98 |1 |neutral |56.63 |— |neutral |60.89 |— |
+| [FDX](#fdx) 🔴|**bullish** |67.98 |1 |neutral |56.63 |— |neutral |60.89 |— |
 | [GE](#ge) |bullish |**67.78** |19 |bullish |49.85 |— |bullish |60.44 |— |
 | [LUV](#luv) |bullish |79.68 |14 |bullish |69.57 |— |bullish |75.74 |— |
 | [UAL](#ual) |bullish |65.13 |22 |bullish |67.87 |— |bullish |77.21 |— |
@@ -1031,14 +1031,14 @@
 
 | Symbol | Direction |  RSI  | IV% |Jun 23 Direction | Jun 23 RSI | Jun 23 IV% |Jun 16 Direction | Jun 16 RSI | Jun 16 IV% |
 |----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| [CF](#cf) |**neutral** |51.63 |0 |bearish |56.15 |— |bearish |60.96 |— |
-| [CLF](#clf) |**neutral** |60.59 |7 |bearish |50.64 |— |bearish |60.56 |— |
-| [DOW](#dow) |**bearish** |**56.37** |4 |neutral |45.04 |— |bearish |54.57 |— |
+| [CF](#cf) 🔴|**neutral** |51.63 |0 |bearish |56.15 |— |bearish |60.96 |— |
+| [CLF](#clf) 🔴|**neutral** |60.59 |7 |bearish |50.64 |— |bearish |60.56 |— |
+| [DOW](#dow) 🔴|**bearish** |**56.37** |4 |neutral |45.04 |— |bearish |54.57 |— |
 | [FCX](#fcx) |neutral |59.21 |8 |neutral |52.81 |— |bearish |66.35 |— |
-| [MOS](#mos) |**neutral** |47.91 |7 |bearish |42.35 |— |bearish |49.02 |— |
-| [NEM](#nem) |**neutral** |49.37 |6 |bearish |40.54 |— |bearish |53.55 |— |
-| [X](#x) |**bullish** |67.79 |8 |neutral |56.02 |— |bearish |57.33 |— |
-| [XLB](#xlb) |**bullish** |64.53 |0 |neutral |51.57 |— |bearish |64.69 |— |
+| [MOS](#mos) 🔴|**neutral** |47.91 |7 |bearish |42.35 |— |bearish |49.02 |— |
+| [NEM](#nem) 🔴|**neutral** |49.37 |6 |bearish |40.54 |— |bearish |53.55 |— |
+| [X](#x) 🔴|**bullish** |67.79 |8 |neutral |56.02 |— |bearish |57.33 |— |
+| [XLB](#xlb) 🔴|**bullish** |64.53 |0 |neutral |51.57 |— |bearish |64.69 |— |
 
 
 ### CF
@@ -1161,7 +1161,7 @@
 
 | Symbol | Direction |  RSI  | IV% |Jun 23 Direction | Jun 23 RSI | Jun 23 IV% |Jun 16 Direction | Jun 16 RSI | Jun 16 IV% |
 |----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| [IYR](#iyr) |**bullish** |**61.38** |0 |neutral |40.34 |— |neutral |61.62 |— |
+| [IYR](#iyr) 🔴|**bullish** |**61.38** |0 |neutral |40.34 |— |neutral |61.62 |— |
 
 
 ### IYR
@@ -1189,15 +1189,15 @@
 | [AVGO](#avgo) |bullish |67.31 |11 |bullish |58.29 |— |bullish |74.06 |— |
 | [CRM](#crm) |bullish |51.75 |0 |bullish |50.34 |— |bullish |53.64 |— |
 | [CRWD](#crwd) |bullish |**50.45** |0 |bullish |45.48 |— |bullish |59.18 |— |
-| [CSCO](#csco) |**neutral** |63.61 |0 |bullish |52.92 |— |bearish |74.17 |— |
+| [CSCO](#csco) 🔴|**neutral** |63.61 |0 |bullish |52.92 |— |bearish |74.17 |— |
 | [DOCU](#docu) |neutral |41.18 |0 |neutral |35.37 |— |bearish |46.49 |— |
 | [FSLR](#fslr) |bearish |48.58 |35 |bearish |37.85 |— |bearish |40.38 |— |
-| [HPQ](#hpq) |**neutral** |**56.23** |0 |bullish |44.85 |— |bearish |56.79 |— |
+| [HPQ](#hpq) 🔴|**neutral** |**56.23** |0 |bullish |44.85 |— |bearish |56.79 |— |
 | [IBM](#ibm) |bullish |**55.16** |45 |bullish |42.39 |— |bullish |72.52 |— |
 | [INTC](#intc) |bullish |54.35 |**69** |bullish |53.67 |— |bullish |72.36 |— |
 | [MRVL](#mrvl) |neutral |57.55 |0 |neutral |54.79 |— |bullish |65.33 |— |
 | [MSFT](#msft) |bullish |59.27 |38 |bullish |56.03 |— |bullish |65.72 |— |
-| [NET](#net) |**neutral** |**53.54** |9 |bullish |49.98 |— |bearish |59.67 |— |
+| [NET](#net) 🔴|**neutral** |**53.54** |9 |bullish |49.98 |— |bearish |59.67 |— |
 | [NFLX](#nflx) |bullish |68.06 |50 |bullish |63.76 |— |bullish |71.13 |— |
 | [NVDA](#nvda) |bullish |62.61 |0 |bullish |67.25 |— |bullish |74.55 |— |
 | [ORCL](#orcl) |bullish |62.74 |9 |bullish |64.63 |— |bullish |84.33 |— |
@@ -1206,7 +1206,7 @@
 | [SHOP](#shop) |bullish |58.63 |18 |bullish |57.71 |— |bullish |60.70 |— |
 | [SMH](#smh) |bullish |62.17 |0 |bullish |56.32 |— |bullish |70.99 |— |
 | [SQ](#sq) |neutral |**58.86** |2 |neutral |47.99 |— |neutral |61.21 |— |
-| [TSM](#tsm) |**neutral** |53.01 |30 |bullish |56.46 |— |bullish |65.75 |— |
+| [TSM](#tsm) 🔴|**neutral** |53.01 |30 |bullish |56.46 |— |bullish |65.75 |— |
 | [TTD](#ttd) |bullish |63.20 |0 |bullish |65.00 |— |bullish |68.76 |— |
 | [TXN](#txn) |neutral |**60.37** |17 |neutral |42.13 |— |bearish |58.46 |— |
 | [UBER](#uber) |bullish |59.90 |6 |bullish |67.70 |— |bullish |72.96 |— |
@@ -1464,7 +1464,7 @@
 |----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | [HYG](#hyg) |neutral |**58.34** |0 |neutral |44.10 |— |bearish |56.67 |— |
 | [LQD](#lqd) |neutral |54.89 |0 |neutral |52.18 |— |bearish |52.89 |— |
-| [TLT](#tlt) |**bullish** |50.99 |0 |neutral |53.45 |— |bearish |50.62 |— |
+| [TLT](#tlt) 🔴|**bullish** |50.99 |0 |neutral |53.45 |— |bearish |50.62 |— |
 
 
 ### HYG
@@ -1500,7 +1500,7 @@
 
 | Symbol | Direction |  RSI  | IV% |Jun 23 Direction | Jun 23 RSI | Jun 23 IV% |Jun 16 Direction | Jun 16 RSI | Jun 16 IV% |
 |----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| [DIA](#dia) |**neutral** |**61.89** |0 |bullish |49.36 |— |bullish |61.67 |— |
+| [DIA](#dia) 🔴|**neutral** |**61.89** |0 |bullish |49.36 |— |bullish |61.67 |— |
 | [IWM](#iwm) |neutral |**60.92** |0 |neutral |47.77 |— |neutral |59.74 |— |
 | [SPY](#spy) |bullish |68.11 |0 |bullish |58.06 |— |bullish |70.53 |— |
 
