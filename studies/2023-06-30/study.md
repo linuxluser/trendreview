@@ -1,5 +1,23 @@
 # Trend Review 2023-06-30
 
+Page Links:
+
+* [Communications Data Table](#data-table)
+* [Consumer Data Table](#data-table-1)
+* [Energy Data Table](#data-table-2)
+* [Finance Data Table](#data-table-3)
+* [Health Data Table](#data-table-4)
+* [Industrial Data Table](#data-table-5)
+* [International Data Table](#data-table-6)
+* [Materials Data Table](#data-table-7)
+* [Precious Metals Data Table](#data-table-8)
+* [Real Estate Data Table](#data-table-9)
+* [Technology Data Table](#data-table-10)
+* [US Bonds Data Table](#data-table-11)
+* [US Stocks Data Table](#data-table-12)
+* [Utilities Data Table](#data-table-13)
+* [Only Direction Changes (all baskets)](#direction-changes)
+
 
 ---
 
@@ -1548,4 +1566,52 @@
 | 0 | 45.74 | bearish | Utilities |
 
 ![image](https://finviz.com/publish/070123/XLUd001890745i.png)
+
+
+
+---
+
+## Direction Changes
+
+| Basket | Symbol | New Direction | Previous Direction |
+|-------:|-------:|:-------------:|:------------------:|
+| Communications | DIS | neutral | bearish |
+| Communications | T | neutral | bearish |
+| Consumer | COST | bullish | neutral |
+| Consumer | CZR | bullish | neutral |
+| Consumer | GM | neutral | bearish |
+| Consumer | MAR | bullish | neutral |
+| Consumer | MDLZ | neutral | bullish |
+| Consumer | MGM | neutral | bearish |
+| Consumer | NKE | neutral | bearish |
+| Consumer | TGT | neutral | bearish |
+| Consumer | XRT | neutral | bearish |
+| Energy | OXY | bearish | neutral |
+| Energy | RIG | bullish | neutral |
+| Finance | COF | neutral | bullish |
+| Finance | JPM | bullish | bearish |
+| Finance | KRE | neutral | bearish |
+| Finance | MET | bullish | bearish |
+| Finance | MS | neutral | bearish |
+| Finance | PYPL | neutral | bearish |
+| Finance | V | bullish | neutral |
+| Finance | WFC | bullish | neutral |
+| Health | ABBV | bearish | neutral |
+| Health | JNJ | neutral | bearish |
+| Health | MRK | neutral | bearish |
+| Industrial | FDX | bullish | neutral |
+| Materials | CF | neutral | bearish |
+| Materials | CLF | neutral | bearish |
+| Materials | DOW | bearish | neutral |
+| Materials | MOS | neutral | bearish |
+| Materials | NEM | neutral | bearish |
+| Materials | X | bullish | neutral |
+| Materials | XLB | bullish | neutral |
+| Real Estate | IYR | bullish | neutral |
+| Technology | CSCO | neutral | bullish |
+| Technology | HPQ | neutral | bullish |
+| Technology | NET | neutral | bullish |
+| Technology | TSM | neutral | bullish |
+| US Bonds | TLT | bullish | neutral |
+| US Stocks | DIA | neutral | bullish |
 
