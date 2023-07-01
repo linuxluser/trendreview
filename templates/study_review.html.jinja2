@@ -29,6 +29,18 @@
 
 <body>
 
+{# Count how many symbols TOTAL are left #}
+{% set all_symbols = [] %}
+{% set incomplete_symbols = [] %}
+{% for basket,symbol_data in baskets|dictsort %}
+    {% for symbol,data in symbol_data.items() %}
+        {% set _ = all_symbols.append(symbol) %}
+        {% if data.Direction is undefined or not data.Direction %}
+            {% set _ = incomplete_symbols.append(symbol) %}
+	{% endif %}
+    {% endfor %}
+{% endfor %}
+
 <!-- Whether to show only incomplete symbols or not -->
 <div class="container my-5 mx-2">
     <div class="form-check">
@@ -39,6 +51,9 @@
         {% endif %}
         <label class="form-check-label" for="incomplete-only">Show only incomplete symbols.</label>
     </div>
+    {% if incomplete_only %}
+    <p class="text-primary"><b>{{ incomplete_symbols|length }}</b> symbols remaining out of {{ all_symbols|length }} total ({{ '%2.0f'|format(100 - (((incomplete_symbols|length)/(all_symbols|length))*100)) }}% complete).</p>
+    {% endif %}
 </div>
 
 
@@ -101,7 +116,7 @@
         {% endfor %}
     </div>
 {% else %}
-<p class="text-muted mx-auto px-5"><strike><b>{{ basket }}</b> Completed</strike></p>
+<p class="text-muted mx-auto px-5"><strike><b>{{ basket }}</b> basket is complete.</strike></p>
 {% endif %}
 {% endfor %}
 
