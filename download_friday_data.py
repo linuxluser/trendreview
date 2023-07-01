@@ -153,7 +153,7 @@ def write_yaml_record(ticker=None, title=None, basket=None, rsi=None,
     chart_filename = os.path.basename(local_path)
     yaml_file_path = '{}/{}'.format(make_study_dir(), YAML_FILE_NAME)
     record = f'''{ticker}:
-  Title: {title}
+  Title: "{title}"
   Basket: {basket}
   RSI: {rsi}
   IV%: {iv_percent}
@@ -195,6 +195,7 @@ def main():
             if ticker in existing_records:
                 print(f'# Skipping {ticker} because it already has a record.')
                 continue
+            print(f'# Beginning work on {ticker}.')
 
             # Get Finviz data
             finviz_driver.get(FINVIZ_URL_TMPL.format(ticker))
@@ -217,7 +218,11 @@ def main():
                     rsi=rsi,
                     chart_url=chart_url,
                     local_path=local_path))
-            print('# Waiting 3s before operating on next ticker ...')
+            print(f'# Finished work on {ticker}.')
+
+    # Close browsers
+    finviz_driver.quit()
+    marketchameleon_driver.quit()
 
 
 if __name__ == '__main__':
