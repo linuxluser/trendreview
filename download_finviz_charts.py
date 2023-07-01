@@ -51,6 +51,13 @@ def scrape_rsi_value(driver):
         return -1
 
 
+def scrape_title(driver):
+    css_selector = 'table.fullview-title > tbody > tr > td > h1 > span > a > b'
+    e = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
+    return e.text
+
+
 def publish_chart(driver):
     """Click "publish chart" link and return the URL of the generated chart."""
     a = driver.find_element(By.LINK_TEXT, 'publish chart')
@@ -119,11 +126,13 @@ def check_and_close_elite_modal_ad(driver):
         return
 
 
-def write_yaml_record(ticker, basket, rsi, chart_url, chart_local_path):
+def write_yaml_record(ticker=None, title=None, basket=None, rsi=None,
+                      chart_url=None, local_path=None):
     """Write a single ticker record and close the file to save progress."""
-    chart_filename = os.path.basename(chart_local_path)
+    chart_filename = os.path.basename(local_path)
     yaml_file_path = '{}/{}'.format(make_study_dir(), YAML_FILE_NAME)
     record = f'''{ticker}:
+  Title: {title}
   Basket: {basket}
   RSI: {rsi}
   Chart:
@@ -158,10 +167,17 @@ def main():
             driver.get(FINVIZ_URL_TMPL.format(ticker))
             check_and_close_elite_modal_ad(driver)
             rsi = scrape_rsi_value(driver)
+            title = scrape_title(driver)
             chart_url = publish_chart(driver)
             local_path = get_local_path(ticker)
             download_chart(driver, chart_url, local_path)
-            print(write_yaml_record(ticker, basket, rsi, chart_url, local_path))
+            print(write_yaml_record(
+                    ticker=ticker,
+                    title=title,
+                    basket=basket,
+                    rsi=rsi,
+                    chart_url=chart_url,
+                    local_path=local_path))
             print('# Waiting 3s before operating on next ticker ...')
             time.sleep(3)
 
