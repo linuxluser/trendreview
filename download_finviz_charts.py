@@ -26,6 +26,7 @@ STUDIES_BASE_DIR = None
 YAML_FILE_NAME = None
 BASKETS = None
 FINVIZ_URL_TMPL = 'https://finviz.com/quote.ashx?t={}&ty=c&ta=1&p=d&r=m6'
+MARKETCHAMELEON_URL_TMPL = 'https://marketchameleon.com/Overview/{}/IV/'
 CHART_FILENAME_TMPL = '{}-D-M6.png'
 
 
@@ -56,6 +57,24 @@ def scrape_title(driver):
     e = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
     return e.text
+
+
+def scrape_iv30(driver):
+    """Get the IV-30 value off of the marketchameleon page."""
+    css_selector = ' > '.join(('#symov_main_heading',
+                               'div',
+                               'div',
+                               'div:nth-child(2)',
+                               'div:nth-child(3)',
+                               'span.datatag'))
+    e = WebDriverWait(driver, 5).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
+    value = e.text.strip()
+    value = value.split()[0]   # Only get first word
+    value = value.rstrip('%')  # Remove trailing '%' character
+    value = float(value)       # Convert to a float
+    value = round(value)       # Round to nearest integer
+    return value
 
 
 def publish_chart(driver):
@@ -127,14 +146,17 @@ def check_and_close_elite_modal_ad(driver):
 
 
 def write_yaml_record(ticker=None, title=None, basket=None, rsi=None,
-                      chart_url=None, local_path=None):
+                      chart_url=None, local_path=None, iv_percent=None):
     """Write a single ticker record and close the file to save progress."""
+    if None in (ticker, title, basket, rsi, chart_url, local_path, iv_percent):
+        raise ValueError('All arguments required in write_yaml_record')
     chart_filename = os.path.basename(local_path)
     yaml_file_path = '{}/{}'.format(make_study_dir(), YAML_FILE_NAME)
     record = f'''{ticker}:
   Title: {title}
   Basket: {basket}
   RSI: {rsi}
+  IV%: {iv_percent}
   Chart:
     URL: {chart_url}
     LocalPath: {chart_filename}
@@ -157,29 +179,45 @@ def read_study_file_records():
 
 def main():
     set_global_values()
-    driver = webdriver.Firefox()
+
+    # Setup finviz driver
+    finviz_driver = webdriver.Firefox()
+
+    # Setup marketchameleon driver
+    mc_options = webdriver.ChromeOptions()
+    mc_options.add_argument('--start-maximized')
+    mc_options.add_argument('--disable-blink-features=AutomationControlled')
+    marketchameleon_driver = webdriver.Chrome(options=mc_options)
+
     existing_records = read_study_file_records()
     for basket in BASKETS:
         for ticker in BASKETS[basket]:
             if ticker in existing_records:
                 print(f'# Skipping {ticker} because it already has a record.')
                 continue
-            driver.get(FINVIZ_URL_TMPL.format(ticker))
-            check_and_close_elite_modal_ad(driver)
-            rsi = scrape_rsi_value(driver)
-            title = scrape_title(driver)
-            chart_url = publish_chart(driver)
+
+            # Get Finviz data
+            finviz_driver.get(FINVIZ_URL_TMPL.format(ticker))
+            check_and_close_elite_modal_ad(finviz_driver)
+            rsi = scrape_rsi_value(finviz_driver)
+            title = scrape_title(finviz_driver)
+            chart_url = publish_chart(finviz_driver)
             local_path = get_local_path(ticker)
-            download_chart(driver, chart_url, local_path)
+            download_chart(finviz_driver, chart_url, local_path)
+
+            # Get MarketChameleon data
+            marketchameleon_driver.get(MARKETCHAMELEON_URL_TMPL.format(ticker))
+            iv_percent = scrape_iv30(marketchameleon_driver)
+
             print(write_yaml_record(
                     ticker=ticker,
                     title=title,
                     basket=basket,
+                    iv_percent=iv_percent,
                     rsi=rsi,
                     chart_url=chart_url,
                     local_path=local_path))
             print('# Waiting 3s before operating on next ticker ...')
-            time.sleep(3)
 
 
 if __name__ == '__main__':
