@@ -1,5 +1,15 @@
 # Trend Review {{ study_date }}
 
+Page Links:
+
+{% for basket in baskets|sort -%}
+* [{{ basket }} Data Table](#data-table{% if loop.index > 1 %}-{{ loop.index - 1 }}{% endif %})
+{% endfor -%}
+* [Only Direction Changes (all baskets)](#direction-changes)
+
+{# Store symbols that changed direction #}
+{%- set directional_changes = [] %}
+
 {% for basket,symbol_data in baskets|dictsort %}
 ---
 
@@ -7,29 +17,54 @@
 
 ### Data Table
 
-| Symbol | Direction |  RSI  | {% for d in past_baskets|reverse %}{{ d|datestr2monthday}} Direction | {{ d|datestr2monthday }} RSI |{% endfor %}
-|----|----|----|{% for d in past_baskets|reverse %}----|----|{% endfor %}
+| Symbol | Direction |  RSI  | IV% |
+{%- for d in past_baskets|reverse %}{{ d|datestr2monthday}} Direction | {{ d|datestr2monthday }} RSI | {{ d|datestr2monthday }} IV% |{% endfor %}
+|---:|:--:|:--:|:--:|{% for d in past_baskets|reverse %}:--:|:--:|:--:|{% endfor %}
 {%- for symbol,data in symbol_data|dictsort %}
 {%- set prev_direction = previous_basket[basket][symbol].Direction %}
 {%- set direction_changed = prev_direction != data.Direction %}
+{%- if direction_changed %}{% set _ = directional_changes.append(symbol) %}{% endif %}
 {%- set prev_rsi = previous_basket[basket][symbol].RSI %}
 {%- set rsi_changed = (prev_rsi < 50 and data.RSI > 50) or (prev_rsi > 50 and data.RSI < 50) %}
-| [{{ symbol }}](#{{ symbol|lower }}) |
-{%- if direction_changed %}**{% endif %}{{ data.Direction }}{% if direction_changed %}**{% endif %} |
+{%- set prev_ivp = previous_basket[basket][symbol]['IV%']|default(-100) %}
+{%- set ivp_changed = (prev_ivp < 50 and data['IV%'] > 50) or (prev_ivp > 50 and data['IV%'] < 50) %}
+| {% if direction_changed %}🔴{% endif %} [{{ symbol }}](#{{ symbol|lower }}) |
+{%- if direction_changed %}**{% endif %}{{ data.Direction|default('—') }}{% if direction_changed %}**{% endif %} |
 {%- if rsi_changed %}**{% endif %}{{ '%2.2f'|format(data.RSI) }}{% if rsi_changed %}**{% endif %} |
+{%- if ivp_changed %}**{% endif %}{{ data['IV%'] }}{% if ivp_changed %}**{% endif %} |
 {%- for past_date in past_baskets|reverse %}
 {{- past_baskets[past_date][basket][symbol].Direction }} |
 {{- '%2.2f'|format(past_baskets[past_date][basket][symbol].RSI) }} |
+{{- past_baskets[past_date][basket][symbol]['IV%']|default('—') }} |
 {%- endfor %}
 {%- endfor %}
 
 {% for symbol,data in symbol_data|dictsort %}
 ### {{ symbol }}
 
-|  RSI(14) | Direction | Basket |
-|----------|-------|--------|
-|  {{ '%2.2f'|format(data.RSI) }} | {{ data.Direction }} | {{ data.Basket }} |
+| IV% | RSI(14) | Direction | Basket |
+|:---:|---------|-----------|--------|
+| {{ data['IV%'] }} | {{ '%2.2f'|format(data.RSI) }} | {{ data.Direction }} | {{ data.Basket }} |
 
 ![image]({{ data.Chart.URL }})
 {% endfor %}
 {% endfor %}
+
+---
+
+## Direction Changes
+
+There were {{ directional_changes|length }} direction changes.
+
+| Basket | Symbol | New Direction | Previous Direction |
+|-------:|-------:|:-------------:|:------------------:|
+{%- for basket,symbol_data in baskets|dictsort %}
+{%- for symbol,data in symbol_data|dictsort %}
+{%- set prev_direction = previous_basket[basket][symbol].Direction %}
+{%- set direction_changed = prev_direction != data.Direction %}
+{%- if direction_changed %}
+| {{ basket }} | {{ symbol }} | {{ data.Direction }} | {{ prev_direction }} |{% endif %}
+{%- endfor %}
+{%- endfor %}
+
+

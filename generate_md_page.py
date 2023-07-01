@@ -69,7 +69,7 @@ def get_date_string_from_study_directory(study_directory):
     return '{}-{:02}-{:02}'.format(year, month, day)
 
 
-def find_past_study_dates(this_study_date, back=3):
+def find_past_study_dates(this_study_date, back=2):
     """Find all of the studies in the past in date order from this study date."""
     study_dates = [d for d in os.listdir(STUDIES_BASE_DIR) if os.path.isdir(os.path.join(STUDIES_BASE_DIR, d))]
     study_dates.sort()
