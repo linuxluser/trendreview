@@ -42,7 +42,17 @@
 </div>
 
 
+{# Iterate over BASKETS #}
 {% for basket,symbol_data in baskets|dictsort %}
+
+    {# Determine if this basket is complete (the hard way because Jinja2 is ... Jinja2 ...) #}
+    {% set completed = [] %}
+    {% for symbol,data in symbol_data.items() if data.Direction is defined and data.Direction %}
+        {% set _ = completed.append(symbol) %}
+    {% endfor %}
+    {% set basket_complete = completed|length == symbol_data|length %}
+
+{% if not incomplete_only or (incomplete_only and not basket_complete) %}
 <h2 class="bg-primary border border-primary text-white mx-auto px-5 py-2">{{ basket }}</h2>
     <div class="container">
         {% for symbol,data in symbol_data|dictsort if not (incomplete_only and data.Direction) %}
@@ -90,6 +100,9 @@
         </div>
         {% endfor %}
     </div>
+{% else %}
+<p class="text-muted mx-auto px-5"><strike><b>{{ basket }}</b> Completed</strike></p>
+{% endif %}
 {% endfor %}
 
 
