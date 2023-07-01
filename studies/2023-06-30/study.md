@@ -19,6 +19,8 @@ Page Links:
 * [Only Direction Changes (all baskets)](#direction-changes)
 
 
+
+
 ---
 
 ## Communications
@@ -1572,6 +1574,8 @@ Page Links:
 ---
 
 ## Direction Changes
+
+There were 39 direction changes.
 
 | Basket | Symbol | New Direction | Previous Direction |
 |-------:|-------:|:-------------:|:------------------:|
