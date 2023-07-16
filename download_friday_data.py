@@ -190,12 +190,15 @@ def main():
     marketchameleon_driver = webdriver.Chrome(options=mc_options)
 
     existing_records = read_study_file_records()
+    tickers_total = len(for b in BASKETS for t in BASKETS[b])
+    tickers_processed = 0
     for basket in BASKETS:
         for ticker in BASKETS[basket]:
+            tickers_processed += 1
             if ticker in existing_records:
                 print(f'# Skipping {ticker} because it already has a record.')
                 continue
-            print(f'# Beginning work on {ticker}.')
+            print(f'# Beginning work on {ticker} ({tickers_processed} of {tickers_total}).')
 
             # Get Finviz data
             finviz_driver.get(FINVIZ_URL_TMPL.format(ticker))
