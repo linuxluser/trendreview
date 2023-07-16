@@ -24,7 +24,13 @@
         }
         http.send(params);
     }
+
+    // Force scroll to the top before the page refreshes
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
 </script>
+
 </head>
 
 <body>
