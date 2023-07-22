@@ -190,7 +190,7 @@ def main():
     marketchameleon_driver = webdriver.Chrome(options=mc_options)
 
     existing_records = read_study_file_records()
-    tickers_total = len(for b in BASKETS for t in BASKETS[b])
+    tickers_total = sum(len(BASKETS[b]) for b in BASKETS)
     tickers_processed = 0
     for basket in BASKETS:
         for ticker in BASKETS[basket]:
