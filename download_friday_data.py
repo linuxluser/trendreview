@@ -52,6 +52,16 @@ def scrape_rsi_value(driver):
         return -1
 
 
+def scrape_price_value(driver):
+    css_selector = 'tr.table-dark-row:nth-child(11) > td:nth-child(12) > b:nth-child(1)'
+    e = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
+    try:
+        return float(e.text)
+    except ValueError:
+        return -1
+
+
 def scrape_title(driver):
     css_selector = 'table.fullview-title > tbody > tr > td > h1 > span > a > b'
     e = WebDriverWait(driver, 10).until(
@@ -145,16 +155,17 @@ def check_and_close_elite_modal_ad(driver):
         return
 
 
-def write_yaml_record(ticker=None, title=None, basket=None, rsi=None,
+def write_yaml_record(ticker=None, title=None, basket=None, rsi=None, price=None,
                       chart_url=None, local_path=None, iv_percent=None):
     """Write a single ticker record and close the file to save progress."""
-    if None in (ticker, title, basket, rsi, chart_url, local_path, iv_percent):
+    if None in (ticker, title, basket, rsi, price, chart_url, local_path, iv_percent):
         raise ValueError('All arguments required in write_yaml_record')
     chart_filename = os.path.basename(local_path)
     yaml_file_path = '{}/{}'.format(make_study_dir(), YAML_FILE_NAME)
     record = f'''{ticker}:
   Title: "{title}"
   Basket: {basket}
+  Price: {price}
   RSI: {rsi}
   IV%: {iv_percent}
   Chart:
@@ -204,6 +215,7 @@ def main():
             finviz_driver.get(FINVIZ_URL_TMPL.format(ticker))
             check_and_close_elite_modal_ad(finviz_driver)
             rsi = scrape_rsi_value(finviz_driver)
+            price = scrape_price_value(finviz_driver)
             title = scrape_title(finviz_driver)
             chart_url = publish_chart(finviz_driver)
             local_path = get_local_path(ticker)
@@ -219,9 +231,11 @@ def main():
                     basket=basket,
                     iv_percent=iv_percent,
                     rsi=rsi,
+                    price=price,
                     chart_url=chart_url,
                     local_path=local_path))
             print(f'# Finished work on {ticker}.')
+    print('# All done!')
 
     # Close browsers
     finviz_driver.quit()
