@@ -84,7 +84,9 @@
         {% for symbol,data in symbol_data|dictsort if not (incomplete_only and data.Direction) %}
         <div class="row">
             <div class="col">
-        <img src="/studies/{{ for_date }}/{{ data.Chart.LocalPath }}" class="img-fluid rounded mx-auto d-block" />
+                <a href="https://finviz.com/quote.ashx?t={{ symbol }}&ty=c&ta=1&p=d&r=m6" target="_blank" style="target-new:tab;">
+                    <img src="/studies/{{ for_date }}/{{ data.Chart.LocalPath }}" class="img-fluid rounded mx-auto d-block" />
+                </a>
             </div>
             <div class="col-3">
                 <div class="container">
