@@ -12,11 +12,16 @@ position.
 import argparse
 import datetime
 import os
+from tabulate import tabulate
 import yaml
 
 
 STUDIES_DIR = None
 STUDY_DATA_FILE = None
+
+
+HIGHLIGHT = '\033[2;30;47m'
+ENDCOLOR = '\033[0;0m'
 
 
 def set_global_values():
@@ -54,13 +59,15 @@ def find_latest_study_date():
     return study_date
 
 
-def find_previous_study_date(this_study_date):
+def find_previous_study_dates(this_study_date):
     study_dates = [d for d in os.listdir(STUDIES_DIR) if os.path.isdir(os.path.join(STUDIES_DIR, d))]
     study_dates.sort()
     try:
-        return study_dates[study_dates.index(this_study_date) - 1]
+        i = study_dates.index(this_study_date)
     except IndexError:
-        return None
+        return []
+    else:
+        return study_dates[:i]
 
 
 def read_positions_file(positions_file):
@@ -72,25 +79,41 @@ def read_positions_file(positions_file):
     return positions
 
 
+def study_date_to_str(study_date):
+    dt = datetime.datetime.strptime(study_date, '%Y-%m-%d')
+    return dt.strftime('%b-%d')
+
+
 def main(args):
     set_global_values()
+    positions = read_positions_file(args.positions_file)
     study_date = find_latest_study_date()
     study_data = load_study_data(study_date)
-    prev_study_date = find_previous_study_date(study_date)
-    prev_study_data = load_study_data(prev_study_date)
-    positions = read_positions_file(args.positions_file)
+    past_dates = find_previous_study_dates(study_date)
+    past_dates.sort(reverse=True)
+    past_dates = past_dates[:7]  #  past 7 weeks + this week ~= 2 months
+    past_study_data = {d:load_study_data(d) for d in past_dates}
+    table = []
     for symbol in positions:
         if symbol in study_data:
             position_direction = positions[symbol]['Direction']
             study_direction = study_data[symbol]['Direction']
             if position_direction != study_direction:
-                print(f'{symbol}\t{position_direction} != {study_direction}', end='')
-                # If previous study direction is what we're already in, make a note
-                if symbol in prev_study_data:
-                    prev_study_direction = prev_study_data[symbol]['Direction']
-                    if prev_study_direction != study_direction and prev_study_direction == position_direction:
-                        print(f'  # NOTE: direction is same as the previous study', end='')
-                print()  # newline
+                row = [symbol, position_direction, study_direction]
+                highlight_done = False
+                for past_date in past_dates:
+                    if symbol in past_study_data[past_date]:
+                        direction = past_study_data[past_date][symbol]['Direction']
+                        # Highlight first occurance of same direction as current
+                        if not highlight_done and direction == position_direction:
+                            direction = f'{HIGHLIGHT}{direction}{ENDCOLOR}'
+                            highlight_done = True
+                        row.append(direction)
+                    else:
+                        row.append(None)
+                table.append(row)
+    headers = ['Symbol', 'Pos-Dir', study_date_to_str(study_date)] + [study_date_to_str(d) for d in past_dates]
+    print(tabulate(table, headers=headers))
 
 
 if __name__ == '__main__':
