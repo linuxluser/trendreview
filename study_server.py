@@ -61,8 +61,8 @@ def studies_list():
     return flask.render_template_string('''<html>
     <head><title>Studies</title></head>
     <body>
-        <ul>{% for dir in dirs %}
-        <li><a href="/studies/{{ dir }}">{{ dir }}</a></li>
+        <ul>{% for dir in dirs|sort(reverse=True) %}
+        <li><a href="/studies/{{ dir }}?incomplete_only=true">{{ dir }}</a></li>
         {% endfor %}</ul>
     </body>
 </html>''', dirs=dates_dirs)
