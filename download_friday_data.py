@@ -63,7 +63,7 @@ def scrape_price_value(driver):
 
 
 def scrape_title(driver):
-    css_selector = 'table.fullview-title > tbody > tr > td > h1 > span > a > b'
+    css_selector = 'div.quote-header h2.quote-header_ticker-wrapper_company > a'
     e = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
     return e.text
@@ -88,9 +88,12 @@ def scrape_iv30(driver):
 
 
 def publish_chart(driver):
-    """Click "publish chart" link and return the URL of the generated chart."""
-    a = driver.find_element(By.LINK_TEXT, 'publish chart')
-    a.click()
+    """Click "Share" button on chart and return the URL of the generated chart."""
+    button = driver.find_element(By.CSS_SELECTOR, (
+            'div.chart[data-testid="chart-0-container"]'
+            ' > div[data-testid="chart-0-settings"]'
+            ' button[data-testid="chart-toolbar-publish"]'))
+    button.click()
     img = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located(
             (By.CSS_SELECTOR, 'img[data-testid="charts-publish-chart-img"]')))
