@@ -83,12 +83,12 @@
     <div class="container">
         {% for symbol,data in symbol_data|dictsort if not (incomplete_only and data.Direction) %}
         <div class="row">
-            <div class="col">
+            <div class="col py-2">
                 <a href="https://finviz.com/quote.ashx?t={{ symbol }}&ty=c&ta=1&p=d&r=m6" target="_blank" style="target-new:tab;">
                     <img src="/studies/{{ for_date }}/{{ data.Chart.LocalPath }}" class="img-fluid rounded mx-auto d-block" />
                 </a>
             </div>
-            <div class="col-3">
+            <div class="col-3 py-2">
                 <div class="container">
 		    <div class="row align-items-center">
                         <div class="col"><h1><span class="badge bg-success">{{ symbol }}</span></h1></div>
