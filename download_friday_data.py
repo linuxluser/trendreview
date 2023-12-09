@@ -4,6 +4,7 @@
 """
 
 
+import argparse
 import datetime
 import os
 import time
@@ -28,13 +29,16 @@ BASKETS = None
 FINVIZ_URL_TMPL = 'https://finviz.com/quote.ashx?t={}&ty=c&ta=1&p=d&r=m6'
 MARKETCHAMELEON_URL_TMPL = 'https://marketchameleon.com/Overview/{}/IV/'
 CHART_FILENAME_TMPL = '{}-D-M6.png'
+USE_TODAY = False
 
 
-def set_global_values():
+def set_global_values(use_today):
     """Read config.yaml and load in global values of this script from that."""
     global STUDIES_BASE_DIR
     global YAML_FILE_NAME
     global BASKETS
+    global USE_TODAY
+    USE_TODAY = use_today
     with open('config.yaml') as f:
         config = yaml.load(f, Loader=yaml.CSafeLoader)
     STUDIES_BASE_DIR = config['Studies Base Directory']
@@ -102,12 +106,12 @@ def publish_chart(driver):
 
 _STUDY_DIR = None
 def make_study_dir():
-    """Create a directory based on the date string as part of the path based on the latest Friday."""
+    """Create a directory based on the date string as part of the path."""
     global _STUDY_DIR
     if _STUDY_DIR is None:
         today = datetime.date.today()
         dow = today.weekday()
-        if dow == 4:  # Friday
+        if dow == 4 or USE_TODAY:  # Today is Friday or override with today's date anyway
             date_str = today.strftime('%Y-%m-%d')
         elif dow < 4:
             days_back = - (dow + 3)
@@ -191,8 +195,8 @@ def read_study_file_records():
         return yaml.load(f, Loader=yaml.CSafeLoader)
 
 
-def main():
-    set_global_values()
+def main(use_today):
+    set_global_values(use_today)
 
     # Setup finviz driver
     finviz_driver = webdriver.Firefox()
@@ -246,4 +250,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--today', action='store_true', help='Use today\'s date instead of Friday.')
+    args = parser.parse_args()
+    main(use_today=args.today)
