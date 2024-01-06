@@ -8,6 +8,7 @@ import argparse
 import datetime
 import os
 import time
+import urllib.error
 import urllib.request
 import yaml
 
@@ -146,7 +147,17 @@ def download_chart(driver, url, local_path):
         _OPENER = urllib.request.build_opener()
         _OPENER.addheaders = [('User-Agent', user_agent)]
         urllib.request.install_opener(_OPENER)
-    urllib.request.urlretrieve(url, local_path)
+    # Do three attemps at downloading
+    for attempt in range(1, 4):
+        try:
+            urllib.request.urlretrieve(url, local_path)
+        except urllib.error.ContentTooShortError:
+            if attempt < 3:
+                print(f'# Error downloading chart from {url}, retrying (attempt {attempt} failed)')
+                continue
+            raise
+        else:
+            break
 
 
 def check_and_close_elite_modal_ad(driver):
