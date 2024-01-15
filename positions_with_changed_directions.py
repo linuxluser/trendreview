@@ -39,7 +39,7 @@ def load_study_data(study_date):
         return {}
     study_directory = os.path.join(STUDIES_DIR, study_date)
     if not os.path.exists(study_directory):
-        flask.abort(404)
+        raise SystemExit(f'Study directory {study_directory} does not exist')
     yaml_file = os.path.join(study_directory, STUDY_DATA_FILE)
     with open(yaml_file, 'r') as f:
         return yaml.load(f, Loader=yaml.CSafeLoader)
