@@ -1,6 +1,25 @@
 # Trend Review {{ study_date }}
 
-Page Links:
+### Summary
+{%- set bullish_count = 0 %}
+{%- set bearish_count = 0 %}
+{%- set neutral_count = 0 %}
+{%- for basket,symbol_data in baskets|dictsort %}
+{%- for symbol,data in symbol_data|dictsort %}
+{%- if data.Direction == 'bullish' %}{% set bullish_count = bullish_count + 1 %}
+{%- elif data.Direction == 'bearish' %}{% set bearish_count = bearish_count + 1 %}
+{%- elif data.Direction == 'neutral' %}{% set neutral_count = neutral_count + 1 %}
+{%- endif %}
+{%- endfor %}
+{%- endfor %}
+
+|         |      Count          |
+|---------|---------------------|
+| Bullish | {{ bullish_count }} |
+| Bearish | {{ bearish_count }} |
+| Neutral | {{ neutral_count }} |
+
+### Page Links
 
 {% for basket in baskets|sort -%}
 * [{{ basket }} Data Table](#data-table{% if loop.index > 1 %}-{{ loop.index - 1 }}{% endif %})
