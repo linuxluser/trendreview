@@ -1,23 +1,35 @@
 # Trend Review {{ study_date }}
 
 ### Summary
-{%- set bullish_count = 0 %}
-{%- set bearish_count = 0 %}
-{%- set neutral_count = 0 %}
+
+{%- set bullish_cycler = cycler(*range(1, 1000)) %}
+{%- set bearish_cycler = cycler(*range(1, 1000)) %}
+{%- set neutral_cycler = cycler(*range(1, 1000)) %}
 {%- for basket,symbol_data in baskets|dictsort %}
 {%- for symbol,data in symbol_data|dictsort %}
-{%- if data.Direction == 'bullish' %}{% set bullish_count = bullish_count + 1 %}
-{%- elif data.Direction == 'bearish' %}{% set bearish_count = bearish_count + 1 %}
-{%- elif data.Direction == 'neutral' %}{% set neutral_count = neutral_count + 1 %}
+{%- if data.Direction == "bullish" %}{% set _ = bullish_cycler.next() %}
+{%- elif data.Direction == "bearish" %}{% set _ = bearish_cycler.next() %}
+{%- elif data.Direction == "neutral" %}{% set _ = neutral_cycler.next() %}
+{%- endif %}
+{%- endfor %}
+{%- endfor %}
+{%- set prev_bullish_cycler = cycler(*range(1, 1000)) %}
+{%- set prev_bearish_cycler = cycler(*range(1, 1000)) %}
+{%- set prev_neutral_cycler = cycler(*range(1, 1000)) %}
+{%- for basket,symbol_data in previous_basket|dictsort %}
+{%- for symbol,data in symbol_data|dictsort %}
+{%- if data.Direction == "bullish" %}{% set _ = prev_bullish_cycler.next() %}
+{%- elif data.Direction == "bearish" %}{% set _ = prev_bearish_cycler.next() %}
+{%- elif data.Direction == "neutral" %}{% set _ = prev_neutral_cycler.next() %}
 {%- endif %}
 {%- endfor %}
 {%- endfor %}
 
-|         |      Count          |
-|---------|---------------------|
-| Bullish | {{ bullish_count }} |
-| Bearish | {{ bearish_count }} |
-| Neutral | {{ neutral_count }} |
+|         |      \# Symbols     |   Previous ({{ past_baskets|reverse|first }})  |
+|---------|:-------------------:|:-----------------:|
+| Bullish | {{ bullish_cycler.current }} | {{ prev_bullish_cycler.current }} |
+| Bearish | {{ bearish_cycler.current }} | {{ prev_bearish_cycler.current }} |
+| Neutral | {{ neutral_cycler.current }} | {{ prev_neutral_cycler.current }} |
 
 ### Page Links
 
