@@ -7,16 +7,12 @@
 import argparse
 import datetime
 import os
-import time
-import urllib.error
-import urllib.request
 import yaml
 
 from selenium import webdriver
 from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -130,36 +126,6 @@ def make_study_dir():
     return _STUDY_DIR
 
 
-def get_local_path(ticker):
-    """Build LocalPath value of image."""
-    return make_study_dir() + '/' + CHART_FILENAME_TMPL.format(ticker)
-
-
-def download_chart(driver, url, local_path):
-    """Downloads the chart image at url and store it in local_path.
-
-    The driver is required so we can extract the User-Agent string if needed.
-    """
-    global _OPENER
-    # Add user-agent string if it hasn't been done yet
-    if _OPENER is None:
-        user_agent = driver.execute_script('return navigator.userAgent;')
-        _OPENER = urllib.request.build_opener()
-        _OPENER.addheaders = [('User-Agent', user_agent)]
-        urllib.request.install_opener(_OPENER)
-    # Do three attemps at downloading
-    for attempt in range(1, 4):
-        try:
-            urllib.request.urlretrieve(url, local_path)
-        except urllib.error.ContentTooShortError:
-            if attempt < 3:
-                print(f'# Error downloading chart from {url}, retrying (attempt {attempt} failed)')
-                continue
-            raise
-        else:
-            break
-
-
 def check_and_close_elite_modal_ad(driver):
     """Check if a Finviz Elite modal ad pops up and if so, close it."""
     try:
@@ -174,11 +140,10 @@ def check_and_close_elite_modal_ad(driver):
 
 
 def write_yaml_record(ticker=None, title=None, basket=None, rsi=None, price=None,
-                      chart_url=None, local_path=None, iv_percent=None):
+                      chart_url=None, iv_percent=None):
     """Write a single ticker record and close the file to save progress."""
-    if None in (ticker, title, basket, rsi, price, chart_url, local_path, iv_percent):
+    if None in (ticker, title, basket, rsi, price, chart_url, iv_percent):
         raise ValueError('All arguments required in write_yaml_record')
-    chart_filename = os.path.basename(local_path)
     yaml_file_path = '{}/{}'.format(make_study_dir(), YAML_FILE_NAME)
     record = f'''{ticker}:
   Title: "{title}"
@@ -188,7 +153,6 @@ def write_yaml_record(ticker=None, title=None, basket=None, rsi=None, price=None
   IV%: {iv_percent}
   Chart:
     URL: {chart_url}
-    LocalPath: {chart_filename}
 '''
     if not os.path.exists(yaml_file_path):
         with open(yaml_file_path, 'w') as f:
@@ -236,8 +200,6 @@ def main(use_today):
             price = scrape_price_value(finviz_driver)
             title = scrape_title(finviz_driver)
             chart_url = publish_chart(finviz_driver)
-            local_path = get_local_path(ticker)
-            download_chart(finviz_driver, chart_url, local_path)
 
             # Get MarketChameleon data
             marketchameleon_driver.get(MARKETCHAMELEON_URL_TMPL.format(ticker))
@@ -250,8 +212,7 @@ def main(use_today):
                     iv_percent=iv_percent,
                     rsi=rsi,
                     price=price,
-                    chart_url=chart_url,
-                    local_path=local_path))
+                    chart_url=chart_url))
             print(f'# Finished work on {ticker}.')
     print('# All done!')
 
