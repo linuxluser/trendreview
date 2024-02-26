@@ -1,0 +1,1405 @@
+---
+AAL:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/AALd204909708i.png
+  Direction: bullish
+  IV%: 44
+  Price: 15.24
+  RSI: 58.69
+  Title: American Airlines Group Inc
+AAPL:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/AAPLd181858680i.png
+  Direction: neutral
+  IV%: 23
+  Price: 184.37
+  RSI: 40.1
+  Title: Apple Inc
+ABBV:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/ABBVd204368739i.png
+  Direction: bullish
+  IV%: 5
+  Price: 176.75
+  RSI: 72.7
+  Title: Abbvie Inc
+ABT:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/ABTd204372161i.png
+  Direction: bullish
+  IV%: 12
+  Price: 119.02
+  RSI: 71.09
+  Title: Abbott Laboratories
+ADBE:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/ADBEd181866322i.png
+  Direction: bearish
+  IV%: 93
+  Price: 537.57
+  RSI: 36.69
+  Title: Adobe Inc
+AIG:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/AIGd204405753i.png
+  Direction: bullish
+  IV%: 21
+  Price: 70.88
+  RSI: 60.4
+  Title: American International Group Inc
+AMAT:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/AMATd181830108i.png
+  Direction: bullish
+  IV%: 32
+  Price: 199.73
+  RSI: 66.58
+  Title: Applied Materials Inc.
+AMD:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/AMDd181887476i.png
+  Direction: neutral
+  IV%: 46
+  Price: 181.86
+  RSI: 56.69
+  Title: Advanced Micro Devices Inc.
+AMZN:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/AMZNd183012006i.png
+  Direction: bullish
+  IV%: 11
+  Price: 174.58
+  RSI: 65.75
+  Title: Amazon.com Inc.
+APA:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/APAd183705242i.png
+  Direction: bearish
+  IV%: 11
+  Price: 30.22
+  RSI: 41.56
+  Title: APA Corporation
+ARKK:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/ARKKd182253214i.png
+  Direction: neutral
+  IV%: 54
+  Price: 48.41
+  RSI: 50.32
+  Title: ARK Innovation ETF
+AVGO:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/AVGOd181992384i.png
+  Direction: bullish
+  IV%: 90
+  Price: 1304.9
+  RSI: 64.28
+  Title: Broadcom Inc
+AXP:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/AXPd204644808i.png
+  Direction: bullish
+  IV%: 21
+  Price: 213.99
+  RSI: 73.87
+  Title: American Express Co.
+BA:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/BAd205008562i.png
+  Direction: neutral
+  IV%: 41
+  Price: 201.5
+  RSI: 36.41
+  Title: Boeing Co.
+BABA:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/BABAd183483444i.png
+  Direction: neutral
+  IV%: 28
+  Price: 76.12
+  RSI: 56.59
+  Title: Alibaba Group Holding Ltd ADR
+BAC:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/BACd204557566i.png
+  Direction: neutral
+  IV%: 23
+  Price: 33.61
+  RSI: 56.37
+  Title: Bank Of America Corp.
+BBY:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/BBYd183469854i.png
+  Direction: neutral
+  IV%: 75
+  Price: 75.21
+  RSI: 57.59
+  Title: Best Buy Co. Inc.
+BIDU:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/BIDUd183071342i.png
+  Direction: neutral
+  IV%: 87
+  Price: 110.59
+  RSI: 57.48
+  Title: Baidu Inc ADR
+BP:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/BPd183758500i.png
+  Direction: neutral
+  IV%: 7
+  Price: 35.49
+  RSI: 48.7
+  Title: BP plc ADR
+BX:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/BXd204575511i.png
+  Direction: bullish
+  IV%: 25
+  Price: 127.29
+  RSI: 49.85
+  Title: Blackstone Inc
+BYND:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/BYNDd183470858i.png
+  Direction: bullish
+  IV%: 33
+  Price: 7.58
+  RSI: 60.12
+  Title: Beyond Meat Inc
+C:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/Cd204516989i.png
+  Direction: bullish
+  IV%: 17
+  Price: 55.9
+  RSI: 62.27
+  Title: Citigroup Inc
+CAT:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/CATd205075678i.png
+  Direction: bullish
+  IV%: 23
+  Price: 322.09
+  RSI: 62.94
+  Title: Caterpillar Inc.
+CF:
+  Basket: Materials
+  Chart:
+    URL: https://finviz.com/publish/022324/CFd204860548i.png
+  Direction: bullish
+  IV%: 1
+  Price: 79.7
+  RSI: 62.99
+  Title: CF Industries Holdings Inc
+CHWY:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/CHWYd183401316i.png
+  Direction: bearish
+  IV%: 94
+  Price: 16.08
+  RSI: 33.83
+  Title: Chewy Inc
+CLF:
+  Basket: Materials
+  Chart:
+    URL: https://finviz.com/publish/022324/CLFd204899133i.png
+  Direction: neutral
+  IV%: 2
+  Price: 20.03
+  RSI: 59.65
+  Title: Cleveland-Cliffs Inc
+CMCSA:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/CMCSAd182933920i.png
+  Direction: bearish
+  IV%: 46
+  Price: 41.91
+  RSI: 41.51
+  Title: Comcast Corp
+COF:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/COFd204531870i.png
+  Direction: neutral
+  IV%: 6
+  Price: 134.56
+  RSI: 54.6
+  Title: Capital One Financial Corp.
+COP:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/COPd183761588i.png
+  Direction: neutral
+  IV%: 7
+  Price: 112.22
+  RSI: 50.3
+  Title: Conoco Phillips
+COST:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/COSTd183273213i.png
+  Direction: bullish
+  IV%: 80
+  Price: 734.4
+  RSI: 74.75
+  Title: Costco Wholesale Corp
+CRM:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/CRMd181982444i.png
+  Direction: bullish
+  IV%: 92
+  Price: 293.65
+  RSI: 60.61
+  Title: Salesforce Inc
+CRWD:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/CRWDd181972578i.png
+  Direction: bullish
+  IV%: 93
+  Price: 310.91
+  RSI: 53.57
+  Title: Crowdstrike Holdings Inc
+CSCO:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/CSCOd182216714i.png
+  Direction: bearish
+  IV%: 20
+  Price: 48.57
+  RSI: 40.71
+  Title: Cisco Systems, Inc.
+CVS:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/CVSd204438163i.png
+  Direction: bullish
+  IV%: 19
+  Price: 77.1
+  RSI: 56.67
+  Title: CVS Health Corp
+CVX:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/CVXd183745408i.png
+  Direction: bullish
+  IV%: 6
+  Price: 155.43
+  RSI: 60.46
+  Title: Chevron Corp.
+CZR:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/CZRd183481394i.png
+  Direction: bearish
+  IV%: 22
+  Price: 41.47
+  RSI: 39.56
+  Title: Caesars Entertainment Inc
+DAL:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/DALd205076866i.png
+  Direction: bullish
+  IV%: 21
+  Price: 42.12
+  RSI: 59.75
+  Title: Delta Air Lines, Inc.
+DE:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/DEd205043434i.png
+  Direction: bearish
+  IV%: 12
+  Price: 356.78
+  RSI: 38.74
+  Title: Deere & Co.
+DIA:
+  Basket: US Stocks
+  Chart:
+    URL: https://finviz.com/publish/022324/DIAd181675839i.png
+  Direction: bullish
+  IV%: 23
+  Price: 391.28
+  RSI: 65.5
+  Title: SPDR Dow Jones Industrial Average ETF
+DIS:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/DISd183001492i.png
+  Direction: neutral
+  IV%: 8
+  Price: 107.64
+  RSI: 63.32
+  Title: Walt Disney Co
+DKNG:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/DKNGd183172149i.png
+  Direction: bullish
+  IV%: 6
+  Price: 40.84
+  RSI: 53.37
+  Title: DraftKings Inc.
+DOCU:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/DOCUd181983700i.png
+  Direction: neutral
+  IV%: 60
+  Price: 50.14
+  RSI: 40.3
+  Title: DocuSign Inc
+DOW:
+  Basket: Materials
+  Chart:
+    URL: https://finviz.com/publish/022324/DOWd204844896i.png
+  Direction: bullish
+  IV%: 8
+  Price: 56.0
+  RSI: 62.87
+  Title: Dow Inc
+DVN:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/DVNd204189222i.png
+  Direction: bearish
+  IV%: 47
+  Price: 43.97
+  RSI: 58.34
+  Title: Devon Energy Corp.
+EEM:
+  Basket: International
+  Chart:
+    URL: https://finviz.com/publish/022324/EEMd181767792i.png
+  Direction: bullish
+  IV%: 11
+  Price: 40.6
+  RSI: 65.39
+  Title: iShares MSCI Emerging Markets ETF
+EFA:
+  Basket: International
+  Chart:
+    URL: https://finviz.com/publish/022324/EFAd181760194i.png
+  Direction: bullish
+  IV%: 8
+  Price: 77.4
+  RSI: 67.9
+  Title: iShares MSCI EAFE ETF
+EWZ:
+  Basket: International
+  Chart:
+    URL: https://finviz.com/publish/022324/EWZd181740151i.png
+  Direction: neutral
+  IV%: 0
+  Price: 33.12
+  RSI: 48.7
+  Title: iShares MSCI Brazil ETF
+EXPE:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/EXPEd183287453i.png
+  Direction: bullish
+  IV%: 18
+  Price: 139.1
+  RSI: 42.14
+  Title: Expedia Group Inc
+F:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/Fd183556143i.png
+  Direction: neutral
+  IV%: 8
+  Price: 12.12
+  RSI: 53.26
+  Title: Ford Motor Co.
+FCX:
+  Basket: Materials
+  Chart:
+    URL: https://finviz.com/publish/022324/FCXd204811768i.png
+  Direction: bearish
+  IV%: 25
+  Price: 38.67
+  RSI: 50.54
+  Title: Freeport-McMoRan Inc
+FDX:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/FDXd205030932i.png
+  Direction: bearish
+  IV%: 73
+  Price: 244.16
+  RSI: 49.76
+  Title: Fedex Corp
+FITB:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/FITBd204647744i.png
+  Direction: bearish
+  IV%: 18
+  Price: 33.4
+  RSI: 47.7
+  Title: Fifth Third Bancorp
+FSLR:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/FSLRd182234485i.png
+  Direction: neutral
+  IV%: 96
+  Price: 144.73
+  RSI: 40.47
+  Title: First Solar Inc
+FXI:
+  Basket: International
+  Chart:
+    URL: https://finviz.com/publish/022324/FXId181795231i.png
+  Direction: neutral
+  IV%: 81
+  Price: 24.12
+  RSI: 62.9
+  Title: iShares China Large-Cap ETF
+GDX:
+  Basket: Precious Metals
+  Chart:
+    URL: https://finviz.com/publish/022324/GDXd205195323i.png
+  Direction: bearish
+  IV%: 50
+  Price: 26.66
+  RSI: 42.69
+  Title: VanEck Gold Miners ETF
+GE:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/GEd204932855i.png
+  Direction: bullish
+  IV%: 44
+  Price: 151.67
+  RSI: 88.09
+  Title: General Electric Co.
+GLD:
+  Basket: Precious Metals
+  Chart:
+    URL: https://finviz.com/publish/022324/GLDd205196143i.png
+  Direction: bearish
+  IV%: 8
+  Price: 188.62
+  RSI: 55.3
+  Title: SPDR Gold Shares ETF
+GM:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/GMd183507742i.png
+  Direction: bullish
+  IV%: 1
+  Price: 39.34
+  RSI: 65.69
+  Title: General Motors Company
+GOLD:
+  Basket: Precious Metals
+  Chart:
+    URL: https://finviz.com/publish/022324/GOLDd205239706i.png
+  Direction: bearish
+  IV%: 45
+  Price: 14.39
+  RSI: 41.93
+  Title: Barrick Gold Corp.
+GOOG:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/GOOGd182937596i.png
+  Direction: neutral
+  IV%: 11
+  Price: 145.32
+  RSI: 50.25
+  Title: Alphabet Inc
+GOOGL:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/GOOGLd182951541i.png
+  Direction: neutral
+  IV%: 12
+  Price: 144.09
+  RSI: 50.24
+  Title: Alphabet Inc
+GS:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/GSd204583239i.png
+  Direction: neutral
+  IV%: 37
+  Price: 390.47
+  RSI: 58.77
+  Title: Goldman Sachs Group, Inc.
+HAL:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/HALd204143756i.png
+  Direction: bearish
+  IV%: 13
+  Price: 35.3
+  RSI: 50.21
+  Title: Halliburton Co.
+HD:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/HDd183262310i.png
+  Direction: bullish
+  IV%: 27
+  Price: 371.34
+  RSI: 67.55
+  Title: Home Depot, Inc.
+HPQ:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/HPQd182193609i.png
+  Direction: bearish
+  IV%: 96
+  Price: 28.95
+  RSI: 54.55
+  Title: HP Inc
+HYG:
+  Basket: US Bonds
+  Chart:
+    URL: https://finviz.com/publish/022324/HYGd181737785i.png
+  Direction: bearish
+  IV%: 83
+  Price: 77.35
+  RSI: 53.99
+  Title: iShares iBoxx USD High Yield Corporate Bond ETF
+IBM:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/IBMd182883135i.png
+  Direction: neutral
+  IV%: 54
+  Price: 184.21
+  RSI: 58.98
+  Title: International Business Machines Corp.
+INTC:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/INTCd182249763i.png
+  Direction: neutral
+  IV%: 26
+  Price: 42.98
+  RSI: 42.56
+  Title: Intel Corp.
+IWM:
+  Basket: US Stocks
+  Chart:
+    URL: https://finviz.com/publish/022324/IWMd181650979i.png
+  Direction: neutral
+  IV%: 74
+  Price: 199.89
+  RSI: 54.2
+  Title: iShares Russell 2000 ETF
+IYR:
+  Basket: Real Estate
+  Chart:
+    URL: https://finviz.com/publish/022324/IYRd205239029i.png
+  Direction: neutral
+  IV%: 18
+  Price: 87.77
+  RSI: 51.57
+  Title: iShares U.S. Real Estate ETF
+JD:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/JDd183512884i.png
+  Direction: bearish
+  IV%: 97
+  Price: 23.96
+  RSI: 51.83
+  Title: JD.com Inc ADR
+JNJ:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/JNJd204433484i.png
+  Direction: neutral
+  IV%: 18
+  Price: 160.45
+  RSI: 62.07
+  Title: Johnson & Johnson
+JPM:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/JPMd204504093i.png
+  Direction: bullish
+  IV%: 14
+  Price: 183.07
+  RSI: 76.46
+  Title: JPMorgan Chase & Co.
+KMI:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/KMId204120280i.png
+  Direction: neutral
+  IV%: 15
+  Price: 17.26
+  RSI: 54.04
+  Title: Kinder Morgan Inc
+KO:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/KOd183180787i.png
+  Direction: bullish
+  IV%: 8
+  Price: 61.15
+  RSI: 64.34
+  Title: Coca-Cola Co
+KR:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/KRd183365505i.png
+  Direction: bullish
+  IV%: 75
+  Price: 47.84
+  RSI: 67.57
+  Title: Kroger Co.
+KRE:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/KREd204658307i.png
+  Direction: bearish
+  IV%: 36
+  Price: 47.87
+  RSI: 44.15
+  Title: SPDR S&P Regional Banking ETF
+KSS:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/KSSd183563418i.png
+  Direction: neutral
+  IV%: 17
+  Price: 27.38
+  RSI: 53.08
+  Title: Kohl's Corp.
+LOW:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/LOWd183506216i.png
+  Direction: bullish
+  IV%: 59
+  Price: 230.51
+  RSI: 66.73
+  Title: Lowe's Cos., Inc.
+LQD:
+  Basket: US Bonds
+  Chart:
+    URL: https://finviz.com/publish/022324/LQDd181762238i.png
+  Direction: bearish
+  IV%: 10
+  Price: 108.06
+  RSI: 46.76
+  Title: iShares iBoxx USD Investment Grade Corporate Bond ETF
+LUV:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/LUVd205121480i.png
+  Direction: bullish
+  IV%: 44
+  Price: 34.24
+  RSI: 64.75
+  Title: Southwest Airlines Co
+LVS:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/LVSd183109731i.png
+  Direction: bullish
+  IV%: 3
+  Price: 53.65
+  RSI: 63.0
+  Title: Las Vegas Sands Corp
+MAR:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/MARd183119100i.png
+  Direction: bullish
+  IV%: 4
+  Price: 249.31
+  RSI: 66.19
+  Title: Marriott International, Inc.
+MCD:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/MCDd183153961i.png
+  Direction: neutral
+  IV%: 29
+  Price: 295.92
+  RSI: 59.56
+  Title: McDonald's Corp
+MDLZ:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/MDLZd183185553i.png
+  Direction: neutral
+  IV%: 40
+  Price: 74.13
+  RSI: 52.61
+  Title: Mondelez International Inc.
+MET:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/METd204673034i.png
+  Direction: bullish
+  IV%: 9
+  Price: 68.86
+  RSI: 57.0
+  Title: Metlife Inc
+META:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/METAd182972959i.png
+  Direction: bullish
+  IV%: 16
+  Price: 486.13
+  RSI: 70.02
+  Title: Meta Platforms Inc
+MGM:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/MGMd183396691i.png
+  Direction: bullish
+  IV%: 14
+  Price: 42.43
+  RSI: 42.59
+  Title: MGM Resorts International
+MO:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/MOd183515886i.png
+  Direction: neutral
+  IV%: 16
+  Price: 40.9
+  RSI: 57.09
+  Title: Altria Group Inc.
+MOS:
+  Basket: Materials
+  Chart:
+    URL: https://finviz.com/publish/022324/MOSd204811441i.png
+  Direction: neutral
+  IV%: 6
+  Price: 32.22
+  RSI: 50.74
+  Title: Mosaic Company
+MPC:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/MPCd204251336i.png
+  Direction: neutral
+  IV%: 12
+  Price: 167.75
+  RSI: 58.7
+  Title: Marathon Petroleum Corp
+MRK:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/MRKd204326134i.png
+  Direction: bullish
+  IV%: 6
+  Price: 129.26
+  RSI: 78.07
+  Title: Merck & Co Inc
+MRNA:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/MRNAd204491227i.png
+  Direction: bearish
+  IV%: 40
+  Price: 99.44
+  RSI: 52.29
+  Title: Moderna Inc
+MRO:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/MROd204204303i.png
+  Direction: neutral
+  IV%: 9
+  Price: 23.98
+  RSI: 58.45
+  Title: Marathon Oil Corporation
+MRVL:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/MRVLd181925106i.png
+  Direction: neutral
+  IV%: 93
+  Price: 69.87
+  RSI: 51.3
+  Title: Marvell Technology Inc
+MS:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/MSd204742776i.png
+  Direction: neutral
+  IV%: 29
+  Price: 85.85
+  RSI: 50.71
+  Title: Morgan Stanley
+MSFT:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/MSFTd181937747i.png
+  Direction: bullish
+  IV%: 8
+  Price: 411.65
+  RSI: 57.38
+  Title: Microsoft Corporation
+NCLH:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/NCLHd183349325i.png
+  Direction: bearish
+  IV%: 90
+  Price: 16.34
+  RSI: 38.42
+  Title: Norwegian Cruise Line Holdings Ltd
+NEM:
+  Basket: Materials
+  Chart:
+    URL: https://finviz.com/publish/022324/NEMd204844355i.png
+  Direction: bearish
+  IV%: 52
+  Price: 30.89
+  RSI: 33.83
+  Title: Newmont Corp
+NET:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/NETd181920528i.png
+  Direction: bullish
+  IV%: 8
+  Price: 99.47
+  RSI: 58.88
+  Title: Cloudflare Inc
+NFLX:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/NFLXd182028304i.png
+  Direction: bullish
+  IV%: 15
+  Price: 588.47
+  RSI: 64.62
+  Title: Netflix Inc.
+NKE:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/NKEd183570525i.png
+  Direction: neutral
+  IV%: 80
+  Price: 105.08
+  RSI: 53.54
+  Title: Nike, Inc.
+NVDA:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/NVDAd182015511i.png
+  Direction: bullish
+  IV%: 65
+  Price: 785.38
+  RSI: 73.96
+  Title: NVIDIA Corp
+ORCL:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/ORCLd182019950i.png
+  Direction: neutral
+  IV%: 96
+  Price: 111.01
+  RSI: 49.91
+  Title: Oracle Corp.
+OXY:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/OXYd204223926i.png
+  Direction: bullish
+  IV%: 0
+  Price: 60.53
+  RSI: 58.45
+  Title: Occidental Petroleum Corp.
+PEP:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/PEPd183146600i.png
+  Direction: neutral
+  IV%: 19
+  Price: 168.25
+  RSI: 52.18
+  Title: PepsiCo Inc
+PFE:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/PFEd204490046i.png
+  Direction: neutral
+  IV%: 54
+  Price: 27.55
+  RSI: 51.0
+  Title: Pfizer Inc.
+PG:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/PGd183369698i.png
+  Direction: bullish
+  IV%: 4
+  Price: 160.56
+  RSI: 69.44
+  Title: Procter & Gamble Co.
+PNC:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/PNCd204791619i.png
+  Direction: bearish
+  IV%: 24
+  Price: 145.39
+  RSI: 45.35
+  Title: PNC Financial Services Group Inc
+PYPL:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/PYPLd204691950i.png
+  Direction: neutral
+  IV%: 23
+  Price: 58.35
+  RSI: 47.26
+  Title: PayPal Holdings Inc
+QCOM:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/QCOMd182822832i.png
+  Direction: bullish
+  IV%: 23
+  Price: 154.75
+  RSI: 61.21
+  Title: Qualcomm, Inc.
+QQQ:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/QQQd182018278i.png
+  Direction: bullish
+  IV%: 20
+  Price: 436.78
+  RSI: 61.31
+  Title: Invesco QQQ Trust Series 1
+RCL:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/RCLd183217506i.png
+  Direction: neutral
+  IV%: 29
+  Price: 122.56
+  RSI: 53.59
+  Title: Royal Caribbean Group
+RIG:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/RIGd204270133i.png
+  Direction: bearish
+  IV%: 31
+  Price: 4.82
+  RSI: 33.51
+  Title: Transocean Ltd
+ROKU:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/ROKUd183031509i.png
+  Direction: bearish
+  IV%: 22
+  Price: 63.29
+  RSI: 29.12
+  Title: Roku Inc
+SBUX:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/SBUXd183362550i.png
+  Direction: neutral
+  IV%: 22
+  Price: 95.78
+  RSI: 55.67
+  Title: Starbucks Corp.
+SCHW:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/SCHWd204713092i.png
+  Direction: neutral
+  IV%: 23
+  Price: 64.63
+  RSI: 53.13
+  Title: Charles Schwab Corp.
+SHOP:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/SHOPd182047211i.png
+  Direction: neutral
+  IV%: 26
+  Price: 75.03
+  RSI: 44.02
+  Title: Shopify Inc
+SLB:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/SLBd204216785i.png
+  Direction: bearish
+  IV%: 9
+  Price: 49.26
+  RSI: 47.72
+  Title: Schlumberger Ltd.
+SLV:
+  Basket: Precious Metals
+  Chart:
+    URL: https://finviz.com/publish/022324/SLVd205287499i.png
+  Direction: neutral
+  IV%: 18
+  Price: 20.99
+  RSI: 51.48
+  Title: iShares Silver Trust
+SMH:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/SMHd182030099i.png
+  Direction: bullish
+  IV%: 60
+  Price: 208.62
+  RSI: 67.69
+  Title: VanEck Semiconductor ETF
+SPY:
+  Basket: US Stocks
+  Chart:
+    URL: https://finviz.com/publish/022324/SPYd181684196i.png
+  Direction: bullish
+  IV%: 22
+  Price: 507.85
+  RSI: 68.53
+  Title: SPDR S&P 500 ETF Trust
+SQ:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/SQd182935734i.png
+  Direction: bullish
+  IV%: 33
+  Price: 67.96
+  RSI: 66.74
+  Title: Block Inc
+T:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/Td183066899i.png
+  Direction: neutral
+  IV%: 35
+  Price: 16.59
+  RSI: 45.9
+  Title: AT&T, Inc.
+TGT:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/TGTd183684019i.png
+  Direction: bullish
+  IV%: 76
+  Price: 150.34
+  RSI: 64.41
+  Title: Target Corp
+TJX:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/TJXd183241037i.png
+  Direction: bullish
+  IV%: 76
+  Price: 99.11
+  RSI: 64.76
+  Title: TJX Companies, Inc.
+TLT:
+  Basket: US Bonds
+  Chart:
+    URL: https://finviz.com/publish/022324/TLTd181752642i.png
+  Direction: bearish
+  IV%: 8
+  Price: 93.87
+  RSI: 48.76
+  Title: iShares 20+ Year Treasury Bond ETF
+TSLA:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/TSLAd183621611i.png
+  Direction: neutral
+  IV%: 8
+  Price: 197.41
+  RSI: 43.41
+  Title: Tesla Inc
+TSM:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/TSMd182128201i.png
+  Direction: bullish
+  IV%: 62
+  Price: 129.07
+  RSI: 66.86
+  Title: Taiwan Semiconductor Manufacturing ADR
+TTD:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/TTDd182159953i.png
+  Direction: bullish
+  IV%: 12
+  Price: 83.5
+  RSI: 61.35
+  Title: Trade Desk Inc
+TXN:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/TXNd182969402i.png
+  Direction: neutral
+  IV%: 31
+  Price: 165.43
+  RSI: 52.32
+  Title: Texas Instruments Inc.
+UAL:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/UALd204956438i.png
+  Direction: bullish
+  IV%: 34
+  Price: 45.26
+  RSI: 64.96
+  Title: United Airlines Holdings Inc
+UBER:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/UBERd182171070i.png
+  Direction: bullish
+  IV%: 15
+  Price: 78.03
+  RSI: 68.05
+  Title: Uber Technologies Inc
+UPS:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/UPSd205174721i.png
+  Direction: bullish
+  IV%: 39
+  Price: 149.73
+  RSI: 48.09
+  Title: United Parcel Service, Inc.
+USB:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/USBd204737371i.png
+  Direction: bearish
+  IV%: 27
+  Price: 41.35
+  RSI: 50.92
+  Title: U.S. Bancorp.
+USO:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/USOd183685550i.png
+  Direction: bullish
+  IV%: 27
+  Price: 71.92
+  RSI: 53.14
+  Title: United States Oil Fund
+V:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/Vd204608005i.png
+  Direction: bullish
+  IV%: 9
+  Price: 283.75
+  RSI: 65.41
+  Title: Visa Inc
+VFC:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/VFCd183693465i.png
+  Direction: neutral
+  IV%: 43
+  Price: 15.9
+  RSI: 45.14
+  Title: VF Corp.
+VXX:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/VXXd204708472i.png
+  Direction: bearish
+  IV%: 13
+  Price: 13.93
+  RSI: 40.71
+  Title: iPath? Series B S&P 500? VIX Short-Term FuturesTM ETN
+VZ:
+  Basket: Communications
+  Chart:
+    URL: https://finviz.com/publish/022324/VZd183097982i.png
+  Direction: bullish
+  IV%: 30
+  Price: 40.73
+  RSI: 52.36
+  Title: Verizon Communications Inc
+WBA:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/WBAd204386488i.png
+  Direction: bearish
+  IV%: 84
+  Price: 21.57
+  RSI: 42.82
+  Title: Walgreens Boots Alliance Inc
+WFC:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/WFCd204770204i.png
+  Direction: bullish
+  IV%: 22
+  Price: 53.37
+  RSI: 72.0
+  Title: Wells Fargo & Co.
+WMT:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/WMTd183367835i.png
+  Direction: bullish
+  IV%: 27
+  Price: 175.41
+  RSI: 71.75
+  Title: Walmart Inc
+X:
+  Basket: Materials
+  Chart:
+    URL: https://finviz.com/publish/022324/Xd204880920i.png
+  Direction: neutral
+  IV%: 17
+  Price: 46.52
+  RSI: 61.03
+  Title: United States Steel Corp.
+XBI:
+  Basket: Health
+  Chart:
+    URL: https://finviz.com/publish/022324/XBId204371358i.png
+  Direction: neutral
+  IV%: 63
+  Price: 94.75
+  RSI: 62.09
+  Title: SPDR Biotech ETF
+XHB:
+  Basket: Industrial
+  Chart:
+    URL: https://finviz.com/publish/022324/XHBd204962915i.png
+  Direction: bullish
+  IV%: 41
+  Price: 101.49
+  RSI: 64.84
+  Title: SPDR Homebuilders ETF
+XLB:
+  Basket: Materials
+  Chart:
+    URL: https://finviz.com/publish/022324/XLBd204911074i.png
+  Direction: bullish
+  IV%: 0
+  Price: 86.83
+  RSI: 66.79
+  Title: Materials Select Sector SPDR
+XLE:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/XLEd204225402i.png
+  Direction: bullish
+  IV%: 6
+  Price: 85.96
+  RSI: 59.0
+  Title: The Energy Select Sector SPDR Fund
+XLF:
+  Basket: Finance
+  Chart:
+    URL: https://finviz.com/publish/022324/XLFd204629051i.png
+  Direction: bullish
+  IV%: 16
+  Price: 40.3
+  RSI: 71.19
+  Title: Financial Select Sector SPDR
+XLK:
+  Basket: Technology
+  Chart:
+    URL: https://finviz.com/publish/022324/XLKd182167498i.png
+  Direction: neutral
+  IV%: 27
+  Price: 205.29
+  RSI: 58.21
+  Title: Technology Select Sector SPDR ETF
+XLP:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/XLPd183458109i.png
+  Direction: bullish
+  IV%: 4
+  Price: 74.78
+  RSI: 64.36
+  Title: Consumer Staples Select Sector SPDR
+XLU:
+  Basket: Utilities
+  Chart:
+    URL: https://finviz.com/publish/022324/XLUd204439248i.png
+  Direction: bearish
+  IV%: 26
+  Price: 61.96
+  RSI: 54.08
+  Title: Utilities Select Sector SPDR ETF
+XLY:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/XLYd183216407i.png
+  Direction: neutral
+  IV%: 55
+  Price: 181.29
+  RSI: 59.45
+  Title: Consumer Discretionary Select Sector SPDR
+XOM:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/XOMd204277801i.png
+  Direction: neutral
+  IV%: 8
+  Price: 104.76
+  RSI: 55.12
+  Title: Exxon Mobil Corp.
+XOP:
+  Basket: Energy
+  Chart:
+    URL: https://finviz.com/publish/022324/XOPd204338263i.png
+  Direction: bullish
+  IV%: 7
+  Price: 138.79
+  RSI: 59.23
+  Title: SPDR Oil & Gas Exploration and Production ETF
+XRT:
+  Basket: Consumer
+  Chart:
+    URL: https://finviz.com/publish/022324/XRTd183664933i.png
+  Direction: bullish
+  IV%: 28
+  Price: 74.63
+  RSI: 63.42
+  Title: SPDR Retail ETF
