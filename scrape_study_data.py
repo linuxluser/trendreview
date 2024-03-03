@@ -64,7 +64,7 @@ def scrape_price_value(driver):
 
 
 def scrape_title(driver):
-    css_selector = 'div.quote-header h2.quote-header_ticker-wrapper_company > a'
+    css_selector = 'div.quote-header h2.quote-header_ticker-wrapper_company'
     e = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
     return e.text
@@ -92,7 +92,6 @@ def publish_chart(driver):
     """Click "Share" button on chart and return the URL of the generated chart."""
     button = driver.find_element(By.CSS_SELECTOR, (
             'div.chart[data-testid="chart-0-container"]'
-            ' > div[data-testid="chart-0-settings"]'
             ' button[data-testid="chart-toolbar-publish"]'))
     button.click()
     img = WebDriverWait(driver, 10).until(
