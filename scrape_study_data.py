@@ -78,7 +78,7 @@ def scrape_iv30(driver):
                                'div:nth-child(2)',
                                'div:nth-child(3)',
                                'span.datatag'))
-    e = WebDriverWait(driver, 5).until(
+    e = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
     value = e.text.strip()
     value = value.split()[0]   # Only get first word
@@ -94,7 +94,7 @@ def publish_chart(driver):
             'div.chart[data-testid="chart-0-container"]'
             ' button[data-testid="chart-toolbar-publish"]'))
     button.click()
-    img = WebDriverWait(driver, 10).until(
+    img = WebDriverWait(driver, 20).until(
         EC.presence_of_element_located(
             (By.CSS_SELECTOR, 'img[data-testid="charts-publish-chart-img"]')))
     return img.get_attribute('src')
