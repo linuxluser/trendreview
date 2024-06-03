@@ -13,164 +13,93 @@ Baskets:
   - HYG
   - LQD
   International:
-  - EEM
   - EFA
   - EWZ
   - FXI
   Technology:
   - AAPL
-  - ADBE
-  - AMAT
-  - AMD
-  - AVGO
-  - CRM
+  - ARKK
   - CRWD
-  - DOCU
-  - MRVL
-  - MSFT
+  - CSCO
+  - FSLR
   - NET
   - NFLX
   - NVDA
   - ORCL
-  - QQQ
-  - SHOP
-  - SMH
-  - TSM
-  - TTD
-  - UBER
-  - XLK
-  - HPQ
-  - INTC
-  - ARKK
-  - CSCO
-  - FSLR
-  - IBM
   - QCOM
+  - SHOP
   - SQ
+  - TTD
   - TXN
   Communications:
-  - CMCSA
+  - BIDU
   - GOOG
   - GOOGL
   - META
-  - DIS
-  - BIDU
-  - ROKU
-  - T
   - VZ
   Consumer:
   - AMZN
-  - DKNG
-  - KO
-  - LVS
-  - MAR
-  - MCD
-  - MDLZ
-  - PEP
-  - RCL
-  - TJX
-  - XLY
-  - COST
-  - EXPE
-  - HD
-  - KR
-  - MGM
-  - NCLH
-  - PG
-  - SBUX
-  - WMT
-  - XLP
   - BABA
-  - BBY
   - BYND
   - CHWY
-  - CZR
-  - F
+  - DKNG
   - GM
-  - JD
-  - KSS
+  - KO
+  - KR
   - LOW
+  - MCD
+  - MDLZ
   - MO
-  - NKE
+  - NCLH
+  - PEP
+  - RCL
+  - SBUX
   - TGT
-  - TSLA
   - VFC
-  - XRT
+  - WMT
+  - XLY
   Energy:
-  - USO
   - APA
-  - BP
   - COP
   - CVX
-  - DVN
   - HAL
   - KMI
   - MPC
-  - MRO
   - OXY
-  - RIG
   - SLB
-  - XLE
   - XOM
-  - XOP
   Health:
-  - MRK
-  - XBI
   - ABT
-  - WBA
-  - ABBV
   - CVS
-  - JNJ
-  - MRNA
+  - MRK
   - PFE
-  Utilities:
-  - XLU
+  - XBI
   Finance:
-  - AIG
+  - AXP
   - BAC
   - BX
   - C
-  - COF
   - GS
   - JPM
+  - MS
   - PYPL
+  - SCHW
   - V
   - XLF
-  - AXP
-  - FITB
-  - KRE
-  - MET
-  - MS
-  - PNC
-  - SCHW
-  - USB
-  - VXX
-  - WFC
   Materials:
-  - CF
   - CLF
-  - DOW
-  - FCX
   - MOS
   - NEM
-  - X
-  - XLB
   Industrial:
   - AAL
+  - CAT
+  - DAL
   - GE
   - UAL
-  - XHB
-  - BA
-  - DAL
-  - FDX
-  - CAT
-  - DE
-  - LUV
   - UPS
+  - XHB
   Precious Metals:
   - GDX
   - GLD
   - GOLD
   - SLV
-  Real Estate:
-  - IYR
