@@ -96,7 +96,7 @@ def publish_chart(driver):
     button.click()
     img = WebDriverWait(driver, 20).until(
         EC.presence_of_element_located(
-            (By.CSS_SELECTOR, 'img[data-testid="charts-publish-chart-img"]')))
+            (By.CSS_SELECTOR, 'img[data-testid="charts-publish-chart-img"][src]:not([src=""])')))
     return img.get_attribute('src')
 
 
