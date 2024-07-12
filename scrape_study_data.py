@@ -172,52 +172,53 @@ def read_study_file_records():
 def main(use_today):
     set_global_values(use_today)
 
-    # Setup finviz driver
-    finviz_driver = webdriver.Firefox()
+    try:
+        # Setup finviz driver
+        finviz_driver = webdriver.Firefox()
 
-    # Setup marketchameleon driver
-    mc_options = webdriver.ChromeOptions()
-    mc_options.add_argument('--start-maximized')
-    mc_options.add_argument('--disable-blink-features=AutomationControlled')
-    marketchameleon_driver = webdriver.Chrome(options=mc_options)
+        # Setup marketchameleon driver
+        mc_options = webdriver.ChromeOptions()
+        mc_options.add_argument('--start-maximized')
+        mc_options.add_argument('--disable-blink-features=AutomationControlled')
+        marketchameleon_driver = webdriver.Chrome(options=mc_options)
 
-    existing_records = read_study_file_records()
-    tickers_total = sum(len(BASKETS[b]) for b in BASKETS)
-    tickers_processed = 0
-    for basket in BASKETS:
-        for ticker in BASKETS[basket]:
-            tickers_processed += 1
-            if ticker in existing_records:
-                print(f'# Skipping {ticker} because it already has a record.')
-                continue
-            print(f'# Beginning work on {ticker} ({tickers_processed} of {tickers_total}).')
+        existing_records = read_study_file_records()
+        tickers_total = sum(len(BASKETS[b]) for b in BASKETS)
+        tickers_processed = 0
+        for basket in BASKETS:
+            for ticker in BASKETS[basket]:
+                tickers_processed += 1
+                if ticker in existing_records:
+                    print(f'# Skipping {ticker} because it already has a record.')
+                    continue
+                print(f'# Beginning work on {ticker} ({tickers_processed} of {tickers_total}).')
 
-            # Get Finviz data
-            finviz_driver.get(FINVIZ_URL_TMPL.format(ticker))
-            check_and_close_elite_modal_ad(finviz_driver)
-            rsi = scrape_rsi_value(finviz_driver)
-            price = scrape_price_value(finviz_driver)
-            title = scrape_title(finviz_driver)
-            chart_url = publish_chart(finviz_driver)
+                # Get Finviz data
+                finviz_driver.get(FINVIZ_URL_TMPL.format(ticker))
+                check_and_close_elite_modal_ad(finviz_driver)
+                rsi = scrape_rsi_value(finviz_driver)
+                price = scrape_price_value(finviz_driver)
+                title = scrape_title(finviz_driver)
+                chart_url = publish_chart(finviz_driver)
 
-            # Get MarketChameleon data
-            marketchameleon_driver.get(MARKETCHAMELEON_URL_TMPL.format(ticker))
-            iv_percent = scrape_iv30(marketchameleon_driver)
+                # Get MarketChameleon data
+                marketchameleon_driver.get(MARKETCHAMELEON_URL_TMPL.format(ticker))
+                iv_percent = scrape_iv30(marketchameleon_driver)
 
-            print(write_yaml_record(
-                    ticker=ticker,
-                    title=title,
-                    basket=basket,
-                    iv_percent=iv_percent,
-                    rsi=rsi,
-                    price=price,
-                    chart_url=chart_url))
-            print(f'# Finished work on {ticker}.')
-    print('# All done!')
-
-    # Close browsers
-    finviz_driver.quit()
-    marketchameleon_driver.quit()
+                print(write_yaml_record(
+                        ticker=ticker,
+                        title=title,
+                        basket=basket,
+                        iv_percent=iv_percent,
+                        rsi=rsi,
+                        price=price,
+                        chart_url=chart_url))
+                print(f'# Finished work on {ticker}.')
+        print('# All done!')
+    finally:
+        # Close browsers
+        finviz_driver.quit()
+        marketchameleon_driver.quit()
 
 
 if __name__ == '__main__':
