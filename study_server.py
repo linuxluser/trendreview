@@ -87,7 +87,7 @@ def update_direction(study_date, symbol):
         return
     study_yaml_file = os.path.join(STUDIES_DIR, study_date, STUDY_DATA_FILE)
     lock = filelock.FileLock(study_yaml_file + '.lock')
-    with lock:
+    with lock.acquire():
         with open(study_yaml_file, 'r') as f:
             symbols = yaml.load(f, Loader=yaml.CSafeLoader)
         if symbol in symbols:
